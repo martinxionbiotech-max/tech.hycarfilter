@@ -53,3 +53,5 @@ Outgoing Quality Control (OQC) is the last gate, and is especially important for
 ---
 
 *This is the end of the Testing & Quality Control section; next section: [Industry Standards](../standards/iso-sae.md)*
+
+> **See factory capability** — [Production lines, QC &amp; export capability on hycarfilter.com →](https://hycarfilter.com/factory/)

@@ -1,7 +1,7 @@
 # Air Filter Key Parameters
 
 !!! note "Source attribution"
-    This article is an editorially original synthesis. **[Industry Knowledge]** = common industry practice; **[Framework Reference]** = standards framework introduction; **[Editorial Opinion]** = researcher's original judgment. Model specifications are subject to [data.hycarfilter](https://data.hycarfilter.com). Backlinks: [data air filter category](https://data.hycarfilter.com/products/air-filter/).
+    This article is an editorially original synthesis. **[Industry Knowledge]** = common industry practice; **[Framework Reference]** = standards framework introduction; **[Editorial Opinion]** = researcher's original judgment. Model specifications are subject to [data.hycarfilter](https://data.hycarfilter.com). Backlinks: [data air filter category](https://data.hycarfilter.com/products/air-filter/) · [main-site air filter category](https://hycarfilter.com/products/air-filter/).
 
 The air filter protects the engine's "respiratory system." Dust in the intake accelerates wear on cylinder liners, piston rings, and valves, so the core mission of the air filter is to **catch enough dust at low differential pressure**. This section breaks down the key parameters of the air filter and how they are measured.
 

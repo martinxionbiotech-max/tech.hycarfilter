@@ -52,3 +52,5 @@ Only by folding the media can "a large sheet of paper" be packed into "a small f
 ---
 
 *Continue reading: [End Cap Bonding and Curing](endcap-bonding.md)*
+
+> **See factory capability** — [Production lines, QC &amp; export capability on hycarfilter.com →](https://hycarfilter.com/factory/)

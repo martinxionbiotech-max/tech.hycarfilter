@@ -46,3 +46,5 @@ This section lists the most common quality defects of filters, their causes, con
 ---
 
 *Continue reading: [Export / Outgoing Inspection (OQC)](export-inspection.md)*
+
+> **See factory capability** — [Production lines, QC &amp; export capability on hycarfilter.com →](https://hycarfilter.com/factory/)

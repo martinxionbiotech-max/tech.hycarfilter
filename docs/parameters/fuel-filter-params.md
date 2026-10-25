@@ -1,7 +1,7 @@
 # Fuel Filter Key Parameters
 
 !!! note "Source attribution"
-    This article is an editorially original synthesis. **[Industry Knowledge]** = common industry practice; **[Framework Reference]** = standards framework introduction; **[Editorial Opinion]** = researcher's original judgment. Model specifications are subject to [data.hycarfilter](https://data.hycarfilter.com). Backlinks: [data fuel filter category](https://data.hycarfilter.com/products/fuel-filter/).
+    This article is an editorially original synthesis. **[Industry Knowledge]** = common industry practice; **[Framework Reference]** = standards framework introduction; **[Editorial Opinion]** = researcher's original judgment. Model specifications are subject to [data.hycarfilter](https://data.hycarfilter.com). Backlinks: [data fuel filter category](https://data.hycarfilter.com/products/fuel-filter/) · [main-site fuel filter category](https://hycarfilter.com/products/fuel-filter/).
 
 Fuel injection systems (especially high-pressure common-rail diesel) are extremely sensitive to particulates — the injector nozzle clearance is only a few microns, and a single hard particle can seize an injector. Fuel filter precision is therefore generally finer than oil filters, and diesel filters must also provide **water separation**.
 

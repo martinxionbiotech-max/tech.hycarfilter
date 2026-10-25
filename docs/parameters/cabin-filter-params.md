@@ -1,7 +1,7 @@
 # Cabin Filter Key Parameters
 
 !!! note "Source attribution"
-    This article is an editorially original synthesis. **[Industry Knowledge]** = common industry practice; **[Framework Reference]** = standards framework introduction; **[Editorial Opinion]** = researcher's original judgment. Model specifications are subject to [data.hycarfilter](https://data.hycarfilter.com). Backlinks: [data cabin filter category](https://data.hycarfilter.com/products/cabin-filter/).
+    This article is an editorially original synthesis. **[Industry Knowledge]** = common industry practice; **[Framework Reference]** = standards framework introduction; **[Editorial Opinion]** = researcher's original judgment. Model specifications are subject to [data.hycarfilter](https://data.hycarfilter.com). Backlinks: [data cabin filter category](https://data.hycarfilter.com/products/cabin-filter/) · [main-site cabin filter category](https://hycarfilter.com/products/cabin-filter/).
 
 The cabin filter (cabin air filter) protects **people** rather than machines — it filters the air entering the cabin from outside the vehicle. The evaluation criteria therefore shift from "protecting the engine" to "protecting occupant health and comfort," and the parameter logic differs from other categories.
 

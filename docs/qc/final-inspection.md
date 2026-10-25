@@ -49,3 +49,5 @@ Finished-product inspection is the third gate, with one core question: **which i
 ---
 
 *Continue reading: [Laboratory Equipment](lab-equipment.md)*
+
+> **See factory capability** — [Production lines, QC &amp; export capability on hycarfilter.com →](https://hycarfilter.com/factory/)

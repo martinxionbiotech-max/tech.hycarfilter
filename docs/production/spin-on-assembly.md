@@ -49,3 +49,5 @@ The spin-on oil filter is the most complete in structure and the most step-inten
 ---
 
 *Continue reading: [Category Production-Line Differentiation](category-lines.md)*
+
+> **See factory capability** — [Production lines, QC &amp; export capability on hycarfilter.com →](https://hycarfilter.com/factory/)

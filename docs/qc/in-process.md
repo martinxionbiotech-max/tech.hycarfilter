@@ -36,3 +36,5 @@ In-Process Quality Control (IPQC) is the second gate — detecting and intercept
 ---
 
 *Continue reading: [Final Inspection & Sampling (AQL)](final-inspection.md)*
+
+> **See factory capability** — [Production lines, QC &amp; export capability on hycarfilter.com →](https://hycarfilter.com/factory/)

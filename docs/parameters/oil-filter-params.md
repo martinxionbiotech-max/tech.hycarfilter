@@ -1,7 +1,7 @@
 # Oil Filter Key Parameters
 
 !!! note "Source attribution"
-    This article is an editorially original synthesis. **[Industry Knowledge]** = common industry practice; **[Framework Reference]** = standards framework introduction; **[Editorial Opinion]** = researcher's original judgment. Model specifications are subject to [data.hycarfilter](https://data.hycarfilter.com). Backlinks: [data oil filter category](https://data.hycarfilter.com/products/oil-filter/).
+    This article is an editorially original synthesis. **[Industry Knowledge]** = common industry practice; **[Framework Reference]** = standards framework introduction; **[Editorial Opinion]** = researcher's original judgment. Model specifications are subject to [data.hycarfilter](https://data.hycarfilter.com). Backlinks: [data oil filter category](https://data.hycarfilter.com/products/oil-filter/) · [main-site oil filter category](https://hycarfilter.com/products/oil-filter/).
 
 The oil filter works under high temperature, high pressure, and pulsating oil flow, and must also hold oil pressure during cold-start moments. Its parameters are more "danger-sensitive" than other categories — a single parameter failure can cause oil starvation or leakage. This section breaks down the key parameters of the oil filter.
 

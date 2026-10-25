@@ -9,6 +9,7 @@ repo_name: tech.hycarfilter
 theme:
   name: material
   language: en
+  custom_dir: overrides
   palette:
     scheme: default
     primary: teal

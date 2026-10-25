@@ -47,3 +47,5 @@ In-process inspection governs "every unit," while the laboratory governs "design
 ---
 
 *Continue reading: [Common Quality Defects and Prevention](defects-prevention.md)*
+
+> **See factory capability** — [Production lines, QC &amp; export capability on hycarfilter.com →](https://hycarfilter.com/factory/)

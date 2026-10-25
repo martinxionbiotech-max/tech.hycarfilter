@@ -77,3 +77,5 @@ Efficiency test bench, dust holding capacity test bench, static burst tester, by
 ---
 
 *This is the end of the Production Process section; next section: [Technical Parameters](../parameters/efficiency-grading.md)*
+
+> **See factory capability** — [Production lines, QC &amp; export capability on hycarfilter.com →](https://hycarfilter.com/factory/)

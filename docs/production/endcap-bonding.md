@@ -49,3 +49,5 @@ End caps seal the two ends of the pleated filter media, ensuring that fluid **ca
 ---
 
 *Continue reading: [Spin-On Oil Filter Assembly Line](spin-on-assembly.md)*
+
+> **See factory capability** — [Production lines, QC &amp; export capability on hycarfilter.com →](https://hycarfilter.com/factory/)

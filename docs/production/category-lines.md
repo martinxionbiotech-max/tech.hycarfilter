@@ -1,7 +1,7 @@
 # Category Production-Line Differentiation
 
 !!! note "Source attribution"
-    This article is an editorially original synthesis. **[Industry Knowledge]** = common industry practice; **[Framework Reference]** = standards framework introduction; **[Editorial Opinion]** = researcher's original judgment. Model specifications are subject to [data.hycarfilter](https://data.hycarfilter.com).
+    This article is an editorially original synthesis. **[Industry Knowledge]** = common industry practice; **[Framework Reference]** = standards framework introduction; **[Editorial Opinion]** = researcher's original judgment. Model specifications are subject to [data.hycarfilter](https://data.hycarfilter.com). Backlinks: [main-site product categories](https://hycarfilter.com/products/).
 
 The seven categories all look like "filters," but their production-line process routes differ greatly. This section breaks down the differentiated processes by category, helping buyers understand "why different lines in the same factory differ in capacity, cost, and inspection focus."
 
@@ -66,3 +66,5 @@ The seven categories all look like "filters," but their production-line process 
 ---
 
 *Continue reading: [Production-Line Equipment](equipment.md)*
+
+> **See factory capability** — [Production lines, QC &amp; export capability on hycarfilter.com →](https://hycarfilter.com/factory/)

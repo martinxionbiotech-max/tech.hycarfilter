@@ -66,3 +66,5 @@ In this site's data, `hy-of-cartridge` (composite fiber) and `hy-ff-water` (comp
 ---
 
 *Continue reading: [Pleating](pleating.md)*
+
+> **See factory capability** — [Production lines, QC &amp; export capability on hycarfilter.com →](https://hycarfilter.com/factory/)

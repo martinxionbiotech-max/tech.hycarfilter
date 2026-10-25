@@ -57,3 +57,5 @@ Quality is "prevented," not "inspected." Incoming Quality Control (IQC) is the f
 ---
 
 *Continue reading: [In-Process Inspection (IPQC)](in-process.md)*
+
+> **See factory capability** — [Production lines, QC &amp; export capability on hycarfilter.com →](https://hycarfilter.com/factory/)
