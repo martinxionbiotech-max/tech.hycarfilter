@@ -1,59 +1,59 @@
-# 主要出口市场标准差异
+# Major Export Market Standards Differences
 
-!!! note "来源性质"
-    本文为编辑原创整合。**[框架参考]** = 出口市场标准/准入框架介绍，**不构成认证声明**；**[编辑观点]** = 研究员原创判断。型号规格以 [data.hycarfilter](https://data.hycarfilter.com) 为准。回链：[data 首页](https://data.hycarfilter.com)。
+!!! note "Source attribution"
+    This article is an editorially original synthesis. **[Framework Reference]** = export-market standards / market-access framework introduction, **not constituting a certification claim**; **[Editorial Opinion]** = researcher's original judgment. Model specifications are subject to [data.hycarfilter](https://data.hycarfilter.com). Backlinks: [data home](https://data.hycarfilter.com).
 
-同一只滤清器，卖到欧洲、中东、东南亚，面对的标准框架与准入要求差异很大。本节按主要出口市场梳理**常见要求框架**，帮助采购者理解「为什么同产品不同市场要不同准备」。
+The same filter, sold to Europe, the Middle East, or Southeast Asia, faces very different standards frameworks and market-access requirements. This section organizes the **common requirement frameworks** by major export market, helping buyers understand "why the same product needs different preparation for different markets."
 
-## 一、市场准入框架速览
+## I. Market-access framework overview
 
-| 市场 | 质量体系框架 | 产品认证/合规框架 | 特点 |
+| Market | Quality-system framework | Product certification / compliance framework | Characteristics |
 |---|---|---|---|
-| **欧洲** | IATF 16949 / ISO 9001 | CE（LED 类）/ ECE、REACH、RoHS | 体系与环保合规要求高 |
-| **北美** | IATF 16949 | SAE 试验规程 / FMVSS（车灯） | 强调试验数据与追溯 |
-| **中东** | ISO 9001 | GCC 认证框架（海湾） | 高温多沙尘工况，重性能 |
-| **俄罗斯** | ISO 9001 | EAC（欧亚经济联盟） | 强制 EAC 认证框架 |
-| **东南亚** | ISO 9001 | 各国进口许可差异大 | 价格敏感 + 热带防潮 |
-| **南美/非洲** | ISO 9001 | INMETRO（巴西）/ 各国差异 | 准入门槛不一，防潮关键 |
+| **Europe** | IATF 16949 / ISO 9001 | CE (LED category) / ECE, REACH, RoHS | High system and environmental-compliance requirements |
+| **North America** | IATF 16949 | SAE test procedure / FMVSS (vehicle lights) | Emphasizes test data and traceability |
+| **Middle East** | ISO 9001 | GCC certification framework (Gulf) | High-temperature, dusty conditions; performance-focused |
+| **Russia** | ISO 9001 | EAC (Eurasian Economic Union) | Mandatory EAC certification framework |
+| **Southeast Asia** | ISO 9001 | Large import-license differences by country | Price-sensitive + tropical moisture protection |
+| **South America / Africa** | ISO 9001 | INMETRO (Brazil) / differences by country | Uneven market-access thresholds; moisture protection key |
 
-## 二、各市场要点
+## II. Market-by-market points
 
-### 欧洲
+### Europe
 
-**[框架参考]** 体系认证（IATF 16949 汽车质量体系）与环保合规（REACH 化学品、RoHS 有害物质限制）是硬门槛。本站数据集中 `hy-cf-hepa`、`hy-of-longlife` 等面向欧洲的型号，认证字段对应 ISO 9001/IATF 16949 框架。**LED 车灯**还需 CE 标志框架。
+**[Framework Reference]** System certification (IATF 16949 automotive quality system) and environmental compliance (REACH chemicals, RoHS hazardous-substance restrictions) are hard thresholds. In this site's dataset, models such as `hy-cf-hepa` and `hy-of-longlife` target Europe, with certification fields corresponding to the ISO 9001/IATF 16949 framework. **LED lights** additionally need the CE marking framework.
 
-### 中东
+### Middle East
 
-**[框架参考]** 海湾国家有 **GCC 认证框架**。但中东采购的**技术重心在工况适配**——高温 + 沙尘，空滤要**高容灰量 + 高效率**（对应 `hy-af-nano`/`hy-af-heavy`），密封圈要**耐高温回弹**（-40~+150 ℃ 覆盖昼夜与发动机舱温差）。
+**[Framework Reference]** Gulf countries have the **GCC certification framework**. But the **technical focus of Middle East purchasing is operating-condition fit** — high temperature + dust means air filters need **high dust holding capacity + high efficiency** (corresponding to `hy-af-nano`/`hy-af-heavy`), and seal rings need **high-temperature rebound** (-40~+150 ℃ covering day-night and engine-bay temperature differences).
 
-### 俄罗斯/欧亚
+### Russia / Eurasia
 
-**[框架参考]** 俄区及欧亚经济联盟强制 **EAC 认证框架**，且**高寒**是核心工况——密封圈需**低温回弹**（-40 ℃ 冷启动），机滤止回阀要保证冷启动油压快速建立。本站机滤密封「high/low temp resilient」即为此设计。
+**[Framework Reference]** Russia and the Eurasian Economic Union mandate the **EAC certification framework**, and **extreme cold** is the core operating condition — seal rings need **low-temperature rebound** (-40 ℃ cold start), and the oil filter anti-drainback valve must ensure rapid oil-pressure buildup on cold start. This site's oil filter "high/low temp resilient" seals are designed for this.
 
-### 东南亚
+### Southeast Asia
 
-**[框架参考]** 各国进口许可差异大，整体价格敏感。**热带高湿**是最大技术挑战——滤纸防潮、金属件防腐（盐雾）是必须。管路燃油滤、颗粒空调滤等基础款需求大。
+**[Framework Reference]** Import licenses differ greatly by country, and overall it is price-sensitive. **Tropical high humidity** is the biggest technical challenge — media moisture protection and metal-part anti-corrosion (salt spray) are a must. In-line fuel filters and particle cabin filters are in high demand as basic models.
 
-### 南美/非洲
+### South America / Africa
 
-**[框架参考]** 巴西有 **INMETRO 认证框架**，其他国家准入门槛不一。共性挑战是**物流周期长 + 海运防潮**，包装防潮（干燥剂/VCI/隔潮托盘）尤为关键。
+**[Framework Reference]** Brazil has the **INMETRO certification framework**; other countries have uneven market-access thresholds. The common challenge is **long logistics cycles + sea-transport moisture protection**, with packaging moisture protection (desiccant / VCI / moisture-barrier pallet) especially critical.
 
-## 三、标准差异对选型的影响
+## III. Impact of standards differences on model selection
 
-**[编辑观点]** 出口选型不该「一款产品打天下」，而应按市场做**参数与材料微调**：
+**[Editorial Opinion]** Export model selection should not be "one product for all markets," but should make **parameter and material fine-tuning** per market:
 
-| 市场工况 | 技术侧重 | 本站对应方向 |
+| Market condition | Technical emphasis | Corresponding direction on this site |
 |---|---|---|
-| 中东高温沙尘 | 容灰量 + 效率 + 耐高温密封 | `hy-af-nano`/`hy-af-heavy` |
-| 俄区高寒 | 低温回弹密封 + 冷启动油压 | 旋装/长寿命机滤（NBR 高低温回弹） |
-| 东南亚/非洲湿热 | 防潮 + 防腐 | 防潮包装 + 盐雾防腐 |
-| 欧洲体系 | 体系认证 + 环保合规 | IATF 16949 + REACH/RoHS 框架 |
-| 低质柴油地区 | 水分离 + 精度 | `hy-ff-water` |
+| Middle East high-temperature dust | Dust holding capacity + efficiency + high-temperature-resistant seal | `hy-af-nano`/`hy-af-heavy` |
+| Russia extreme cold | Low-temperature rebound seal + cold-start oil pressure | Spin-on / long-life oil filter (NBR high/low-temperature rebound) |
+| Southeast Asia / Africa humid-hot | Moisture protection + anti-corrosion | Moisture-proof packaging + salt-spray anti-corrosion |
+| Europe system | System certification + environmental compliance | IATF 16949 + REACH/RoHS framework |
+| Low-quality diesel regions | Water separation + precision | `hy-ff-water` |
 
-## 四、编辑观点：认证是「准入门票」，工况是「竞争力」
+## IV. Editorial view: certification is the "entry ticket," operating condition is "competitiveness"
 
-**[编辑观点]** 出口市场的标准差异，分成两层看：**认证框架**决定「能不能卖进这个市场」（准入门票），**工况适配**决定「卖进去之后口碑好不好」（竞争力）。很多工厂只盯着认证门票，忽略了工况适配——结果就是「拿到了 EAC/GCC 却因密封圈不耐寒/不耐沙尘被退货」。**门票要拿，工况更要懂。**
+**[Editorial Opinion]** Export-market standards differences should be viewed in two layers: **certification frameworks** determine "whether you can sell into this market" (entry ticket), while **operating-condition fit** determines "whether word-of-mouth holds after selling in" (competitiveness). Many factories only chase the certification ticket and overlook operating-condition fit — the result being "got the EAC/GCC but still returned because the seal ring can't take cold / can't take dust." **Get the ticket, but understand the operating condition even more.**
 
 ---
 
-*行业标准板块到此结束，下一板块：[技术 Q&A](../qa/index.md)*
+*This is the end of the Industry Standards section; next section: [Technical Q&A](../qa/index.md)*

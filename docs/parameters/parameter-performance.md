@@ -1,69 +1,69 @@
-# 参数对性能的影响
+# Parameter Impact on Performance
 
-!!! note "来源性质"
-    本文为编辑原创整合。**[行业常识]** = 行业通用做法；**[编辑观点]** = 研究员原创判断。型号规格以 [data.hycarfilter](https://data.hycarfilter.com) 为准。
+!!! note "Source attribution"
+    This article is an editorially original synthesis. **[Industry Knowledge]** = common industry practice; **[Editorial Opinion]** = researcher's original judgment. Model specifications are subject to [data.hycarfilter](https://data.hycarfilter.com).
 
-前面各页分别讲了单参数，这一页做**横向综合**——把「效率、压差、容灰量、精度、寿命」串起来，讲清楚它们之间如何此消彼长，以及采购者如何按工况做权衡。
+The preceding pages each covered individual parameters; this page does a **horizontal synthesis** — linking "efficiency, differential pressure, dust holding capacity, precision, life" together to explain how they trade off against each other, and how buyers should make trade-offs according to operating conditions.
 
-## 一、核心三角权衡
+## I. The core triangular trade-off
 
-**[行业常识]** 过滤系统的「不可能三角」：**效率、压差、容灰量**，三者不能同时最优。
+**[Industry Knowledge]** The "impossible triangle" of filtration systems: **efficiency, differential pressure, and dust holding capacity** cannot all be optimal at once.
 
 ```
-效率 ↑  →  孔径细、纤维密  →  压差 ↑ 、容灰量 ↓
-容灰量 ↑  →  滤纸厚、深层纳污  →  体积大、成本 ↑
-压差 ↓  →  面积大或孔径粗  →  面积受外形限制 / 效率 ↓
+Efficiency ↑  →  fine pores, dense fibers  →  differential pressure ↑ , dust holding capacity ↓
+Dust holding capacity ↑  →  thick media, deep dirt holding  →  large volume, cost ↑
+Differential pressure ↓  →  large area or coarse pores  →  area limited by outer shape / efficiency ↓
 ```
 
-**破局手段**：
+**Ways to break the deadlock**:
 
-1. **加过滤面积**（折高↑褶数↑）——在不改滤材的前提下，面积越大压差越低、容灰量越大，但受外形体积限制；
-2. **梯度/复合滤材**——表层细滤 + 底层粗纳污，同时拿效率与容灰量；
-3. **纳米纤维表面过滤**——低初始压差下拿高效率，底层撑容灰量。
+1. **Increase filtration area** (pleat height ↑ pleat count ↑) — without changing the media, larger area lowers differential pressure and raises dust holding capacity, but is limited by the outer-shape volume;
+2. **Gradient / composite media** — fine surface filtration + coarse deep dirt holding, achieving efficiency and dust holding capacity simultaneously;
+3. **Nano-fiber surface filtration** — high efficiency at low initial differential pressure, with the base layer supporting dust holding capacity.
 
-## 二、效率与精度的「档位逻辑」
+## II. The "tier logic" of efficiency and precision
 
-**[编辑观点]** 本站各品类效率档位（同 data 站）不是随意定的，而是**由受保护对象决定的**：
+**[Editorial Opinion]** This site's per-category efficiency tiers (same as the data site) are not arbitrary but are **determined by the protected object**:
 
-| 品类 | 精度档位 | 为什么是这个档 |
+| Category | Precision tier | Why this tier |
 |---|---|---|
-| 空调滤 | 95% → 99.97%(H13) | 保护人，可上 HEPA，但受风量限制 |
-| 空滤 | 99.0% → 99.6% | 保护缸套，高容灰优先，细粉尘拦截 |
-| 机滤 | 90–95% @ 20um | 主油道，阻力不能高，20 µm 档平衡 |
-| 燃油滤 | 95–97% @ 10um | 保护喷油器，精度必须细（10 µm） |
-| 变速箱滤网 | 90% @ 40um | 粗滤大流量，40 µm 档保油压 |
+| Cabin filter | 95% → 99.97%(H13) | Protects people; can use HEPA, but limited by airflow |
+| Air filter | 99.0% → 99.6% | Protects cylinder liners; high dust holding first, fine dust interception |
+| Oil filter | 90–95% @ 20um | Main oil gallery; restriction must not be high; 20 µm tier balances |
+| Fuel filter | 95–97% @ 10um | Protects injectors; precision must be fine (10 µm) |
+| Transmission filter screen | 90% @ 40um | Coarse filtration, large flow; 40 µm tier preserves oil pressure |
 
-**[编辑观点]** 看到这组数字，采购者应形成一个直觉：**精度从细到粗 = 燃油滤(10µm) > 机滤(20µm) > 变速箱滤网(40µm)**，这不是质量高低，而是**各自保护对象对颗粒的敏感度不同**。喷油器比曲轴轴瓦更怕细颗粒，变速箱油压不允许细滤。**「精度越高越好」是外行话，匹配工况才是专业判断。**
+**[Editorial Opinion]** Seeing these numbers, a buyer should form an intuition: **precision from fine to coarse = fuel filter (10µm) > oil filter (20µm) > transmission filter screen (40µm)**. This is not about quality, but about **each protected object's differing sensitivity to particulates**. Injectors fear fine particles more than crankshaft bearings do, and transmission oil pressure does not allow fine filtration. **"The finer the precision the better" is layman talk; matching the operating condition is professional judgment.**
 
-## 三、压差：被低估的性能杀手
+## III. Differential pressure: the underestimated performance killer
 
-**[行业常识]** 压差（阻力）直接转化为油耗/功率损失与寿命：
+**[Industry Knowledge]** Differential pressure (restriction) directly translates into fuel consumption/power loss and life:
 
-- 空滤压差超标 → 进气不足 → 混合气偏浓 → 油耗↑、动力↓；
-- 机滤压差过高 → 旁通阀频繁开启 → 过滤被绕过；
-- 空调滤压差过高 → 出风量↓ → 制冷制热变差。
+- Air filter differential pressure too high → insufficient intake → rich mixture → fuel consumption ↑, power ↓;
+- Oil filter differential pressure too high → bypass valve opens frequently → filtration is bypassed;
+- Cabin filter differential pressure too high → airflow ↓ → cooling/heating degrades.
 
-**[编辑观点]** 采购者验货时往往只看「效率标称」，却极少问「初始压差」与「终了压差」。**一个效率漂亮但压差奇高的滤芯，等于用一个问题换另一个问题。** 严谨的供应商会给效率-压差-容灰量三张曲线，只有一条效率数字的，值得打个问号。
+**[Editorial Opinion]** When inspecting goods, buyers often look only at the "efficiency rating" and rarely ask about "initial differential pressure" and "terminal differential pressure." **An element with a pretty efficiency but absurdly high differential pressure merely swaps one problem for another.** A rigorous supplier provides three curves — efficiency–differential pressure–dust holding capacity; a supplier with only a single efficiency number deserves a question mark.
 
-## 四、寿命 = 容灰量 × 使用强度
+## IV. Life = dust holding capacity × usage intensity
 
-**[行业常识]** 滤清器寿命不是固定里程，而是**容灰量 ÷ 单位里程产灰量**。同样一只空滤，多沙尘工况（中东/矿场）里程寿命可能只有清洁工况的 1/3–1/5。因此：
+**[Industry Knowledge]** Filter life is not a fixed mileage but **dust holding capacity ÷ dust generation per unit mileage**. The same air filter, in a dusty condition (Middle East / mines), may have a mileage life of only 1/3–1/5 of that in a clean condition. Therefore:
 
-- **容灰量**是「抗脏」能力的硬指标，重型/恶劣工况优先看容灰量；
-- **长换油周期机滤**（`hy-of-longlife`）用纳米复合滤材，正是为了在更长油里程里维持效率与纳污。
+- **Dust holding capacity** is a hard indicator of "anti-fouling" capability; heavy-duty / severe conditions prioritize dust holding capacity;
+- **Long oil-change-interval oil filters** (`hy-of-longlife`) use nano-composite media precisely to maintain efficiency and dirt holding over a longer oil mileage.
 
-## 五、采购决策速查
+## V. Purchasing decision quick reference
 
-**[编辑观点]**
+**[Editorial Opinion]**
 
-| 工况 | 优先参数 | 推荐方向 |
+| Operating condition | Priority parameters | Recommended direction |
 |---|---|---|
-| 多沙尘（中东/矿场） | 容灰量 + 效率 | 纳米/重型空滤 `hy-af-nano`/`hy-af-heavy` |
-| 长换油周期（欧美） | 效率持久 + 耐高温 | 长寿命机滤 `hy-of-longlife` |
-| 低质柴油（非洲/东南亚） | 水分离 + 精度 | 油水分离燃滤 `hy-ff-water` |
-| 城市通勤 | 异味吸附 | 活性炭空调滤 `hy-cf-carbon` |
-| 空气污染/过敏 | 颗粒拦截 | HEPA 空调滤 `hy-cf-hepa` |
+| Dusty (Middle East / mines) | Dust holding capacity + efficiency | Nano / heavy-duty air filter `hy-af-nano`/`hy-af-heavy` |
+| Long oil-change interval (Europe/US) | Sustained efficiency + high-temperature resistance | Long-life oil filter `hy-of-longlife` |
+| Low-quality diesel (Africa/Southeast Asia) | Water separation + precision | Water-separating fuel filter `hy-ff-water` |
+| Urban commuting | Odor adsorption | Activated-carbon cabin filter `hy-cf-carbon` |
+| Air pollution / allergy | Particle interception | HEPA cabin filter `hy-cf-hepa` |
 
 ---
 
-*技术参数板块到此结束，下一板块：[检测与质量控制](../qc/incoming-inspection.md)*
+*This is the end of the Technical Parameters section; next section: [Testing & Quality Control](../qc/incoming-inspection.md)*

@@ -1,70 +1,70 @@
-# 技术 Q&A
+# Technical Q&A
 
-!!! note "来源性质"
-    本文为编辑原创整合。**[行业常识]** = 行业通用做法；**[框架参考]** = 标准框架介绍；**[编辑观点]** = 研究员原创判断。型号规格以 [data.hycarfilter](https://data.hycarfilter.com) 为准。
+!!! note "Source attribution"
+    This article is an editorially original synthesis. **[Industry Knowledge]** = common industry practice; **[Framework Reference]** = standards framework introduction; **[Editorial Opinion]** = researcher's original judgment. Model specifications are subject to [data.hycarfilter](https://data.hycarfilter.com).
 
-采购者最常问的 15 条技术问题，从工艺工程师视角原创解答。回答力求「给结论 + 给依据」，而非复述营销话术。
+The 15 technical questions buyers most often ask, answered originally from a process engineer's perspective. The answers aim to "give a conclusion + give a basis," rather than restate marketing copy.
 
-## 1. 你们的过滤效率 99% 是「绝对」还是「名义」？
+## 1. Is your 99% filtration efficiency "absolute" or "nominal"?
 
-**[行业常识]** 取决于粒径口径。本站数据用**带粒径的绝对额定**表述——机滤 `>=90% @ 20um`、燃油滤 `>=95% @ 10um`、空滤 `>=99.0%`（ISO 5011 试验粉尘）。裸报「99%」而不注粒径/方法的数字不可横向比较。
+**[Industry Knowledge]** It depends on the particle-size basis. This site's data uses **absolute rating with a stated particle size** — oil filter `>=90% @ 20um`, fuel filter `>=95% @ 10um`, air filter `>=99.0%` (ISO 5011 test dust). A bare "99%" without stating particle size / method cannot be compared horizontally.
 
-## 2. 纳米滤纸和普通纤维素滤纸到底差在哪？
+## 2. What is the actual difference between nano media and ordinary cellulose media?
 
-**[编辑观点]** 差在**效率-压差的平衡点**。纳米纤维靠表面细滤层，在**更低初始压差**下拿到更高效率（`hy-af-nano` >=99.5% vs 纤维素 >=99.0%），底层粗滤纸撑容灰量。代价是成本更高，适合沙尘重、要求高的工况，而非所有场景都要纳米。
+**[Editorial Opinion]** The difference is in the **efficiency–differential pressure balance point**. Nano-fiber relies on a fine surface filtration layer to achieve higher efficiency at **lower initial differential pressure** (`hy-af-nano` >=99.5% vs. cellulose >=99.0%), while the coarse base paper supports dust holding capacity. The cost is higher; it suits dusty, demanding conditions, not all scenarios need nano.
 
-## 3. 为什么你们的机滤精度是 20 µm，不是更细？
+## 3. Why is your oil filter precision 20 µm and not finer?
 
-**[行业常识]** 机滤在主油道上，阻力过高会推高旁通阀开启频率、影响油压建立。20 µm 档是乘用机滤的平衡点；要更细得靠燃油滤（10 µm）——**不同品类保护对象不同，精度不是越细越好**。
+**[Industry Knowledge]** The oil filter sits on the main oil gallery; excessive restriction raises bypass valve opening frequency and affects oil-pressure buildup. The 20 µm tier is the balance point for passenger oil filters; finer precision is the fuel filter's job (10 µm) — **different categories protect different objects, and precision is not finer-is-better**.
 
-## 4. 旁通阀开启压力是多少？能不能标定？
+## 4. What is the bypass valve opening pressure? Can it be calibrated?
 
-**[行业常识]** 旁通阀开启压力是关键安全参数，须与车型油泵匹配，且需专用台架标定。具体数值以 data 站标定参数为准，采购时可要求提供旁通阀标定记录。
+**[Industry Knowledge]** Bypass valve opening pressure is a key safety parameter that must match the vehicle's oil pump and be calibrated on a dedicated bench. Specific values are subject to the data site's calibrated parameters; you may request the bypass valve calibration record at purchasing.
 
-## 5. 你们的钢壳是一次拉伸还是焊接拼底？
+## 5. Is your steel housing one-piece drawn or welded-bottom?
 
-**[行业常识]** 本站旋装机滤/燃油滤壳体均为**一次拉伸（one-piece drawn）**，无缝、耐压与抗疲劳优于焊底。这是机滤质量的分水岭，验货看壳体有无焊缝即可快速判断。
+**[Industry Knowledge]** The housings of spin-on oil filters / fuel filters on this site are all **one-piece drawn**, seamless, with pressure resistance and fatigue resistance superior to a welded bottom. This is the watershed of oil filter quality; check the housing for weld seams to judge quickly during inspection.
 
-## 6. 密封圈耐不耐 -40 ℃ 低温 / 150 ℃ 高温？
+## 6. Does the seal ring withstand -40 ℃ low temperature / 150 ℃ high temperature?
 
-**[行业常识]** 本站机滤密封圈为 NBR，标注「high/low temp resilient」（高低温回弹），覆盖 -40 ℃ 冷启动到 +150 ℃ 高温工况，兼顾俄区高寒与中东高温。
+**[Industry Knowledge]** This site's oil filter seal rings are NBR, marked "high/low temp resilient," covering -40 ℃ cold start to +150 ℃ high-temperature operation, accommodating both Russia's extreme cold and the Middle East's extreme heat.
 
-## 7. 柴油滤能不能分水？
+## 7. Can the diesel filter separate water?
 
-**[行业常识]** 分水要看型号：`hy-ff-water` 为复合 + 油水分离层，能分离柴油游离水；`hy-ff-spinon`/`hy-ff-inline` 为常规燃油滤。低质柴油/潮湿地区应选油水分离型。
+**[Industry Knowledge]** Water separation depends on the model: `hy-ff-water` is composite + water separation layer and can separate free water from diesel; `hy-ff-spinon`/`hy-ff-inline` are conventional fuel filters. For low-quality diesel / humid regions, choose the water-separating type.
 
-## 8. 空调滤的 H13 是什么意思？
+## 8. What does H13 mean on a cabin filter?
 
-**[框架参考]** H13 是 HEPA 分级，指对 0.3 µm 最易穿透粒径（MPPS）颗粒拦截率 `>=99.97%`。本站 `hy-cf-hepa` 即此档。**注意它与空滤的「ISO 5011 粉尘效率」口径不同，不可跨品类比数字**。
+**[Framework Reference]** H13 is a HEPA grade, meaning a `>=99.97%` interception rate for 0.3 µm most-penetrating-particle-size (MPPS) particles. This site's `hy-cf-hepa` is this tier. **Note that it differs from the air filter's "ISO 5011 dust efficiency" basis and cannot be compared across categories by number.**
 
-## 9. 你们的滤纸会不会塌陷、褶子会不会贴合？
+## 9. Will your media collapse or will the pleats stick together?
 
-**[行业常识]** 折纸工序控制折高/褶距/褶数，滤纸经树脂浸渍 + 热定型保证挺度。褶子过密贴合是有效面积浪费，属需防缺陷（见 [常见质量缺陷与预防](../qc/defects-prevention.md)）。
+**[Industry Knowledge]** The pleating step controls pleat height / pleat pitch / pleat count, and the media is resin-impregnated + heat-set to ensure stiffness. Overly dense pleats sticking together is wasted effective area — a defect to be prevented (see [Common Quality Defects and Prevention](../qc/defects-prevention.md)).
 
-## 10. 成品做不做 100% 检漏？
+## 10. Do finished products undergo 100% leak testing?
 
-**[行业常识]** 旋装机滤、燃油滤**在线 100% 气密测试**——泄漏不可目视、后果致命，无法靠抽检兜底。这是机滤行业铁律，本站旋装滤执行全检。
+**[Industry Knowledge]** Spin-on oil filters and fuel filters undergo **inline 100% leak-tightness testing** — leakage cannot be seen visually and the consequence is fatal, so it cannot be covered by sampling. This is an iron rule of the oil filter industry; this site's spin-on filters perform full inspection.
 
-## 11. 你们有没有 IATF 16949 / ISO 9001？
+## 11. Do you have IATF 16949 / ISO 9001?
 
-**[框架参考]** 本站 data 集认证字段列有 ISO 9001 / IATF 16949 等**质量管理体系框架**，代表体系化质量控制的方向；具体证书状态以公司资质页与正式文件为准，本技术站**不声称持有任何认证**。
+**[Framework Reference]** This site's data-set certification field lists ISO 9001 / IATF 16949 and other **quality management system frameworks**, representing the direction of systematic quality control; the specific certificate status is subject to the company's qualification page and formal documents, and this technical site **does not claim to hold any certification**.
 
-## 12. 空滤装不进车怎么办？尺寸怎么保证？
+## 12. What if the air filter won't fit the car? How are dimensions guaranteed?
 
-**[行业常识]** 空滤/空调滤是「硬尺寸」件，尺寸偏差即退货。本站尺寸（如 `hy-af-nano` 280×205×45 mm）与 data 站同值，产线用**检具 100% 过检**，下单前建议以 OE 号/车型反查确认。
+**[Industry Knowledge]** Air / cabin filters are "hard dimension" parts; dimensional deviation means returns. This site's dimensions (e.g. `hy-af-nano` 280×205×45 mm) are identical to the data site, and the production line uses **gauges for 100% pass inspection**; before ordering, confirm by reverse lookup against the OE number / vehicle model.
 
-## 13. 出口到中东/俄区有什么特别要求？
+## 13. Any special requirements for export to the Middle East / Russia?
 
-**[框架参考]** 中东高温沙尘重空滤容灰量与耐高温密封，俄区高寒重密封圈低温回弹与冷启动油压，另有 GCC/EAC 认证框架。详见 [出口市场标准差异](../standards/export-market-diff.md)。
+**[Framework Reference]** The Middle East's high heat and dust demand air filters with high dust holding capacity and high-temperature-resistant seals; Russia's extreme cold demands seal-ring low-temperature rebound and cold-start oil pressure; additionally there are GCC/EAC certification frameworks. See [Export Market Standards Differences](../standards/export-market-diff.md).
 
-## 14. 怎么判断一批货是不是劣质滤清器？
+## 14. How to judge whether a batch is inferior filters?
 
-**[编辑观点]** 拆开看、上手捏、上设备测：看壳体是否一次拉伸、捏密封圈回弹、撕端盖看滤纸是否胶牢、查旁通阀开启感、看褶子是否均匀不贴合。劣质滤把钱省在端盖胶、密封圈、壳体、阀件这些看不见的地方。
+**[Editorial Opinion]** Open it up, pinch it by hand, and test it on equipment: check whether the housing is one-piece drawn, pinch the seal ring for rebound, tear the end cap to see whether the media is firmly glued, check the bypass valve opening feel, and see whether the pleats are uniform and not stuck together. Inferior filters save money on end cap adhesive, seal rings, housings, and valve assemblies — the places you cannot see.
 
-## 15. 为什么同样规格你们报价有差异？差在滤纸还是工艺？
+## 15. Why do your quotes differ for the same spec? Is it the media or the process?
 
-**[编辑观点]** 滤清器的价差，几乎全部来自**滤材等级 + 阀件配置 + 全检投入**三项：纳米/复合滤纸贵于纤维素，止回阀/旁通阀齐全贵于阉割，100% 检漏贵于抽检。**报价差不是「利润差」，是「配置差」**——采购比价先拉齐这三项再谈价格。
+**[Editorial Opinion]** The price difference of filters comes almost entirely from **media grade + valve configuration + full-inspection investment**: nano/composite media is pricier than cellulose, a full set of anti-drainback/bypass valves is pricier than a stripped-down one, and 100% leak testing is pricier than sampling. **A quote difference is not a "profit difference" but a "configuration difference"** — align these three items first before discussing price.
 
 ---
 
-*全站内容到此结束。回首页：[Hycarfilter Tech 首页](../index.md)*
+*This is the end of the site's content. Back to home: [Hycarfilter Tech Home](../index.md)*

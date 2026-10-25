@@ -1,41 +1,41 @@
-# 燃油滤关键参数
+# Fuel Filter Key Parameters
 
-!!! note "来源性质"
-    本文为编辑原创整合。**[行业常识]** = 行业通用做法；**[框架参考]** = 标准框架介绍；**[编辑观点]** = 研究员原创判断。型号规格以 [data.hycarfilter](https://data.hycarfilter.com) 为准。回链：[data 燃油滤品类](https://data.hycarfilter.com/products/fuel-filter/)。
+!!! note "Source attribution"
+    This article is an editorially original synthesis. **[Industry Knowledge]** = common industry practice; **[Framework Reference]** = standards framework introduction; **[Editorial Opinion]** = researcher's original judgment. Model specifications are subject to [data.hycarfilter](https://data.hycarfilter.com). Backlinks: [data fuel filter category](https://data.hycarfilter.com/products/fuel-filter/).
 
-燃油喷射系统（尤其高压共轨柴油）对颗粒极其敏感——喷嘴间隙仅几微米，一颗硬质颗粒就能卡死喷油器。燃油滤的精度因此普遍比机滤更细，且柴油滤还需兼具**水分离**功能。
+Fuel injection systems (especially high-pressure common-rail diesel) are extremely sensitive to particulates — the injector nozzle clearance is only a few microns, and a single hard particle can seize an injector. Fuel filter precision is therefore generally finer than oil filters, and diesel filters must also provide **water separation**.
 
-## 一、参数清单
+## I. Parameter list
 
-| 参数 | 定义 | 本站同值（data） |
+| Parameter | Definition | Same value on this site (data) |
 |---|---|---|
-| 过滤效率 | 对 10 µm 颗粒的拦截率 | `hy-ff-spinon`/`hy-ff-inline` >=95% @ 10um · `hy-ff-water` >=97% @ 10um |
-| 微米额定 | 名义/绝对额定粒径 | 10 µm（绝对额定口径） |
-| 水分离效率 | 柴油滤分离游离水的能力 | `hy-ff-water` 复合 + 油水分离层 |
-| 流量 | 标称流量下的供油能力 | 数据以 data 站为准 |
-| 螺纹/接口 | 旋装螺纹 / 快插接头 | `hy-ff-spinon`/`hy-ff-water` M16x1.5 · `hy-ff-inline` 快插 O 圈 |
-| 外形 | 高 × 外径（旋装）/ 长 × 外径（管路） | `hy-ff-spinon` Ø85×140 · `hy-ff-inline` Ø30×90 · `hy-ff-water` Ø90×165 |
+| Filtration efficiency | Interception rate of 10 µm particles | `hy-ff-spinon`/`hy-ff-inline` >=95% @ 10um · `hy-ff-water` >=97% @ 10um |
+| Micron rating | Nominal/absolute rated particle size | 10 µm (absolute-rating basis) |
+| Water separation efficiency | Ability of a diesel filter to separate free water | `hy-ff-water` composite + water separation layer |
+| Flow rate | Fuel delivery capability at nominal flow | Data is subject to the data site |
+| Thread / connection | Spin-on thread / quick-connect fitting | `hy-ff-spinon`/`hy-ff-water` M16x1.5 · `hy-ff-inline` quick-connect O-ring |
+| Outer dimensions | Height × outer diameter (spin-on) / length × outer diameter (in-line) | `hy-ff-spinon` Ø85×140 · `hy-ff-inline` Ø30×90 · `hy-ff-water` Ø90×165 |
 
-## 二、测量方法
+## II. Measurement methods
 
-**[框架参考]** 按 ISO 4020 / ISO 19438 框架：
+**[Framework Reference]** Per the ISO 4020 / ISO 19438 framework:
 
-1. **效率/颗粒计数**：ISO 19438 多次通过法，用 Beta 比值或绝对额定标定精度（本站取 10 µm 档）；
-2. **水分离**：向柴油掺入定量游离水，测滤后水残留，得水分离效率；
-3. **流量-压差**：标称流量下测压差，验证供油能力。
+1. **Efficiency / particle counting**: ISO 19438 multi-pass method, using Beta ratio or absolute rating to characterize precision (this site uses the 10 µm tier);
+2. **Water separation**: mix a measured amount of free water into the diesel and measure residual water after filtration to obtain water separation efficiency;
+3. **Flow–differential pressure**: measure differential pressure at nominal flow to verify fuel delivery capability.
 
-## 三、参数对性能的影响
+## III. Impact of parameters on performance
 
-**[行业常识]**
+**[Industry Knowledge]**
 
-- **精度（10 µm）vs 压差**：燃油粘度低、流量敏感，精度过细会推高压差、影响喷油压力供给；10 µm 档是乘用/轻商用柴油滤的常见平衡点；
-- **水分离**：柴油中的水会导致喷油器锈蚀、微生物滋生、冬季结冰堵滤。柴油滤若不带水分离，在潮湿/低质柴油地区（东南亚、非洲）会快速失效；
-- **燃油兼容性**：密封圈/胶料/壳体须耐汽油、柴油及生物柴油，否则溶胀泄漏。
+- **Precision (10 µm) vs differential pressure**: fuel has low viscosity and is flow-sensitive; overly fine precision raises differential pressure and affects injection pressure supply. The 10 µm tier is the common balance point for passenger/light-commercial diesel filters;
+- **Water separation**: water in diesel causes injector corrosion, microbial growth, and winter icing that blocks the filter. A diesel filter without water separation will fail quickly in humid/low-quality-diesel regions (Southeast Asia, Africa);
+- **Fuel compatibility**: seals / rubber compounds / housings must withstand gasoline, diesel, and biodiesel, otherwise they swell and leak.
 
-## 四、编辑观点：柴油滤看「水分离」，汽油滤看「快插密封」
+## IV. Editorial view: diesel filters focus on "water separation," gasoline filters on "quick-connect sealing"
 
-**[编辑观点]** 燃油滤的采购要点因燃料而异：**柴油滤**的核心差异化在水分离效率——低质柴油地区（非洲、东南亚、部分中东）必须上油水分离型（`hy-ff-water`），否则售后必炸；**汽油滤**（管路式 `hy-ff-inline`）的核心在快插接头的 O 圈密封与耐压，漏油即安全隐患。**别把「燃油滤」当单一品类买，先问清是柴是汽、要不要分水。**
+**[Editorial Opinion]** The purchasing focus for fuel filters varies by fuel: for **diesel filters**, the core differentiator is water separation efficiency — low-quality-diesel regions (Africa, Southeast Asia, parts of the Middle East) must use the water-separating type (`hy-ff-water`), otherwise aftermarket failures are inevitable; for **gasoline filters** (in-line type `hy-ff-inline`), the core is the O-ring seal and pressure resistance of the quick-connect fitting — a leak is a safety hazard. **Do not buy "fuel filter" as a single category; first ask whether it is for diesel or gasoline and whether water separation is needed.**
 
 ---
 
-*继续阅读：[空调滤关键参数](cabin-filter-params.md)*
+*Continue reading: [Cabin Filter Key Parameters](cabin-filter-params.md)*

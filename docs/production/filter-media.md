@@ -1,68 +1,68 @@
-# 滤纸种类
+# Filter Media Types
 
-!!! note "来源性质"
-    本文为编辑原创整合。**[行业常识]** = 行业通用做法；**[框架参考]** = 标准框架介绍，非认证声明；**[编辑观点]** = 研究员原创判断。型号规格数值以 [data.hycarfilter](https://data.hycarfilter.com) 为准。回链：[data 空滤品类](https://data.hycarfilter.com/products/air-filter/) · [主站产品](https://hycarfilter.com/products/air-filter)。
+!!! note "Source attribution"
+    This article is an editorially original synthesis. **[Industry Knowledge]** = common industry practice; **[Framework Reference]** = standards framework introduction, not a certification claim; **[Editorial Opinion]** = researcher's original judgment. Model specification values are subject to [data.hycarfilter](https://data.hycarfilter.com). Backlinks: [data air filter category](https://data.hycarfilter.com/products/air-filter/) · [main-site product](https://hycarfilter.com/products/air-filter).
 
-滤纸（filter media）是滤清器的灵魂。同一副金属壳或 PU 框架，换了滤纸，过滤效率、容灰量、压差、寿命全部改变。滤纸的选型，本质是在**效率、纳污、压差、成本**四者之间做权衡，没有「最好的滤纸」，只有「最匹配工况的滤纸」。
+Filter media is the soul of a filter. With the same metal shell or PU frame, changing the media changes filtration efficiency, dust holding capacity, differential pressure, and life entirely. Media selection is fundamentally a trade-off among **efficiency, dirt holding, differential pressure, and cost** — there is no "best media," only "the media that best matches the operating condition."
 
-## 一、纤维素滤纸（cellulose）
+## I. Cellulose filter media (cellulose)
 
-**[行业常识]** 最传统、最主流的滤材。原料是植物纤维（木浆/棉浆），经打浆、抄纸、树脂浸渍（resin-impregnated）、烘干定型制成。
+**[Industry Knowledge]** The most traditional and mainstream media. The raw material is plant fiber (wood pulp / cotton pulp), made through pulping, papermaking, resin impregnation (resin-impregnated), and drying/shaping.
 
-- **优点**：成本低、挺度高、加工性好、折叠后不易塌陷，适合大批量折纸。
-- **局限**：耐温上限约 110–120 ℃，遇高湿热会软化；孔径分布宽，对亚微米颗粒截留有限。
-- **在本站数据中的位置**：标准板式空滤 `hy-af-panel`、旋装机滤 `hy-of-spinon`、旋装/管路燃油滤 `hy-ff-spinon`/`hy-ff-inline` 的滤材均为树脂浸渍纤维素。其效率档位即纤维素滤材的典型能力：空滤 `>=99.0%`、机滤 `>=90% @ 20um`、燃油滤 `>=95% @ 10um`。
+- **Advantages**: low cost, high stiffness, good processability, resistant to collapse after pleating, suitable for high-volume pleating.
+- **Limitations**: upper temperature limit about 110–120 ℃, softens under high heat and humidity; wide pore-size distribution, limited sub-micron particle interception.
+- **Position in this site's data**: the standard panel air filter `hy-af-panel`, spin-on oil filter `hy-of-spinon`, spin-on / in-line fuel filters `hy-ff-spinon`/`hy-ff-inline` all use resin-impregnated cellulose media. Their efficiency tiers are the typical capability of cellulose media: air filter `>=99.0%`, oil filter `>=90% @ 20um`, fuel filter `>=95% @ 10um`.
 
-## 二、合成纤维滤纸（synthetic / glass-fiber）
+## II. Synthetic fiber media (synthetic / glass-fiber)
 
-**[行业常识]** 以玻璃纤维、聚酯（PET）、聚丙烯（PP）等合成纤维为原料。玻璃纤维耐温、耐腐蚀、孔径可控，常用于重型工况。
+**[Industry Knowledge]** Made from glass fiber, polyester (PET), polypropylene (PP), and other synthetic fibers. Glass fiber is temperature-resistant, corrosion-resistant, and has controllable pore size, commonly used in heavy-duty conditions.
 
-- **玻璃纤维增强（glass-enhanced）**：把玻纤混入纤维素，提升耐温与亚微米截留，重型机滤 `hy-of-hd` 即用「玻璃纤维增强复合」，效率拉到 `>=95% @ 20um`。
-- **合成纤维**：耐温更高（可达 150 ℃ 以上）、化学稳定性好，适合高腐蚀性油液/燃油与长换油周期。
+- **Glass-enhanced**: mixing glass fiber into cellulose to improve temperature resistance and sub-micron interception; the heavy-duty oil filter `hy-of-hd` uses "glass-fiber-reinforced composite," pushing efficiency to `>=95% @ 20um`.
+- **Synthetic fiber**: higher temperature resistance (up to 150 ℃ or more), good chemical stability, suitable for highly corrosive oils/fuels and long oil-change intervals.
 
-## 三、复合滤纸（composite）
+## III. Composite filter media (composite)
 
-**[行业常识]** 多层不同材质复合，常见「纤维素打底 + 合成纤维功能层」或「多层梯度孔径」。梯度孔径的设计思路是：**迎风面粗孔、出风面细孔**，让大颗粒先被表层拦截、小颗粒被深层捕获，从而同时拿到高容灰量与高精度。
+**[Industry Knowledge]** Multi-layer lamination of different materials, commonly "cellulose base + synthetic-fiber functional layer" or "multi-layer gradient pore size." The gradient pore-size design idea is: **coarse pores on the windward face, fine pores on the leeward face**, letting large particles be intercepted at the surface first and small particles captured in the depth, thus achieving high dust holding capacity and high precision simultaneously.
 
-**[编辑观点]** 复合滤材是「效率-容灰量」矛盾的解药，但也是最容易被偷工减料的地方——劣质「复合」往往只是表面贴一层薄无纺布，功能层厚度不足，容灰量不升反降。判断复合滤材真伪，看**单位面积的容灰量曲线**，而非看它「有几层」。
+**[Editorial Opinion]** Composite media is the antidote to the "efficiency–dust holding capacity" contradiction, but it is also the easiest place to cut corners — an inferior "composite" is often just a thin non-woven layer stuck on the surface, with insufficient functional-layer thickness, so dust holding capacity drops rather than rises. To judge whether a composite media is genuine, look at the **dust holding capacity curve per unit area**, not "how many layers it has."
 
-本站数据中 `hy-of-cartridge`（复合纤维）、`hy-ff-water`（复合 + 油水分离层）即复合滤材的典型应用。
+In this site's data, `hy-of-cartridge` (composite fiber) and `hy-ff-water` (composite + water separation layer) are typical applications of composite media.
 
-## 四、纳米纤维滤材（nano-fiber）
+## IV. Nano-fiber media (nano-fiber)
 
-**[行业常识]** 在基材表面静电纺丝（electrospinning）或熔喷覆盖一层纳米级纤维（直径几十到几百纳米），形成「表面细滤层 + 底层支撑」结构。
+**[Industry Knowledge]** A layer of nano-scale fibers (tens to hundreds of nanometers in diameter) is deposited on the substrate surface by electrospinning or melt-blowing, forming a "fine surface filtration layer + base support" structure.
 
-- **机理**：纳米纤维层孔径小、比表面积大，把大部分颗粒在**表面**拦截（surface filtration），底层粗滤纸只承担支撑与容灰，从而在低初始压差下实现高效率。
-- **典型效率**：本站 `hy-af-nano` 纳米纤维板式空滤 `>=99.5%`，`hy-af-heavy` 纳米纤维 + 安全层（safety layer）重型空滤 `>=99.6%`——比纤维素空滤（`>=99.0%`）高半档，且初始压差更低。
-- **长寿命机滤**：`hy-of-longlife` 用「纳米复合（高温碳化）」滤材，配合长换油周期，效率 `>=95% @ 20um`，同时耐高温碳化处理让滤纸在高温机油中长期不老化。
+- **Mechanism**: the nano-fiber layer has small pores and large specific surface area, intercepting most particles at the **surface** (surface filtration), while the coarse base paper only provides support and dust holding, achieving high efficiency at low initial differential pressure.
+- **Typical efficiency**: this site's `hy-af-nano` nano-fiber panel air filter `>=99.5%`, and `hy-af-heavy` nano-fiber + safety-layer heavy-duty air filter `>=99.6%` — half a tier above cellulose air filters (`>=99.0%`), with even lower initial differential pressure.
+- **Long-life oil filter**: `hy-of-longlife` uses "nano-composite (high-temperature carbonized)" media, matched to a long oil-change interval, efficiency `>=95% @ 20um`, while the high-temperature carbonization keeps the media from aging over long exposure to hot oil.
 
-## 五、活性炭滤材（activated carbon）
+## V. Activated carbon media (activated carbon)
 
-**[行业常识]** 空调滤专用。在颗粒过滤层之外复合一层活性炭（或颗粒活性炭夹层），吸附 VOC、异味、尾气中的有害气体。
+**[Industry Knowledge]** Dedicated to cabin filters. Beyond the particle filtration layer, an activated carbon layer (or granular activated carbon interlayer) is laminated to adsorb VOCs, odors, and harmful gases in exhaust.
 
-- **效率**：本站 `hy-cf-carbon` `>=96%`，`hy-cf-hepa` 为「HEPA 复合 + 活性炭」`>=99.97% (H13)`。注意活性炭层主要贡献**气体吸附**，不直接抬高颗粒效率数值，颗粒效率仍由颗粒过滤层决定。
+- **Efficiency**: this site's `hy-cf-carbon` `>=96%`, and `hy-cf-hepa` is "HEPA composite + activated carbon" `>=99.97% (H13)`. Note that the activated carbon layer mainly contributes **gas adsorption** and does not directly raise the particle-efficiency number; particle efficiency is still determined by the particle filtration layer.
 
-## 六、尼龙网（nylon mesh）——变速箱滤网
+## VI. Nylon mesh — transmission filter screen
 
-**[行业常识]** 变速箱滤网（`hy-tf-pan` / `hy-tf-kit`）不用纸，而用尼龙网（nylon mesh）或金属网。它过滤的是变速箱油中的金属屑/磨粒，属**粗滤 + 大流量**场景，效率档位 `>=90% @ 40um`——比发动机机油滤粗一个数量级，因为变速箱油粘度与流量特性不允许高精度细滤，否则油压不足、换挡冲击。
+**[Industry Knowledge]** The transmission filter screen (`hy-tf-pan` / `hy-tf-kit`) does not use paper, but nylon mesh or metal mesh. It filters metal shavings / wear particles in transmission fluid, a **coarse filtration + large flow** scenario, with an efficiency tier of `>=90% @ 40um` — an order of magnitude coarser than engine oil filters, because transmission fluid viscosity and flow characteristics do not allow high-precision fine filtration; otherwise oil pressure would be insufficient and shifting would jerk.
 
-## 选型对照表（与 data 站同值）
+## Selection reference table (same values as the data site)
 
-| 滤材 | 本站代表型号 | 效率档位（同 data） | 适用场景 |
+| Media | Representative model on this site | Efficiency tier (same as data) | Applicable scenario |
 |---|---|---|---|
-| 树脂浸渍纤维素 | `hy-af-panel` / `hy-of-spinon` / `hy-ff-spinon` | 空滤 >=99.0% · 机滤 >=90%@20um · 燃滤 >=95%@10um | 常规乘用车 |
-| 玻璃纤维增强复合 | `hy-of-hd` | >=95% @ 20um | 重卡/工程/农机 |
-| 纳米纤维 | `hy-af-nano` | >=99.5% | 中东多沙尘工况 |
-| 纳米纤维 + 安全层 | `hy-af-heavy` | >=99.6% | 重型空滤 |
-| 纳米复合（高温碳化） | `hy-of-longlife` | >=95% @ 20um | 长换油周期 |
-| 复合 + 油水分离 | `hy-ff-water` | >=97% @ 10um | 柴油重卡 |
-| 活性炭 / HEPA 复合 | `hy-cf-carbon` / `hy-cf-hepa` | >=96% / >=99.97%(H13) | 座舱空气质量 |
-| 尼龙网 | `hy-tf-pan` / `hy-tf-kit` | >=90% @ 40um | 自动变速箱 |
+| Resin-impregnated cellulose | `hy-af-panel` / `hy-of-spinon` / `hy-ff-spinon` | Air filter >=99.0% · oil filter >=90%@20um · fuel filter >=95%@10um | Conventional passenger vehicles |
+| Glass-fiber-reinforced composite | `hy-of-hd` | >=95% @ 20um | Heavy truck / construction / agricultural machinery |
+| Nano-fiber | `hy-af-nano` | >=99.5% | Middle East dusty conditions |
+| Nano-fiber + safety layer | `hy-af-heavy` | >=99.6% | Heavy-duty air filter |
+| Nano-composite (high-temperature carbonized) | `hy-of-longlife` | >=95% @ 20um | Long oil-change interval |
+| Composite + water separation | `hy-ff-water` | >=97% @ 10um | Diesel heavy truck |
+| Activated carbon / HEPA composite | `hy-cf-carbon` / `hy-cf-hepa` | >=96% / >=99.97%(H13) | Cabin air quality |
+| Nylon mesh | `hy-tf-pan` / `hy-tf-kit` | >=90% @ 40um | Automatic transmission |
 
-## 编辑观点
+## Editorial view
 
-**[编辑观点]** 采购者问「你家滤纸什么材质」，真正的价值不在材质名词，而在**材质 + 效率档位 + 目标工况**的三角对应关系。一个只报「纳米滤纸」却给不出效率与容灰量曲线的供应商，和一个报「纤维素滤纸 >=90% @ 20um」的供应商，后者更可信。**让参数替材质说话。**
+**[Editorial Opinion]** When a buyer asks "what material is your media," the real value is not in the material name but in the triangle of **material + efficiency tier + target operating condition**. A supplier that only says "nano media" but cannot provide efficiency and dust holding capacity curves is less credible than one that says "cellulose media >=90% @ 20um." **Let the parameters speak for the material.**
 
 ---
 
-*继续阅读：[折纸工艺（Pleating）](pleating.md)*
+*Continue reading: [Pleating](pleating.md)*

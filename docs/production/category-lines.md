@@ -1,68 +1,68 @@
-# 各品类生产线差异化
+# Category Production-Line Differentiation
 
-!!! note "来源性质"
-    本文为编辑原创整合。**[行业常识]** = 行业通用做法；**[框架参考]** = 标准框架介绍；**[编辑观点]** = 研究员原创判断。型号规格以 [data.hycarfilter](https://data.hycarfilter.com) 为准。
+!!! note "Source attribution"
+    This article is an editorially original synthesis. **[Industry Knowledge]** = common industry practice; **[Framework Reference]** = standards framework introduction; **[Editorial Opinion]** = researcher's original judgment. Model specifications are subject to [data.hycarfilter](https://data.hycarfilter.com).
 
-七个品类看似都是「滤清器」，但产线工艺路线差异极大。本节按品类拆解差异化工艺，帮助采购者理解「为什么同一家工厂的不同产线，产能、成本、检验重点都不一样」。
+The seven categories all look like "filters," but their production-line process routes differ greatly. This section breaks down the differentiated processes by category, helping buyers understand "why different lines in the same factory differ in capacity, cost, and inspection focus."
 
-## 一、空气滤清器（Air Filter，`af`）
+## I. Air filter (Air Filter, `af`)
 
-**[行业常识]** 核心工艺：滤纸打褶 → PU 边框/端盖发泡一体成型（板式 `hy-af-panel`/`hy-af-nano`）或卷绕套钢中心管（圆筒 `hy-af-round`/重型 `hy-af-heavy`）。
+**[Industry Knowledge]** Core process: filter media pleating → PU frame / end cap foaming one-piece forming (panel type `hy-af-panel`/`hy-af-nano`) or winding around a steel center tube (round `hy-af-round` / heavy-duty `hy-af-heavy`).
 
-- **板式**：平板褶 + PU 四周发泡边框，工艺重心在**折高一致性**与**PU 发泡密封**。
-- **圆筒/重型**：星形褶卷筒 + 冲孔钢芯，重型还叠加「安全层（safety layer）」二级滤材，工艺重心在**卷绕密度**与**安全层贴合**。
-- **检验重点**：折高、密封面平整度、初始压差与容灰量（重型）。
+- **Panel type**: flat pleats + PU foam frame all around; the process focus is on **pleat-height consistency** and **PU foam sealing**.
+- **Round / heavy-duty**: star-pleated roll + punched steel core; heavy-duty additionally stacks a "safety layer" secondary media; the process focus is on **winding density** and **safety-layer lamination**.
+- **Inspection focus**: pleat height, sealing-surface flatness, initial differential pressure and dust holding capacity (heavy-duty).
 
-## 二、空调滤清器（Cabin Filter，`cf`）
+## II. Cabin filter (Cabin Filter, `cf`)
 
-**[行业常识]** 结构与板式空滤相似（平板褶 + 塑料/PU 边框），但**风量优先、低压差**，且可能叠活性炭层或 HEPA 层。
+**[Industry Knowledge]** Structurally similar to the panel air filter (flat pleats + plastic/PU frame), but **airflow-first, low differential pressure**, and may stack an activated-carbon layer or HEPA layer.
 
-- 工艺重心：活性炭层复合的**均匀性**（`hy-cf-carbon`）、HEPA 层的**折损保护**（`hy-cf-hepa` H13，折纸时极易破损）。
-- **检验重点**：颗粒效率、气体吸附（活性炭）、风量/压差、尺寸适配（座舱滤芯格是硬尺寸）。
+- Process focus: the **uniformity** of the activated-carbon lamination (`hy-cf-carbon`), the **pleat-damage protection** of the HEPA layer (`hy-cf-hepa` H13, easily damaged during pleating).
+- **Inspection focus**: particle efficiency, gas adsorption (activated carbon), airflow/differential pressure, dimension fit (the cabin filter slot is a hard dimension).
 
-## 三、机油滤清器（Oil Filter，`of`）
+## III. Oil filter (Oil Filter, `of`)
 
-**[行业常识]** 两种形态工艺路线完全不同：
+**[Industry Knowledge]** Two forms with completely different process routes:
 
-- **旋装式**（`hy-of-spinon`/`hy-of-hd`/`hy-of-longlife`）：完整总装线（见 [旋装总装线](spin-on-assembly.md)），工序最多、金属加工最重。
-- **滤芯式**（`hy-of-cartridge`）：无金属壳体，只做打褶滤芯 + 塑料/热固端盖，供欧系/日系「只换芯不换壳」车型。工序少，但对**端盖定位与密封**要求高（芯子要精确卡入原厂壳）。
+- **Spin-on** (`hy-of-spinon`/`hy-of-hd`/`hy-of-longlife`): a full assembly line (see [Spin-On Assembly Line](spin-on-assembly.md)) — the most steps and the heaviest metalworking.
+- **Cartridge** (`hy-of-cartridge`): no metal housing; only pleated element + plastic/thermoset end caps, for European/Japanese "replace element only" vehicles. Fewer steps, but high requirements on **end cap positioning and sealing** (the element must fit precisely into the OEM housing).
 
-## 四、燃油滤清器（Fuel Filter，`ff`）
+## IV. Fuel filter (Fuel Filter, `ff`)
 
-**[行业常识]**
+**[Industry Knowledge]**
 
-- **旋装式**（`hy-ff-spinon`）：同机滤旋装线，但**燃油兼容性**要求高（密封圈/胶料耐汽油/柴油）。
-- **管路式**（`hy-ff-inline`）：小直径直通滤芯，铝/塑外壳 + 快插接头，工艺重心在**快插密封 O 圈**与**耐压**。
-- **油水分离式**（`hy-ff-water`）：复合滤材 + 油水分离层，工艺重心在**水分离效率**与底部放水阀结构。
+- **Spin-on** (`hy-ff-spinon`): same as the oil filter spin-on line, but with high **fuel compatibility** requirements (seals / rubber compounds resist gasoline/diesel).
+- **In-line** (`hy-ff-inline`): small-diameter straight-through element, aluminum/plastic housing + quick-connect fitting; process focus on the **quick-connect sealing O-ring** and **pressure resistance**.
+- **Water-separating** (`hy-ff-water`): composite media + water separation layer; process focus on **water separation efficiency** and the bottom drain-valve structure.
 
-## 五、雨刮器（Wiper Blade，`wb`）
+## V. Wiper blade (Wiper Blade, `wb`)
 
-**[行业常识]** 完全不同的工艺体系——无滤纸，核心是**橡胶胶条挤出 + 石墨涂层 + 钢弹簧/骨架成型**。`hy-wb-beam`（无骨）靠弧压钢条定型，`hy-wb-hybrid`（复合）加塑料骨架，`hy-wb-rear`（后雨刮）短胶条。检验重心在胶条**刮净度、静音、耐候**，而非过滤参数。
+**[Industry Knowledge]** A completely different process system — no filter media; the core is **rubber strip extrusion + graphite coating + steel spring / frame forming**. `hy-wb-beam` (frameless) is shaped by arc-pressure steel strips, `hy-wb-hybrid` (composite) adds a plastic frame, `hy-wb-rear` (rear wiper) uses a short strip. Inspection focus is on strip **wiping cleanliness, quietness, weather resistance** — not filtration parameters.
 
-## 六、变速箱滤网（Transmission Filter Screen，`tf`）
+## VI. Transmission filter screen (Transmission Filter Screen, `tf`)
 
-**[行业常识]** 尼龙网/金属网粗滤，`hy-tf-pan`（油底壳滤网）与 `hy-tf-kit`（滤网+垫片套装）工艺重心在**网孔均匀性**与**油底壳垫片密封**。装配维修场景，需配套垫片。
+**[Industry Knowledge]** Nylon mesh / metal mesh coarse filtration; `hy-tf-pan` (oil-pan filter screen) and `hy-tf-kit` (filter screen + gasket kit) focus on **mesh-hole uniformity** and **oil-pan gasket sealing**. Assembly/service scenario, requiring a matching gasket.
 
-## 七、LED 车灯（LED Lights，`led`）
+## VII. LED lights (LED Lights, `led`)
 
-**[行业常识]** 电子电器产品，与滤清器工艺无关——核心是 **CSP LED 芯片贴装 + 铝散热体 + 驱动电路**。`hy-led-h4`/`hy-led-h7` 为替换式灯泡，`hy-led-bar` 为灯条。检验重心在**光通量、色温、散热、防水防尘（IP）**。其认证诉求（CE/RoHS）也与其他品类（ISO 9001/IATF 16949）不同。
+**[Industry Knowledge]** An electronic product, unrelated to filter processes — the core is **CSP LED chip mounting + aluminum heat sink + driver circuit**. `hy-led-h4`/`hy-led-h7` are replacement bulbs, `hy-led-bar` is a light bar. Inspection focus is on **luminous flux, color temperature, heat dissipation, waterproof/dustproof (IP)**. Its certification claims (CE/RoHS) also differ from other categories (ISO 9001/IATF 16949).
 
-## 差异化速查表
+## Differentiation quick-reference table
 
-| 品类 | 核心工艺重心 | 关键检验 | 认证侧重（框架） |
+| Category | Core process focus | Key inspection | Certification emphasis (framework) |
 |---|---|---|---|
-| 空滤 | 折高 + PU 密封 | 压差 / 容灰量 | ISO 9001 / IATF 16949 |
-| 空调滤 | 活性炭/HEPA 复合 | 颗粒效率 / 吸附 | ISO 9001 |
-| 机滤 | 壳体拉伸 + 端盖 + 阀 | 气密 / 爆裂 / 旁通阀 | ISO 9001 / IATF 16949 |
-| 燃油滤 | 燃油兼容 + 水分离 | 密封 / 水分离效率 | ISO 9001 / IATF 16949 |
-| 雨刮 | 胶条挤出 + 涂层 | 刮净 / 耐候 | ISO 9001 |
-| 变速箱滤网 | 网孔 + 垫片 | 网孔均匀 / 密封 | ISO 9001 |
-| LED 车灯 | 芯片贴装 + 散热 | 光通 / 防水 | CE / RoHS |
+| Air filter | Pleat height + PU seal | Differential pressure / dust holding capacity | ISO 9001 / IATF 16949 |
+| Cabin filter | Activated carbon / HEPA lamination | Particle efficiency / adsorption | ISO 9001 |
+| Oil filter | Housing drawing + end cap + valve | Leak-tightness / burst / bypass valve | ISO 9001 / IATF 16949 |
+| Fuel filter | Fuel compatibility + water separation | Seal / water separation efficiency | ISO 9001 / IATF 16949 |
+| Wiper blade | Strip extrusion + coating | Wiping / weather resistance | ISO 9001 |
+| Transmission filter screen | Mesh + gasket | Mesh uniformity / seal | ISO 9001 |
+| LED lights | Chip mounting + heat dissipation | Luminous flux / waterproofing | CE / RoHS |
 
-## 编辑观点
+## Editorial view
 
-**[编辑观点]** 采购方评估工厂，别用「滤清器厂」一顶帽子扣全品类。**看产线是否对口**：会做旋装机滤的厂未必有 PU 发泡空滤线，有滤清器线的厂几乎不可能顺手做 LED。技术差异大到「同厂跨品类」往往意味着某个品类是外协或代工贴牌，这一点在验厂时值得追问。
+**[Editorial Opinion]** When evaluating a factory, do not lump all categories under the single hat of "filter factory." **Check whether the line matches the product**: a factory that makes spin-on oil filters may not have a PU-foam air filter line, and a factory with filter lines almost certainly cannot also produce LEDs on the side. The technical differences are so large that "cross-category in one factory" often means a category is outsourced or private-labeled — this is worth probing during a factory audit.
 
 ---
 
-*继续阅读：[生产线设备](equipment.md)*
+*Continue reading: [Production-Line Equipment](equipment.md)*

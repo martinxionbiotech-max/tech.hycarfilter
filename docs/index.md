@@ -1,51 +1,51 @@
-# Hycarfilter Tech — 滤清器行业标准层
+# Hycarfilter Tech — Filter Industry Standards Layer
 
-> **定位**：本子站是「被检索、被引用」的**行业标准层**——生产技术 / 技术参数 / 检测与质量控制 / 行业标准。
-> 与主站营销零重复，与 data 站产品数值不重叠：**data 站管「这个型号的参数是多少」，tech 站管「这个参数怎么做出来、怎么测、凭什么成立」。**
+> **Positioning**: This subsite is an **industry standards layer** designed to be "searched and cited" — production technology / technical parameters / testing & quality control / industry standards.
+> It has zero overlap with the main site's marketing, and does not duplicate the data site's product values: **the data site answers "what are the parameters of this model," while the tech site answers "how is this parameter made, how is it measured, and on what basis does it hold."**
 
-## 为什么需要这一层
+## Why this layer is needed
 
-采购者最终买的不是一句「高效滤清器」，而是三件事能否被验证：
+What a buyer ultimately purchases is not a slogan like "high-efficiency filter," but whether three things can be verified:
 
-1. **怎么做出来** —— 滤纸怎么选、怎么折、端盖怎么粘、整条线怎么跑；
-2. **参数怎么定义** —— 过滤效率、容灰量、压差这些数字在什么标准框架下成立；
-3. **怎么保证稳定** —— 来料怎么检、在线怎么控、成品怎么全检/抽检、出货怎么验。
+1. **How it is made** — how filter media is selected, how it is pleated, how end caps are bonded, how the whole line runs;
+2. **How parameters are defined** — under what standards framework values like filtration efficiency, dust holding capacity, and differential pressure hold;
+3. **How stability is guaranteed** — how incoming materials are inspected, how the process is controlled in-line, how finished products are fully/sampled inspected, and how outgoing shipments are verified.
 
-这三件事，营销文案讲不清，产品数据库存不下，只能由技术层承载。tech 站的每一页都在回答「凭什么」。
+Marketing copy cannot explain these three things, and a product database cannot store them; only a technical layer can carry them. Every page of the tech site answers "on what basis."
 
-## 四层互链结构
+## Four-layer interlink structure
 
 ```
-hycarfilter.com        (Astro 商业主站)   → 说服采购者「为什么要买」
-data.hycarfilter.com   (MkDocs 产品数据库) → 型号/规格唯一真值「参数是多少」
-tech.hycarfilter.com   (MkDocs 技术标准)   → 本仓「怎么做 / 怎么测 / 凭什么」
-market.hycarfilter.com (MkDocs 行业报告)   → 「这款在哪个市场怎么卖」
+hycarfilter.com        (Astro commercial main site)   → convinces the buyer "why buy"
+data.hycarfilter.com   (MkDocs product database)      → single source of truth for models/specs "what the parameters are"
+tech.hycarfilter.com   (MkDocs technical standards)   → this repo "how it's made / how it's measured / on what basis"
+market.hycarfilter.com (MkDocs industry reports)      → "how this product sells in which market"
 ```
 
-互链规则：主站产品页 → data 型号详情 → **tech 对应工艺/检测页** → market 区域报告。本仓每页顶部会回链 data 站对应品类与主站对应产品，保证「采购者从规格点进工艺」的路径不断。
+Interlink rule: main-site product page → data model detail → **tech process/testing page** → market regional report. Each page of this repo links back at the top to the corresponding data-site category and main-site product, ensuring the path "from spec to process" for the buyer is never broken.
 
-## 板块导览
+## Section overview
 
-| 板块 | 页数 | 回答的问题 |
+| Section | Pages | Question answered |
 |---|---|---|
-| [生产工艺](production/filter-media.md) | 6 | 滤纸怎么选/怎么折、端盖怎么粘、旋装机滤怎么总装、各品类产线差在哪、用什么设备 |
-| [技术参数](parameters/efficiency-grading.md) | 6 | 效率分级在什么框架下成立、各品类关键参数怎么定义怎么测、参数如何影响性能 |
-| [检测与质量控制](qc/incoming-inspection.md) | 6 | 来料怎么检、在线怎么控、成品怎么全检/抽检、用什么设备、缺陷怎么防、出货怎么验 |
-| [行业标准](standards/iso-sae.md) | 2 | ISO/SAE/GB 相关标准框架是什么、主要出口市场标准差异在哪 |
-| [技术 Q&A](qa/index.md) | 1 | 采购者最常问的技术问题，原创视角解答 |
+| [Production Process](production/filter-media.md) | 6 | How filter media is selected/pleated, how end caps are bonded, how spin-on oil filters are assembled, how category lines differ, what equipment is used |
+| [Technical Parameters](parameters/efficiency-grading.md) | 6 | Under what framework efficiency grading holds, how each category's key parameters are defined and measured, how parameters affect performance |
+| [Testing & Quality Control](qc/incoming-inspection.md) | 6 | How incoming materials are inspected, how the process is controlled in-line, how finished products are fully/sampled inspected, what equipment is used, how defects are prevented, how outgoing shipments are verified |
+| [Industry Standards](standards/iso-sae.md) | 2 | What the ISO/SAE/GB standards frameworks are, where the main export markets' standards differ |
+| [Technical Q&A](qa/index.md) | 1 | The most frequently asked technical questions from buyers, answered from an original perspective |
 
-## 来源性质标注规范
+## Source-attribution conventions
 
-本仓所有内容遵守一条标注纪律，每页顶部以 note 声明，正文以行内标签区分：
+All content in this repo follows one attribution discipline: a note at the top of each page declares it, and the body distinguishes it with inline tags:
 
-- **[行业常识]** —— 滤清器行业通用做法、公开共识，不受某一家厂商约束；
-- **[框架参考]** —— 国际/国家标准框架介绍（ISO 5011、SAE J726 等），**仅作行业常识框架，不构成认证声明**；
-- **[编辑观点]** —— 研究员原创主观判断，署名「小筑 ✍️」，供采购决策参考。
+- **[Industry Knowledge]** — common filter-industry practices and public consensus, not bound to any single manufacturer;
+- **[Framework Reference]** — introduction to international/national standards frameworks (ISO 5011, SAE J726, etc.), **provided only as industry-common-knowledge framework, not constituting a certification claim**;
+- **[Editorial Opinion]** — the researcher's original subjective judgment, attributed to Xiaozhu ✍️, for reference in purchasing decisions.
 
-## 数据一致性声明
+## Data-consistency statement
 
-本仓引用的一切**尺寸 / 效率 / 材质 / 螺纹 / 密封**数值，均与 [data.hycarfilter](https://data.hycarfilter.com) 的 canonical 数据集 `data/products.json` 同值；任何型号规格以 data 站为唯一事实源。本仓只负责「工艺与标准知识」，不重复存储产品数值。
+All **dimension / efficiency / material / thread / seal** values cited in this repo are identical to those in the canonical dataset `data/products.json` on [data.hycarfilter](https://data.hycarfilter.com); any model specification takes the data site as its single source of truth. This repo only carries "process and standards knowledge" and does not re-store product values.
 
 ---
 
-*下一站：从 [滤纸种类](production/filter-media.md) 开始，进入生产工艺。*
+*Next: start with [Filter Media Types](production/filter-media.md) to enter Production Process.*

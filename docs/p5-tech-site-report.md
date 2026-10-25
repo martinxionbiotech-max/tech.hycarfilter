@@ -1,49 +1,49 @@
-# Hycarfilter Phase 5 — tech.hycarfilter 技术标准层交付报告
+# Hycarfilter Phase 5 — tech.hycarfilter Technical Standards Layer Delivery Report
 
-> 产出日期：2026-10-25 ｜ 作者：滤清器工艺工程师视角的内容架构师 + 行业研究员（小筑 ✍️）
-> 仓库：`tech.hycarfilter`（MkDocs · 生产技术/参数/检测/质量控制/行业标准）｜ 依据：`docs/hycarfilter-p1-inventory-architecture.md` §2.3 + data 站成果 `data.hycarfilter/data/products.json`
+> Output date: 2026-10-25 ｜ Author: content architect from a filter process engineer's perspective + industry researcher (Xiaozhu ✍️)
+> Repo: `tech.hycarfilter` (MkDocs · production technology/parameters/testing/quality control/industry standards) ｜ Basis: `docs/hycarfilter-p1-inventory-architecture.md` §2.3 + data-site deliverable `data.hycarfilter/data/products.json`
 
 ---
 
-## 1. 交付概览
+## 1. Delivery overview
 
-MkDocs Material 技术子站上线，定位「被检索、被引用的行业标准层」——**与主站营销零重复、与 data 站产品数值不重叠**（data=产品数值，tech=工艺与标准知识）。中文行业知识 + 国际标准框架整合，全站原创撰写。
+The MkDocs Material technical subsite is live, positioned as the "industry standards layer to be searched and cited" — **zero overlap with main-site marketing, no duplication of data-site product values** (data = product values, tech = process and standards knowledge). Chinese industry knowledge + international standards frameworks integrated, all original writing site-wide.
 
-## 2. 站点规模
+## 2. Site scale
 
-| 板块 | 页数 | 内容 |
+| Section | Pages | Content |
 |---|---|---|
-| 首页 | 1 | 定位 / 四层互链 / 来源性质标注规范 / 数据一致性声明 |
-| 生产工艺 | 6 | 滤纸种类 · 折纸工艺 · 端盖粘接与固化 · 机滤旋装总装线 · 各品类生产线差异化 · 生产线设备 |
-| 技术参数 | 6 | 效率分级框架 · 空滤参数 · 机滤参数 · 燃油滤参数 · 空调滤参数 · 参数对性能的影响 |
-| 检测与质量控制 | 6 | 原材料检验(IQC) · 在线检测(IPQC) · 成品全检/抽检(AQL) · 实验室设备 · 缺陷与预防 · 出货出口质检(OQC) |
-| 行业标准 | 2 | ISO/SAE 标准框架 · 出口市场标准差异 |
-| 技术 Q&A | 1 | 15 条采购者技术问题原创解答 |
-| **合计** | **22** | （+ 404 = 23 HTML） |
+| Home | 1 | Positioning / four-layer interlink / source-attribution conventions / data-consistency statement |
+| Production Process | 6 | Filter media types · Pleating process · End cap bonding & curing · Spin-on oil filter assembly line · Category production-line differentiation · Production-line equipment |
+| Technical Parameters | 6 | Efficiency grading framework · Air filter parameters · Oil filter parameters · Fuel filter parameters · Cabin filter parameters · Parameter impact on performance |
+| Testing & Quality Control | 6 | Incoming inspection (IQC) · In-process inspection (IPQC) · Final inspection & sampling (AQL) · Laboratory equipment · Defects & prevention · Export/outgoing inspection (OQC) |
+| Industry Standards | 2 | ISO/SAE standards framework · Export market standards differences |
+| Technical Q&A | 1 | 15 buyer technical questions answered originally |
+| **Total** | **22** | (+ 404 = 23 HTML) |
 
-**Q&A 数量**：15 条（超过 10–15 要求上限线内）。
+**Q&A count**: 15 items (within the 10–15 upper-limit requirement line).
 
-## 3. 纪律执行
+## 3. Discipline execution
 
-1. **数据一致性**：全站引用尺寸/效率/材质/螺纹/密封数值均与 `data.hycarfilter/data/products.json` 同值——效率档位（空滤 99.0%–99.6%、机滤 90–95%@20um、燃油滤 95–97%@10um、空调滤 95%–99.97%H13、变速箱滤网 90%@40um）、螺纹（3/4-16 UNF / 1-12 UNF / M16x1.5）、外形尺寸（280×205×45、Ø150/Ø80×320、Ø200/Ø120×400、Ø76×90、Ø118×210、Ø85×140、Ø30×90、Ø90×165、240×200×30）、HS 编码（8421310000/8421230000/8512400000/8708409990/8512209000）逐项核对一致，**0 冲突**。型号命名沿用 data 站 `hy-{品类码}-{系列}`（非 Phase 1 草案的 `HF-` 前缀）。
-2. **认证措辞**：ISO 5011/SAE J726 等一律标「标准框架/常见要求/参考」，并单设「标准 ≠ 认证」边界说明；IATF 16949/ISO 9001 仅以「质量管理体系框架」表述，**不声称持有认证**。
-3. **来源性质标注**：每页顶部 note 声明 + 正文行内标签 `[行业常识]` / `[框架参考]` / `[编辑观点]` 三态标注，编辑观点署名「小筑 ✍️」。
+1. **Data consistency**: All site-wide cited dimension/efficiency/material/thread/seal values are identical to `data.hycarfilter/data/products.json` — efficiency tiers (air filter 99.0%–99.6%, oil filter 90–95%@20um, fuel filter 95–97%@10um, cabin filter 95%–99.97%H13, transmission filter screen 90%@40um), threads (3/4-16 UNF / 1-12 UNF / M16x1.5), outer dimensions (280×205×45, Ø150/Ø80×320, Ø200/Ø120×400, Ø76×90, Ø118×210, Ø85×140, Ø30×90, Ø90×165, 240×200×30), HS codes (8421310000/8421230000/8512400000/8708409990/8512209000) verified item by item, **0 conflicts**. Model naming follows the data site's `hy-{category code}-{series}` (not the Phase 1 draft `HF-` prefix).
+2. **Certification wording**: ISO 5011/SAE J726 and similar are always labeled "standards framework / common requirements / reference," with a separate "standard ≠ certification" boundary note; IATF 16949/ISO 9001 are only expressed as "quality management system framework," **not claiming to hold certification**.
+3. **Source-attribution marking**: A note declaration at the top of each page + inline tags `[Industry Knowledge]` / `[Framework Reference]` / `[Editorial Opinion]` three-state marking, with editorial opinions attributed to "Xiaozhu ✍️".
 
 ## 4. build / commit / push
 
-- **build**：`mkdocs build` ✅ 22 内容页 + 404，0.64s，Material 主题（language=zh，teal 配色），0 WARNING / 0 ERROR。
-- **commit**：`b7c8d7e` `p5-tech: scaffold tech/standards/QC layer (MkDocs Material)`。
-- **push**：origin/main（新分支 `main` 已推送）。
-- **同步**：与 data 站数值 0 冲突（逐项核对一致）。
+- **build**: `mkdocs build` ✅ 22 content pages + 404, 0.64s, Material theme (language=zh, teal palette), 0 WARNING / 0 ERROR.
+- **commit**: `b7c8d7e` `p5-tech: scaffold tech/standards/QC layer (MkDocs Material)`.
+- **push**: origin/main (new branch `main` pushed).
+- **sync**: 0 conflicts with data-site values (verified item by item).
 
-## 5. 中文紧凑报告
+## 5. Compact Chinese report
 
-**站点规模**：22 内容页 = 首页 1 · 生产工艺 6 · 技术参数 6 · 检测与质量控制 6 · 行业标准 2 · 技术 Q&A 1（15 条）。
+**Site scale**: 22 content pages = Home 1 · Production Process 6 · Technical Parameters 6 · Testing & Quality Control 6 · Industry Standards 2 · Technical Q&A 1 (15 items).
 
-**各节规模**：工艺 6 页（滤纸种类/折纸/端盖粘接/旋装总装/品类差异化/设备）· 参数 6 页（效率分级框架+空滤/机滤/燃油滤/空调滤参数+参数影响）· 检测 6 页（IQC/IPQC/成品AQL/实验室/缺陷预防/出货OQC）· 标准 2 页（ISO/SAE 框架+出口市场差异）· Q&A 15 条。
+**Section scale**: Process 6 pages (filter media types/pleating/end cap bonding/spin-on assembly/category differentiation/equipment) · Parameters 6 pages (efficiency grading framework + air/oil/fuel/cabin filter parameters + parameter impact) · Testing 6 pages (IQC/IPQC/finished-product AQL/laboratory/defect prevention/outgoing OQC) · Standards 2 pages (ISO/SAE framework + export market differences) · Q&A 15 items.
 
-**一致性核对**：效率/尺寸/螺纹/HS 编码逐项与 `data.hycarfilter/products.json` 同值，0 冲突；命名沿用 `hy-{品类码}-{系列}`；认证类一律「标准框架」措辞；每页标来源性质三态。
+**Consistency check**: efficiency/dimension/thread/HS codes item-by-item identical to `data.hycarfilter/products.json`, 0 conflicts; naming follows `hy-{category code}-{series}`; certification items always use "standards framework" wording; each page marked with three-state source attribution.
 
-**build**：mkdocs build 22 页全绿，0 警告。**commit**：`p5-tech: scaffold tech/standards/QC layer`。**push**：origin/main。**同步**：0/0。
+**build**: mkdocs build 22 pages all green, 0 warnings. **commit**: `p5-tech: scaffold tech/standards/QC layer`. **push**: origin/main. **sync**: 0/0.
 
-**报告路径**：`docs/p5-tech-site-report.md`（本文档）。
+**Report path**: `docs/p5-tech-site-report.md` (this document).

@@ -1,68 +1,68 @@
-# ISO / SAE 标准框架
+# ISO / SAE Standards Framework
 
-!!! note "来源性质"
-    本文为编辑原创整合。**[框架参考]** = 国际/国家标准框架介绍，**仅作行业常识，不构成任何认证声明**；**[行业常识]** = 行业通用做法；**[编辑观点]** = 研究员原创判断。型号规格以 [data.hycarfilter](https://data.hycarfilter.com) 为准。
+!!! note "Source attribution"
+    This article is an editorially original synthesis. **[Framework Reference]** = international/national standards framework introduction, **provided only as industry common knowledge, not constituting any certification claim**; **[Industry Knowledge]** = common industry practice; **[Editorial Opinion]** = researcher's original judgment. Model specifications are subject to [data.hycarfilter](https://data.hycarfilter.com).
 
-本节介绍滤清器相关的国际/国家标准框架。**重要声明：以下均为「测试方法/要求框架」的常识性介绍，hycarfilter 不据此声称持有任何认证。** 采购者应把标准理解为「理解参数从何而来的坐标系」，而非「产品合格证」。
+This section introduces the international/national standards frameworks related to filters. **Important statement: the following are all common-knowledge introductions to "test-method / requirement frameworks"; hycarfilter does not claim to hold any certification based on them.** Buyers should understand standards as "a coordinate system for understanding where parameters come from," not "a product certificate of conformity."
 
-## 一、标准框架速览
+## I. Standards framework overview
 
-| 标准 | 适用对象 | 核心内容（框架） |
+| Standard | Applicable object | Core content (framework) |
 |---|---|---|
-| **ISO 5011** | 内燃机进气空气滤清器 | 台架试验：过滤效率、容灰量、压差 |
-| **SAE J726** | 空气滤清器 | 北美试验规程框架，效率/容灰量/压差 |
-| **ISO 4548** | 机油滤清器 | 效率（多次通过）、旁通阀、静压爆破、疲劳 |
-| **ISO 4020** | 柴油机燃油滤清器 | 试验方法框架 |
-| **ISO 19438** | 燃油滤清器 | 过滤效率与颗粒计数（Beta 比值/绝对额定） |
-| **ISO 16890** | 空气净化/座舱滤 | 颗粒分级（ePM 分级框架） |
-| **GB/T 13549 系列** | 汽车滤清器（中国） | 中国汽车滤清器试验方法系列 |
+| **ISO 5011** | Internal-combustion-engine intake air filters | Bench test: filtration efficiency, dust holding capacity, differential pressure |
+| **SAE J726** | Air filters | North American test-procedure framework, efficiency / dust holding capacity / differential pressure |
+| **ISO 4548** | Oil filters | Efficiency (multi-pass), bypass valve, static burst, fatigue |
+| **ISO 4020** | Diesel-engine fuel filters | Test-method framework |
+| **ISO 19438** | Fuel filters | Filtration efficiency and particle counting (Beta ratio / absolute rating) |
+| **ISO 16890** | Air purification / cabin filters | Particle classification (ePM classification framework) |
+| **GB/T 13549 series** | Automotive filters (China) | Chinese automotive filter test-method series |
 
-## 二、各标准框架详解
+## II. Detailed explanation of each standards framework
 
-### ISO 5011（空滤）
+### ISO 5011 (air filters)
 
-**[框架参考]** 定义内燃机进气空滤的试验方法：用标准试验粉尘（ISO 12103-1）在标称流量下测**初始/加权过滤效率**、**容灰量**（至终了压差）、**初始/终了压差**。它是本站空滤效率档位（`hy-af-*` `>=99.0%`–`>=99.6%`）所依据的框架。
+**[Framework Reference]** Defines the test method for internal-combustion-engine intake air filters: using standard test dust (ISO 12103-1) at nominal flow to measure **initial / weighted filtration efficiency**, **dust holding capacity** (to the terminal differential pressure), and **initial / terminal differential pressure**. It is the framework underlying this site's air filter efficiency tiers (`hy-af-*` `>=99.0%`–`>=99.6%`).
 
-### SAE J726（空滤，北美）
+### SAE J726 (air filters, North America)
 
-**[框架参考]** 与 ISO 5011 同源，北美惯用。核心逻辑一致（加灰→效率→容灰→压差），细节如粉尘分级与终了压差设定有差异。**两套框架不可混标**——同一滤芯在两套框架下的数值可能不同，标称时须注明用的是哪套。
+**[Framework Reference]** Shares the same origin as ISO 5011 and is commonly used in North America. The core logic is identical (add dust → efficiency → dust holding → differential pressure), with differences in details such as dust classification and terminal differential pressure settings. **The two frameworks must not be mixed** — the same element may yield different numbers under the two frameworks, and the nominal value must state which framework is used.
 
-### ISO 4548（机滤）
+### ISO 4548 (oil filters)
 
-**[框架参考]** 机油滤清器试验方法，多部分：
+**[Framework Reference]** Oil filter test methods, in multiple parts:
 
-- **4548-12**：过滤效率（多次通过法，颗粒计数）；
-- 旁通阀特性、静压爆破压力、疲劳/脉动等。
+- **4548-12**: filtration efficiency (multi-pass method, particle counting);
+- bypass valve characteristics, static burst pressure, fatigue / pulsation, etc.
 
-本站机滤效率 `>=90% @ 20um`/`>=95% @ 20um` 即此框架下的颗粒效率口径。
+This site's oil filter efficiency `>=90% @ 20um`/`>=95% @ 20um` is the particle-efficiency basis under this framework.
 
-### ISO 4020 / ISO 19438（燃油滤）
+### ISO 4020 / ISO 19438 (fuel filters)
 
-**[框架参考]** ISO 4020 为柴油机燃油滤试验方法框架；ISO 19438 专注**过滤效率与颗粒计数**，用 Beta 比值定义过滤精度（如 β₁₀(c) ≥ 200），也涵盖水分离。本站燃油滤 `>=95% @ 10um`/`>=97% @ 10um` 即绝对额定口径。
+**[Framework Reference]** ISO 4020 is the test-method framework for diesel fuel filters; ISO 19438 focuses on **filtration efficiency and particle counting**, using Beta ratio to define filtration precision (e.g. β₁₀(c) ≥ 200), and also covers water separation. This site's fuel filter `>=95% @ 10um`/`>=97% @ 10um` is the absolute-rating basis.
 
-### GB/T 13549 系列（中国）
+### GB/T 13549 series (China)
 
-**[框架参考]** 中国汽车滤清器试验方法系列标准框架，与 ISO 系列对应，是国内工厂常见的试验依据。
+**[Framework Reference]** The Chinese automotive filter test-method series standards framework, corresponding to the ISO series, is a common test basis for domestic factories.
 
-## 三、标准与「认证」的边界
+## III. The boundary between standards and "certification"
 
-**[编辑观点]** 这是本节最想强调的一点：**标准 ≠ 认证**。
+**[Editorial Opinion]** This is the point this section most wants to emphasize: **standard ≠ certification**.
 
-- **标准（Standard）**：规定「怎么测、指标怎么定义」——是方法，人人可依；
-- **认证（Certification）**：第三方机构「证明你符合某标准/体系」——是背书，须有证。
+- **Standard**: specifies "how to measure, how indicators are defined" — it is a method anyone can follow;
+- **Certification**: a third-party organization "proves you conform to a standard / system" — it is an endorsement that requires a certificate.
 
-「产品符合 ISO 5011 测试框架」与「产品通过了 ISO 5011 认证」是两回事——前者是方法声明，后者不成立（ISO 5011 本身是试验方法标准，不是可发证的体系认证）。**采购者看到「ISO 5011 认证」的字眼应警惕，这通常是营销话术误用；正确表述是「按 ISO 5011 框架测试」。**
+"A product conforms to the ISO 5011 test framework" and "a product passed ISO 5011 certification" are two different things — the former is a method statement, while the latter does not hold (ISO 5011 is itself a test-method standard, not a certifiable system certification). **Buyers should be wary of the phrase "ISO 5011 certification," which is usually marketing-copy misuse; the correct expression is "tested per the ISO 5011 framework."**
 
-同理，**ISO 9001（质量体系）、IATF 16949（汽车质量体系）** 是体系认证（可发证），本站 data 集中出现的这两个条目代表「质量管理体系框架」，不代表对每个型号的性能背书。
+Likewise, **ISO 9001 (quality system) and IATF 16949 (automotive quality system)** are system certifications (certifiable); the two entries appearing in this site's data set represent "quality management system frameworks," not a performance endorsement for each model.
 
-## 四、采购者如何使用标准
+## IV. How buyers should use standards
 
-**[编辑观点]**
+**[Editorial Opinion]**
 
-1. **看测试方法**：问清效率数字依据哪套标准、什么粒径、绝对还是名义额定；
-2. **要第三方报告**：按标准框架测出的曲线/报告，比口头标称可信；
-3. **警惕话术**：凡「XX 标准认证」「符合 XX 标准」却无测试条件注明的，都要追问细节。
+1. **Look at the test method**: ask which standard the efficiency number is based on, what particle size, and absolute or nominal rating;
+2. **Ask for third-party reports**: curves / reports measured per the standards framework are more credible than verbal claims;
+3. **Beware of wording**: any "XX standard certification" or "conforms to XX standard" without stated test conditions warrants follow-up questioning of the details.
 
 ---
 
-*继续阅读：[主要出口市场标准差异](export-market-diff.md)*
+*Continue reading: [Major Export Market Standards Differences](export-market-diff.md)*

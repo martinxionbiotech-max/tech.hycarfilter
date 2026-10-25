@@ -1,54 +1,54 @@
-# 折纸工艺（Pleating）
+# Pleating
 
-!!! note "来源性质"
-    本文为编辑原创整合。**[行业常识]** = 行业通用做法；**[框架参考]** = 标准框架介绍；**[编辑观点]** = 研究员原创判断。型号规格以 [data.hycarfilter](https://data.hycarfilter.com) 为准。回链：[data 空滤品类](https://data.hycarfilter.com/products/air-filter/) · [主站产品](https://hycarfilter.com/products/air-filter)。
+!!! note "Source attribution"
+    This article is an editorially original synthesis. **[Industry Knowledge]** = common industry practice; **[Framework Reference]** = standards framework introduction; **[Editorial Opinion]** = researcher's original judgment. Model specifications are subject to [data.hycarfilter](https://data.hycarfilter.com). Backlinks: [data air filter category](https://data.hycarfilter.com/products/air-filter/) · [main-site product](https://hycarfilter.com/products/air-filter).
 
-滤纸只有折叠起来，才能把「一张大面积的纸」塞进「一个小体积的滤清器」里。折纸（pleating / 打褶）的核心目的只有一个：**在给定外形体积内最大化有效过滤面积**。面积越大，同样流量下气流/油流通过滤纸的流速越低，压差越小，容灰量越大。
+Only by folding the media can "a large sheet of paper" be packed into "a small filter." The single core purpose of pleating is to **maximize the effective filtration area within a given outer volume**. The larger the area, the lower the airflow/oil-flow velocity through the media at the same flow rate, the lower the differential pressure, and the greater the dust holding capacity.
 
-## 一、四个关键几何参数
+## I. Four key geometric parameters
 
-| 参数 | 定义 | 对性能的影响 |
+| Parameter | Definition | Impact on performance |
 |---|---|---|
-| **折高**（pleat height） | 褶子的深度 | 折越高面积越大，但过高褶子易塌陷、强度下降 |
-| **褶距**（pleat pitch） | 相邻两褶尖的间距 | 褶距越小褶数越多，面积越大，但气流通道变窄、压差上升 |
-| **褶数**（pleat count） | 打褶总数 | 与折高、褶距共同决定总过滤面积 |
-| **过滤面积**（media area） | 展开后的有效滤纸面积 | 决定容灰量与压差的根本量 |
+| **Pleat height** | Depth of the pleat | Taller pleats → larger area, but overly tall pleats tend to collapse and lose strength |
+| **Pleat pitch** | Spacing between adjacent pleat tips | Smaller pitch → more pleats, larger area, but narrower airflow channels and higher differential pressure |
+| **Pleat count** | Total number of pleats | Together with pleat height and pitch, determines total filtration area |
+| **Filtration area** (media area) | Effective unfolded media area | The fundamental quantity determining dust holding capacity and differential pressure |
 
-**[行业常识]** 空滤、机滤、燃油滤的芯子本质上都是「打褶滤纸卷成筒/叠成板」。同一外形尺寸下，过滤面积可以差到 2–3 倍，这正是「同规格不同寿命」的技术根源。
+**[Industry Knowledge]** The cores of air, oil, and fuel filters are essentially "pleated media rolled into a cylinder / stacked into a panel." For the same outer dimensions, filtration area can differ by 2–3× — this is the technical root of "same spec, different life."
 
-## 二、两种主流折纸机
+## II. Two mainstream pleaters
 
-**[行业常识]**
+**[Industry Knowledge]**
 
-1. **刀片式折纸机（blade pleater）**：用往复刀片把连续滤纸压成 V 形褶，折高由刀片行程决定。适合**直板式**芯子（板式空滤 `hy-af-panel`、空调滤 `hy-cf-*` 的平板滤芯）。速度高、折高均匀性好。
-2. **旋转式折纸机（rotary pleater / star pleater）**：滤纸经对辊同步收褶，形成密集的星形（star）褶，然后卷绕成圆筒。适合**旋装机滤、圆筒空滤**（`hy-of-*`、`hy-af-round`、`hy-af-heavy`）的圆形芯子。
+1. **Blade pleater**: uses reciprocating blades to press continuous media into V-shaped pleats; pleat height is determined by blade stroke. Suitable for **straight-panel cores** (panel air filter `hy-af-panel`, flat elements of cabin filters `hy-cf-*`). High speed, good pleat-height uniformity.
+2. **Rotary pleater / star pleater**: the media is folded synchronously through a pair of rollers into dense star pleats, then wound into a cylinder. Suitable for **spin-on oil filters and round air filters** (`hy-of-*`, `hy-af-round`, `hy-af-heavy`) with round cores.
 
-## 三、褶皱密度：效率与压差的平衡
+## III. Pleat density: the balance between efficiency and differential pressure
 
-**[行业常识]** 褶数并非越多越好。褶数增加 → 过滤面积增加（压差下降、容灰量上升），但同时**褶间气流/油流通道变窄**，若褶子贴得太近，相邻褶面会「屏蔽」彼此，有效面积不增反降。行业里用「褶距/折高比」来表征褶皱密度，存在一个最优区间。
+**[Industry Knowledge]** More pleats is not always better. Increasing pleat count → larger filtration area (lower differential pressure, higher dust holding capacity), but at the same time **the inter-pleat airflow/oil-flow channels narrow**; if pleats are too close, adjacent pleat faces will "shield" each other and effective area drops rather than rises. The industry uses the "pleat pitch / pleat height ratio" to characterize pleat density, and there is an optimal range.
 
-**[编辑观点]** 判断折纸是否过密，看两点：一是**压差曲线**在标称流量下是否异常上扬（褶间通道堵塞的表现），二是**拆开后相邻褶面是否有明显贴合**（贴合 = 有效面积浪费）。劣质产品常用「褶数多」当卖点，实则过密褶子既抬高成本又损性能。
+**[Editorial Opinion]** To judge whether pleating is too dense, look at two things: first, whether the **differential pressure curve** rises abnormally at nominal flow (a sign of blocked inter-pleat channels); second, after disassembly, whether adjacent pleat faces are visibly stuck together (sticking = wasted effective area). Inferior products often use "high pleat count" as a selling point, when in fact overly dense pleats both raise cost and hurt performance.
 
-## 四、折纸后的定型
+## IV. Setting the pleats after pleating
 
-**[行业常识]** 折好的褶子需要定型，否则回弹、变形：
+**[Industry Knowledge]** Pleated pleats need to be set, otherwise they spring back and deform:
 
-- **热定型**：滤纸在折纸机内边折边加热（或折后过定型道），让树脂部分软化再固化，把褶形锁住。纤维素滤纸因树脂浸渍，热定型后挺度高、褶子不易塌。
-- **树脂加硬**：对高折高芯子额外喷涂/浸渍定型剂，增强抗塌陷。
+- **Heat setting**: the media is heated as it is pleated in the pleater (or passes a setting track after pleating), partially softening the resin and re-curing it to lock the pleat shape. Because cellulose media is resin-impregnated, heat setting gives high stiffness and pleats that resist collapse.
+- **Resin stiffening**: for tall-pleat cores, an additional setting agent is sprayed/impregnated to enhance collapse resistance.
 
-## 五、折纸与工况的对应
+## V. Pleating versus operating condition
 
-**[编辑观点]** 不同品类对折纸的要求不一样：
+**[Editorial Opinion]** Different categories have different pleating requirements:
 
-- **空滤**（`hy-af-*`）：追求**大容灰量**，倾向高折高 + 适中褶距，让灰尘有足够空间堆积；
-- **机滤**（`hy-of-*`）：机油流量与旁通阀协同，折纸需**抗油压塌陷**，褶距偏宽以保油流；
-- **燃油滤**（`hy-ff-*`）：燃油粘度低、流量敏感，折纸精度要求高，褶子塌陷会直接堵流。
-- **空调滤**（`hy-cf-*`）：乘员舱风量优先，折高与褶距以**低压差**为目标，活性炭层另叠。
+- **Air filter** (`hy-af-*`): aims for **large dust holding capacity**, favoring tall pleats + moderate pitch so dust has enough room to accumulate;
+- **Oil filter** (`hy-of-*`): oil flow coordinates with the bypass valve; pleating must **resist oil-pressure collapse**, with a wider pitch to preserve oil flow;
+- **Fuel filter** (`hy-ff-*`): fuel has low viscosity and is flow-sensitive; pleating precision must be high, and collapsed pleats directly block flow.
+- **Cabin filter** (`hy-cf-*`): cabin airflow comes first; pleat height and pitch target **low differential pressure**, with the activated carbon layer stacked separately.
 
-## 六、质量要点
+## VI. Quality points
 
-**[行业常识]** 折纸工序的在线控制要点：折高一致（±公差）、褶距均匀、无折伤/裂纹、褶尖无破损。折高直接关系成品外形是否装得进外壳，折高偏高会顶壳、偏低会漏风短路。
+**[Industry Knowledge]** In-line control points of the pleating step: consistent pleat height (± tolerance), uniform pleat pitch, no crease damage / cracks, no broken pleat tips. Pleat height directly determines whether the finished product fits the housing; too-tall pleats will hit the housing, too-short pleats will cause air bypass leakage.
 
 ---
 
-*继续阅读：[端盖粘接与固化](endcap-bonding.md)*
+*Continue reading: [End Cap Bonding and Curing](endcap-bonding.md)*

@@ -1,59 +1,59 @@
-# 原材料检验（IQC）
+# Incoming Inspection (IQC)
 
-!!! note "来源性质"
-    本文为编辑原创整合。**[行业常识]** = 行业通用做法；**[框架参考]** = 标准框架介绍；**[编辑观点]** = 研究员原创判断。型号规格以 [data.hycarfilter](https://data.hycarfilter.com) 为准。回链：[data 首页](https://data.hycarfilter.com)。
+!!! note "Source attribution"
+    This article is an editorially original synthesis. **[Industry Knowledge]** = common industry practice; **[Framework Reference]** = standards framework introduction; **[Editorial Opinion]** = researcher's original judgment. Model specifications are subject to [data.hycarfilter](https://data.hycarfilter.com). Backlinks: [data home](https://data.hycarfilter.com).
 
-质量是「防」出来的，不是「检」出来的。来料检验（Incoming Quality Control，IQC）是三道关的第一道——**坏料进了线，后面再检也白检**。本节拆解各主要原材料的来料检验要点。
+Quality is "prevented," not "inspected." Incoming Quality Control (IQC) is the first of the three gates — **once bad material enters the line, any later inspection is in vain**. This section breaks down the incoming-inspection points of the main raw materials.
 
-## 一、滤纸来料检验
+## I. Filter media incoming inspection
 
-**[行业常识]** 滤纸是滤清器的核心，IQC 最重。检验项目：
+**[Industry Knowledge]** Filter media is the core of the filter, so IQC weighs it most heavily. Inspection items:
 
-| 项目 | 方法 | 判定 |
+| Item | Method | Judgment |
 |---|---|---|
-| 定量（克重 g/m²） | 取样称重 | 偏差超公差 → 拒收 |
-| 厚度 | 测厚仪 | 影响折高与面积 |
-| 挺度 | 挺度仪 | 太软折后塌陷 |
-| 透气度 | 透气仪（压差-流量） | 决定成品压差 |
-| 孔径/效率 | 效率测试台（抽检） | 对应标称效率档位 |
-| 树脂浸渍均匀性 | 目视 + 灰分 | 浸渍不均 → 效率不稳 |
-| 耐温/耐油 | 高温/油浸老化 | 机滤/燃油滤必检 |
+| Basis weight (grammage g/m²) | Sample weighing | Deviation beyond tolerance → reject |
+| Thickness | Thickness gauge | Affects pleat height and area |
+| Stiffness | Stiffness tester | Too soft → collapse after pleating |
+| Air permeability | Permeability tester (differential pressure–flow) | Determines finished-product differential pressure |
+| Pore size / efficiency | Efficiency test bench (sampling) | Corresponds to nominal efficiency tier |
+| Resin impregnation uniformity | Visual + ash content | Uneven impregnation → unstable efficiency |
+| Temperature / oil resistance | High-temperature / oil-immersion aging | Must-test for oil / fuel filters |
 
-**[编辑观点]** 滤纸是「技术含量最高、最容易被以次充好」的来料。同一克重、同一厚度，不同纤维配比与树脂工艺，效率与容灰量能差一个数量级。**IQC 不能只看克重厚度，必须抽检效率曲线**——这是把「假滤纸」挡在门外的唯一手段。
+**[Editorial Opinion]** Filter media is the incoming material with the **highest technical content and the easiest to substitute inferior for superior**. At the same grammage and thickness, different fiber ratios and resin processes can make efficiency and dust holding capacity differ by an order of magnitude. **IQC cannot just look at grammage and thickness; it must sample the efficiency curve** — this is the only way to keep "fake media" out the door.
 
-## 二、壳体 / 钢壳来料检验
+## II. Housing / steel shell incoming inspection
 
-**[行业常识]** 旋装机滤/燃油滤的钢壳：
+**[Industry Knowledge]** Steel housings of spin-on oil / fuel filters:
 
-- **壁厚**：测厚仪抽检，壁厚不足 → 爆裂压力不达标；
-- **拉伸成型**：检查是否一次拉伸（无缝）、有无裂纹/拉伤；
-- **螺纹**：螺纹通止规检验（通规进、止规不进），保证拧装配合；
-- **镀层/防腐**：盐雾试验或目视，防止储运生锈。
+- **Wall thickness**: thickness-gauge sampling; insufficient thickness → burst pressure below standard;
+- **Drawing forming**: check whether one-piece drawn (seamless), for cracks / drawing damage;
+- **Thread**: thread go/no-go gauge inspection (go passes, no-go does not) to ensure screw-on fit;
+- **Plating / anti-corrosion**: salt-spray test or visual, to prevent rust in storage/transport.
 
-## 三、端盖 / 中心管 / 密封圈来料检验
+## III. End cap / center tube / seal ring incoming inspection
 
-**[行业常识]**
+**[Industry Knowledge]**
 
-- **端盖（钢/塑料/PU）**：尺寸、凹槽深度（决定胶料填充）、材质验证；
-- **中心管**：冲孔质量、无毛刺（毛刺会划破滤纸）、尺寸与滤芯配合；
-- **密封圈（NBR）**：硬度（邵氏 A）、尺寸、**高低温回弹**、耐油溶胀率——密封圈是旋装滤接合面密封的关键，回弹差/溶胀大 → 漏油。
+- **End cap (steel / plastic / PU)**: dimensions, groove depth (determines adhesive fill), material verification;
+- **Center tube**: hole-punching quality, no burrs (burrs scratch the media), dimensions fit the element;
+- **Seal ring (NBR)**: hardness (Shore A), dimensions, **high/low-temperature rebound**, oil-swelling rate — the seal ring is the key to spin-on filter mating-surface sealing; poor rebound / large swelling → oil leakage.
 
-## 四、胶料来料检验
+## IV. Adhesive incoming inspection
 
-**[行业常识]** 端盖胶/塑溶胶/PU 胶：
+**[Industry Knowledge]** End cap adhesive / plastisol / PU adhesive:
 
-- **粘度 / 配比**：影响注胶量与固化；
-- **固化特性**：小样固化测强度，验证批次一致性；
-- **耐油/耐温**：胶料浸油老化试验，确保不与机油/燃油反应。
+- **Viscosity / mixing ratio**: affects injection volume and curing;
+- **Curing characteristics**: small-sample curing to measure strength and verify batch consistency;
+- **Oil / temperature resistance**: oil-immersion aging test of the adhesive, to ensure it does not react with oil/fuel.
 
-## 五、IQC 的抽样框架
+## V. IQC sampling framework
 
-**[行业常识]** 来料按批次抽样，抽样方案参考 **AQL（Acceptable Quality Limit）框架**（如 ISO 2859 或 GB/T 2828）：按批量定样本量与允收/拒收数（Ac/Re），而非全检。关键安全件（壳体、密封圈）可加严 AQL 甚至 100% 检验。
+**[Industry Knowledge]** Incoming materials are sampled by batch, with the sampling scheme referencing the **AQL (Acceptable Quality Limit) framework** (e.g. ISO 2859 or GB/T 2828): determine sample size and accept/reject numbers (Ac/Re) by lot size, rather than full inspection. Key safety parts (housing, seal ring) can use tightened AQL or even 100% inspection.
 
-## 编辑观点
+## Editorial view
 
-**[编辑观点]** 看工厂的 IQC 能力，别问「有没有来料检验」，问「滤纸抽不抽效率曲线、密封圈做不做回弹与溶胀、壳体做不做螺纹通止规」。这三项有没有，决定了它是在**防坏料**，还是在**走流程**。**IQC 的深度，比 IQC 的有无更能说明一家厂的质量水位。**
+**[Editorial Opinion]** To judge a factory's IQC capability, don't ask "do you have incoming inspection"; ask "does the media get its efficiency curve sampled, does the seal ring get rebound and swelling tested, does the housing get thread go/no-go gauging." Whether these three exist determines whether it is **preventing bad material** or **going through the motions**. **The depth of IQC, more than the existence of IQC, reflects a factory's quality level.**
 
 ---
 
-*继续阅读：[在线检测（IPQC）](in-process.md)*
+*Continue reading: [In-Process Inspection (IPQC)](in-process.md)*

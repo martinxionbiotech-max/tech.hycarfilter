@@ -1,48 +1,48 @@
-# 常见质量缺陷与预防
+# Common Quality Defects and Prevention
 
-!!! note "来源性质"
-    本文为编辑原创整合。**[行业常识]** = 行业通用做法；**[编辑观点]** = 研究员原创判断。型号规格以 [data.hycarfilter](https://data.hycarfilter.com) 为准。
+!!! note "Source attribution"
+    This article is an editorially original synthesis. **[Industry Knowledge]** = common industry practice; **[Editorial Opinion]** = researcher's original judgment. Model specifications are subject to [data.hycarfilter](https://data.hycarfilter.com).
 
-本节把滤清器最常见的质量缺陷、成因、后果与预防手段列成清单。这些缺陷既是工厂的改善靶点，也是采购者**验货与鉴别劣质品**的抓手（部分源于源站「优质 vs 劣质机滤」对比内容的深化）。
+This section lists the most common quality defects of filters, their causes, consequences, and prevention measures. These defects are both the factory's improvement targets and the buyer's leverage for **inspection and identifying inferior products** (some derived from the source site's "quality vs. inferior oil filter" comparison content, deepened).
 
-## 一、缺陷清单（按品类）
+## I. Defect list (by category)
 
-| # | 缺陷 | 高发品类 | 成因 | 后果 | 预防 |
+| # | Defect | High-frequency category | Cause | Consequence | Prevention |
 |---|---|---|---|---|---|
-| 1 | 端盖脱胶/滤纸松动 | 机滤 | 胶料不足/欠固化/常温胶 | 机油从端部短路，过滤失效 | 塑溶胶足量+固化炉温度曲线+端部剥离抽测 |
-| 2 | 密封圈老化/溶胀 | 机滤/燃油滤 | 材质不耐油/不耐温 | 漏油 | 高低温回弹+耐油溶胀 IQC |
-| 3 | 壳体焊底开裂 | 机滤 | 焊接拼底替代一次拉伸 | 高压脉动下漏油 | 壳体一次拉伸+静压爆破抽测 |
-| 4 | 螺纹偏斜/精度差 | 机滤/燃油滤 | 攻丝设备差 | 拧不上/密封不偏 | 液压攻丝+螺纹通止规 100% |
-| 5 | 折高不均/褶塌陷 | 空滤/机滤 | 折纸机失控/滤纸挺度不足 | 面积缩水、压差升高 | 折高在线检测+滤纸挺度 IQC |
-| 6 | 褶间贴合（过密） | 空滤 | 褶距过小 | 有效面积浪费、压差升高 | 褶距/折高比控制+压差抽测 |
-| 7 | PU 密封面气孔 | 空滤/空调滤 | 注胶量不足/发泡不当 | 漏风短路 | 注胶计量+发泡密度控制+气密抽测 |
-| 8 | 活性炭层不均/脱落 | 空调滤 | 复合工艺差 | 吸附失效、掉粉 | 活性炭复合均匀性抽测 |
-| 9 | 水分离失效 | 燃油滤 | 分离层破损 | 水入喷油器 | 水分离效率抽测 |
-| 10 | 滤纸折伤/裂纹 | 全品类 | 折纸刀片磨损/张力过大 | 颗粒穿透、效率骤降 | 折伤目视/视觉检测+刀片维护 |
-| 11 | 壳体锈蚀 | 机滤/燃油滤 | 防腐/镀层不良 | 储运生锈、外观差 | 盐雾试验+防锈油 |
-| 12 | 尺寸超差装不进 | 空滤/空调滤 | 模具/折高失控 | 退货 | 检具 100% 过检 |
+| 1 | End cap debonding / loose media | Oil filter | Insufficient adhesive / under-curing / room-temperature adhesive | Oil short-circuits through the ends, filtration fails | Sufficient plastisol + curing-oven temperature profile + end-peel sampling |
+| 2 | Seal ring aging / swelling | Oil filter / fuel filter | Material not oil-resistant / not temperature-resistant | Oil leakage | High/low-temperature rebound + oil-swelling IQC |
+| 3 | Housing welded-bottom cracking | Oil filter | Welded bottom replacing one-piece drawing | Oil leakage under high-pressure pulsation | One-piece drawn housing + static burst sampling |
+| 4 | Thread deflection / poor accuracy | Oil filter / fuel filter | Poor tapping equipment | Won't screw on / seal deflects | Hydraulic tapping + thread go/no-go gauge 100% |
+| 5 | Uneven pleat height / pleat collapse | Air filter / oil filter | Pleater out of control / insufficient media stiffness | Reduced area, higher differential pressure | Inline pleat-height inspection + media-stiffness IQC |
+| 6 | Inter-pleat sticking (over-dense) | Air filter | Pleat pitch too small | Wasted effective area, higher differential pressure | Pleat pitch/height ratio control + differential-pressure sampling |
+| 7 | PU sealing-surface air holes | Air filter / cabin filter | Insufficient injection volume / improper foaming | Air bypass leakage | Injection metering + foam-density control + leak sampling |
+| 8 | Uneven / falling activated carbon layer | Cabin filter | Poor lamination process | Adsorption failure, powder shedding | Activated-carbon lamination uniformity sampling |
+| 9 | Water separation failure | Fuel filter | Separation layer damaged | Water enters injectors | Water separation efficiency sampling |
+| 10 | Media crease damage / cracks | All categories | Worn pleater blades / excessive tension | Particle penetration, efficiency plunge | Crease visual / vision inspection + blade maintenance |
+| 11 | Housing rust | Oil filter / fuel filter | Poor anti-corrosion / plating | Rust in storage/transport, poor appearance | Salt-spray test + anti-rust oil |
+| 12 | Out-of-tolerance dimensions won't fit | Air filter / cabin filter | Mold / pleat-height out of control | Returns | Gauge 100% pass inspection |
 
-## 二、缺陷的「致命性」分级
+## II. "Fatality" grading of defects
 
-**[编辑观点]** 缺陷要分轻重，采购验收按此分级卡：
+**[Editorial Opinion]** Defects must be graded by severity, and purchasing acceptance checks by this grading:
 
-- **致命缺陷（Critical）**：端盖脱胶、密封圈失效、壳体开裂、螺纹不通、水分离失效、尺寸装不进——**零容忍**，出现即整批拒收；
-- **主要缺陷（Major）**：折高不均、褶间贴合、PU 气孔、折伤——影响性能/寿命，按 AQL 卡；
-- **次要缺陷（Minor）**：外观划伤、印字不清、轻微污渍——按 AQL 放宽卡。
+- **Critical defects**: end cap debonding, seal ring failure, housing cracking, thread failure, water separation failure, dimensions that won't fit — **zero tolerance**; reject the whole batch on occurrence;
+- **Major defects**: uneven pleat height, inter-pleat sticking, PU air holes, crease damage — affect performance/life, check by AQL;
+- **Minor defects**: surface scratches, unclear printing, light stains — check by relaxed AQL.
 
-## 三、劣质滤清器的鉴别要点（深化自源站）
+## III. Key points for identifying inferior filters (deepened from the source site)
 
-**[行业常识 + 编辑观点]** 终端买家/验货员如何快速识别劣质滤：
+**[Industry Knowledge + Editorial Opinion]** How end buyers / inspectors quickly identify inferior filters:
 
-1. **看壳体**：一次拉伸（无缝无焊点）为优，有焊缝/焊点为劣；
-2. **看螺纹**：螺纹规整、拧装顺畅为优，毛刺/偏斜为劣；
-3. **捏密封圈**：高低温回弹好、硬度均匀为优，发硬/发粘/溶胀为劣；
-4. **撕端盖**：滤纸端部牢牢胶住、撕裂时纸体破坏为优，一拉就脱为劣；
-5. **看褶子**：折高均匀、褶间不贴合为优，褶子塌陷/过密为劣；
-6. **查旁通阀/止回阀**：压旁通阀有清晰开启感、止回阀片回弹为优。
+1. **Look at the housing**: one-piece drawn (seamless, no weld points) is good; weld seams / points are inferior;
+2. **Look at the thread**: neat thread with smooth screw-on is good; burrs / deflection are inferior;
+3. **Pinch the seal ring**: good high/low-temperature rebound and uniform hardness is good; hard / sticky / swollen is inferior;
+4. **Tear the end cap**: media ends firmly glued, paper body tearing on separation is good; peeling right off is inferior;
+5. **Look at the pleats**: uniform pleat height, no inter-pleat sticking is good; collapsed / over-dense pleats are inferior;
+6. **Check bypass / anti-drainback valve**: a clear opening feel when pressing the bypass valve and a rebound in the anti-drainback valve are good.
 
-**[编辑观点]** 劣质滤的共同特征，是**把钱省在你看不见的地方**——端盖胶、密封圈材质、壳体成型、旁通阀标定。所以鉴别劣质滤，别信外观，要**拆开看、上手捏、上设备测**。
+**[Editorial Opinion]** The common trait of inferior filters is **saving money in the places you cannot see** — end cap adhesive, seal ring material, housing forming, bypass valve calibration. So to identify inferior filters, don't trust appearance; **open it up, pinch it by hand, and test it on equipment.**
 
 ---
 
-*继续阅读：[出货与出口质检（OQC）](export-inspection.md)*
+*Continue reading: [Export / Outgoing Inspection (OQC)](export-inspection.md)*

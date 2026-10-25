@@ -1,49 +1,49 @@
-# 实验室设备
+# Laboratory Equipment
 
-!!! note "来源性质"
-    本文为编辑原创整合。**[行业常识]** = 行业通用做法；**[框架参考]** = 标准框架介绍；**[编辑观点]** = 研究员原创判断。型号规格以 [data.hycarfilter](https://data.hycarfilter.com) 为准。回链：[主站工厂页](https://hycarfilter.com/factory)。
+!!! note "Source attribution"
+    This article is an editorially original synthesis. **[Industry Knowledge]** = common industry practice; **[Framework Reference]** = standards framework introduction; **[Editorial Opinion]** = researcher's original judgment. Model specifications are subject to [data.hycarfilter](https://data.hycarfilter.com). Backlinks: [main-site factory page](https://hycarfilter.com/factory).
 
-在线检测管「每一只」，实验室管「设计值与型式验证」。实验室设备是工厂技术深度的体现——有独立实验室并能出报告，才谈得上「按标准框架做产品」。
+In-process inspection governs "every unit," while the laboratory governs "design values and type verification." Laboratory equipment reflects a factory's technical depth — only with an independent laboratory that can produce reports can one claim to "make products per the standards framework."
 
-## 一、过滤效率测试台
+## I. Filtration efficiency test bench
 
-**[行业常识]** 按品类分台架：
+**[Industry Knowledge]** Benches are divided by category:
 
-- **空滤效率台**：按 ISO 5011 框架，注入标准粉尘，测上下游浓度，输出效率 + 容灰量 + 压差曲线；
-- **机油滤/燃油滤多次通过台**：按 ISO 4548-12 / ISO 19438 框架，颗粒计数器测各粒径效率（Beta 比值/绝对额定）；
-- **空调滤效率台**：按 HEPA/ISO 16890 框架，测颗粒拦截率。
+- **Air filter efficiency bench**: per the ISO 5011 framework, inject standard dust and measure upstream/downstream concentration, outputting efficiency + dust holding capacity + differential pressure curves;
+- **Oil filter / fuel filter multi-pass bench**: per the ISO 4548-12 / ISO 19438 framework, particle counters measure efficiency at each particle size (Beta ratio / absolute rating);
+- **Cabin filter efficiency bench**: per the HEPA/ISO 16890 framework, measure particle interception rate.
 
-**作用**：验证滤材选型与成品是否达到标称效率档位。
+**Function**: verify media selection and whether finished products meet the nominal efficiency tier.
 
-## 二、容灰量 / 压差测试台
+## II. Dust holding capacity / differential pressure test bench
 
-**[行业常识]** 与效率台联动：持续加灰至终了压差，累计容灰量；同时记录压差随加灰量的增长曲线。这是评价「抗脏/寿命」的核心设备。
+**[Industry Knowledge]** Linked to the efficiency bench: continuously add dust to the terminal differential pressure and accumulate dust holding capacity; simultaneously record the differential-pressure growth curve versus dust loading. This is the core equipment for evaluating "anti-fouling / life."
 
-## 三、静压爆破试验机
+## III. Static burst tester
 
-**[行业常识]** 液压加压至壳体/滤芯破裂，记录爆破压力。用于验证旋装机滤/燃油滤的壳体拉伸、端盖固化、封口强度。属破坏性试验。
+**[Industry Knowledge]** Apply hydraulic pressure until the housing / element ruptures, recording the burst pressure. Used to verify the housing drawing, end cap curing, and seam strength of spin-on oil / fuel filters. A destructive test.
 
-## 四、旁通阀开启压力测试台
+## IV. Bypass valve opening-pressure test bench
 
-**[行业常识]** 专用台架缓慢加压，精确记录旁通阀开启瞬间的压差，验证与标定值的一致性。
+**[Industry Knowledge]** A dedicated bench slowly increases pressure and precisely records the differential pressure at the instant the bypass valve opens, verifying consistency with the calibrated value.
 
-## 五、气密性 / 检漏设备
+## V. Leak-tightness / leak-detection equipment
 
-**[行业常识]** 在线检漏台（差压法/氦检/水检），用于旋装滤与燃油滤的 100% 密封性检验。
+**[Industry Knowledge]** Inline leak-detection benches (differential-pressure method / helium test / water test), used for 100% sealing inspection of spin-on filters and fuel filters.
 
-## 六、材料分析设备
+## VI. Material analysis equipment
 
-**[行业常识]**
+**[Industry Knowledge]**
 
-- **透气仪 / 测厚仪 / 挺度仪**：滤纸物理性能；
-- **邵氏硬度计 / 拉伸试验机**：密封圈硬度、胶料/滤纸强度；
-- **盐雾试验箱**：壳体/金属件防腐；
-- **高低温箱**：密封圈回弹、胶料耐温验证。
+- **Permeability tester / thickness gauge / stiffness tester**: media physical properties;
+- **Shore hardness tester / tensile tester**: seal ring hardness, adhesive/media strength;
+- **Salt-spray chamber**: housing / metal-part anti-corrosion;
+- **High/low-temperature chamber**: seal ring rebound, adhesive temperature-resistance verification.
 
-## 七、实验室的意义：从「测」到「证」
+## VII. The meaning of the laboratory: from "measuring" to "certifying"
 
-**[编辑观点]** 实验室设备的真正价值不在「能测」，而在**「能出可追溯的第三方口径报告」**。出口买家最想要的三样：效率-压差-容灰量曲线、静压爆破报告、旁通阀标定记录。有这三样，采购的「技术信任」才算落地。**验厂看实验室，看的是它能输出什么证据，而不是设备柜里摆了多少台机器。**
+**[Editorial Opinion]** The real value of laboratory equipment is not "being able to measure," but **"being able to produce traceable third-party-basis reports."** The three things export buyers want most: efficiency–differential pressure–dust holding capacity curves, static burst reports, and bypass valve calibration records. With these three, the buyer's "technical trust" is grounded. **When auditing a laboratory, look at what evidence it can output, not how many machines are lined up in the equipment cabinet.**
 
 ---
 
-*继续阅读：[常见质量缺陷与预防](defects-prevention.md)*
+*Continue reading: [Common Quality Defects and Prevention](defects-prevention.md)*

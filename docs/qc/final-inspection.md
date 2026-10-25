@@ -1,51 +1,51 @@
-# 成品全检与抽检（AQL）
+# Final Inspection & Sampling (AQL)
 
-!!! note "来源性质"
-    本文为编辑原创整合。**[行业常识]** = 行业通用做法；**[框架参考]** = AQL 抽样框架介绍；**[编辑观点]** = 研究员原创判断。型号规格以 [data.hycarfilter](https://data.hycarfilter.com) 为准。回链：[data 首页](https://data.hycarfilter.com)。
+!!! note "Source attribution"
+    This article is an editorially original synthesis. **[Industry Knowledge]** = common industry practice; **[Framework Reference]** = AQL sampling framework introduction; **[Editorial Opinion]** = researcher's original judgment. Model specifications are subject to [data.hycarfilter](https://data.hycarfilter.com). Backlinks: [data home](https://data.hycarfilter.com).
 
-成品检验是第三道关，核心问题只有一个：**哪些项目必须 100% 全检，哪些可以按 AQL 抽检？** 分错了，要么漏检致命缺陷，要么成本虚高。
+Finished-product inspection is the third gate, with one core question: **which items must be 100% full-inspected, and which can be sampled by AQL?** Getting the split wrong means either missing fatal defects or inflating cost.
 
-## 一、必须 100% 全检的项目（安全关键）
+## I. Items that must be 100% full-inspected (safety-critical)
 
-**[行业常识]** 以下项目一旦失效就是**漏油/断油/过滤失效**级事故，必须逐只全检：
+**[Industry Knowledge]** Once the following items fail, it is a **leak / oil-starvation / filtration-failure**-grade accident, so every unit must be inspected:
 
-| 项目 | 品类 | 方法 |
+| Item | Category | Method |
 |---|---|---|
-| **气密性** | 旋装机滤、燃油滤 | 在线充气保压/差压检漏，压降超标即剔除 |
-| **螺纹通止** | 旋装机滤/燃油滤 | 通止规 100% 过检 |
-| **密封圈装配** | 旋装滤 | 目视/传感确认到位、无翻转 |
-| **外形尺寸** | 空滤/空调滤（硬尺寸件） | 检具 100% 过检（装不进壳即废） |
+| **Leak-tightness** | Spin-on oil filter, fuel filter | Inline pressurize-and-hold / differential-pressure leak detection; reject on excessive pressure drop |
+| **Thread go/no-go** | Spin-on oil filter / fuel filter | Go/no-go gauge 100% pass inspection |
+| **Seal ring assembly** | Spin-on filter | Visual / sensor confirmation of proper seating, no flipping |
+| **Outer dimensions** | Air / cabin filter (hard-dimension parts) | Gauge 100% pass inspection (scrap if it won't fit the housing) |
 
-**[行业常识]** 旋装机滤的「100% 气密性测试」是行业铁律——因为泄漏不可目视、后果致命，无法靠抽检兜底。这也是源站「优质机滤 vs 劣质机滤」对比中反复强调的一条（100% 气密性）。
+**[Industry Knowledge]** The "100% leak-tightness test" of spin-on oil filters is an iron rule of the industry — because leakage cannot be seen visually and the consequence is fatal, it cannot be covered by sampling. This is also a point repeatedly emphasized in the source site's "quality oil filter vs. inferior oil filter" comparison (100% leak-tightness).
 
-## 二、按 AQL 抽检的项目（非破坏、可接受微量缺陷）
+## II. Items sampled by AQL (non-destructive, acceptable trace defects)
 
-**[框架参考]** AQL（Acceptable Quality Limit，可接受质量限）框架（ISO 2859 / GB/T 2828）按**批量大小 → 检验水平 → AQL 值**确定样本量 n 与允收/拒收数 Ac/Re。典型应用：
+**[Framework Reference]** The AQL (Acceptable Quality Limit) framework (ISO 2859 / GB/T 2828) determines sample size n and accept/reject numbers Ac/Re according to **lot size → inspection level → AQL value**. Typical applications:
 
-| 项目 | AQL 档（参考） | 说明 |
+| Item | AQL tier (reference) | Description |
 |---|---|---|
-| 外观缺陷（划伤/污渍/印字） | AQL 1.0–2.5 | 次要缺陷 |
-| 尺寸（非关键） | AQL 1.0 | 功能尺寸 |
-| 包装/标签 | AQL 1.5–4.0 | 装箱、标签正确性 |
+| Appearance defects (scratches / stains / printing) | AQL 1.0–2.5 | Minor defects |
+| Dimensions (non-critical) | AQL 1.0 | Functional dimensions |
+| Packaging / labels | AQL 1.5–4.0 | Packing, label correctness |
 
-**[编辑观点]** AQL 不是「允许一定比例次品流入客户」的借口，而是**抽样验收的统计语言**：AQL 1.0 意味着按该方案抽样，整批「可接受质量限」为 1%。采购者与供应商约定验收时，必须**同时约定 AQL 值、检验水平、缺陷分级（致命/主要/次要）**，否则「抽检」二字是空话。
+**[Editorial Opinion]** AQL is not an excuse to "allow a certain proportion of defective goods into the customer's hands," but the **statistical language of sampling acceptance**: AQL 1.0 means that under that sampling plan, the whole lot's "acceptable quality limit" is 1%. When buyer and supplier agree on acceptance, they must **simultaneously agree on the AQL value, inspection level, and defect grading (critical / major / minor)**; otherwise "sampling" is an empty word.
 
-## 三、破坏性试验的成品抽测
+## III. Sampling of destructive tests on finished products
 
-**[行业常识]** 破坏性项目无法全检，按**频次/批次抽测**：
+**[Industry Knowledge]** Destructive items cannot be full-inspected; they are sampled **by frequency / batch**:
 
-- 静压爆破：首件 + 定时抽测；
-- 过滤效率/容灰量：按批次抽样送实验室（周期长，见 [实验室设备](lab-equipment.md)）；
-- 旁通阀开启压力：批次抽测。
+- Static burst: first article + periodic sampling;
+- Filtration efficiency / dust holding capacity: sampled by batch and sent to the laboratory (long cycle, see [Laboratory Equipment](lab-equipment.md));
+- Bypass valve opening pressure: batch sampling.
 
-## 四、全检 + 抽检的组合逻辑
+## IV. The combination logic of full inspection + sampling
 
-**[行业常识]** 成熟方案是「**安全关键项 100% 全检 + 外观/次要项 AQL 抽检 + 破坏性项批次抽测**」三层叠加。三者缺一不可：只全检不抽检 → 成本失控、外观次品漏出；只抽检不全检 → 致命泄漏漏检。
+**[Industry Knowledge]** The mature scheme is a three-layer stack of "**safety-critical items 100% full-inspected + appearance/minor items AQL-sampled + destructive items batch-sampled**." All three are indispensable: full inspection without sampling → cost out of control and appearance defects slip through; sampling without full inspection → fatal leaks are missed.
 
-## 编辑观点
+## Editorial view
 
-**[编辑观点]** 采购验厂时问一句「你们的成品检验，哪些全检、哪些抽检、AQL 多少、缺陷怎么分级」，比问「你们有没有质检」有用一百倍。**能说清全检/抽检边界和 AQL 值的工厂，才真正把质量控制当系统在跑。**
+**[Editorial Opinion]** During a factory audit, asking "of your finished-product inspection, which items are full-inspected, which are sampled, what is the AQL, and how are defects graded" is a hundred times more useful than asking "do you have quality control." **A factory that can state the full-inspection/sampling boundary and the AQL value is one that truly runs quality control as a system.**
 
 ---
 
-*继续阅读：[实验室设备](lab-equipment.md)*
+*Continue reading: [Laboratory Equipment](lab-equipment.md)*

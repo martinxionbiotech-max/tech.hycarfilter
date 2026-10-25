@@ -1,44 +1,44 @@
-# 机油滤关键参数
+# Oil Filter Key Parameters
 
-!!! note "来源性质"
-    本文为编辑原创整合。**[行业常识]** = 行业通用做法；**[框架参考]** = 标准框架介绍；**[编辑观点]** = 研究员原创判断。型号规格以 [data.hycarfilter](https://data.hycarfilter.com) 为准。回链：[data 机油滤品类](https://data.hycarfilter.com/products/oil-filter/)。
+!!! note "Source attribution"
+    This article is an editorially original synthesis. **[Industry Knowledge]** = common industry practice; **[Framework Reference]** = standards framework introduction; **[Editorial Opinion]** = researcher's original judgment. Model specifications are subject to [data.hycarfilter](https://data.hycarfilter.com). Backlinks: [data oil filter category](https://data.hycarfilter.com/products/oil-filter/).
 
-机油滤在高温、高压、脉动油流下工作，还要在冷启动瞬间保住油压。它的参数比其他品类更「危险敏感」——一个参数失守就可能断油或漏油。本节拆解机滤关键参数。
+The oil filter works under high temperature, high pressure, and pulsating oil flow, and must also hold oil pressure during cold-start moments. Its parameters are more "danger-sensitive" than other categories — a single parameter failure can cause oil starvation or leakage. This section breaks down the key parameters of the oil filter.
 
-## 一、参数清单
+## I. Parameter list
 
-| 参数 | 定义 | 本站同值（data） |
+| Parameter | Definition | Same value on this site (data) |
 |---|---|---|
-| 过滤效率 | 对 20 µm 颗粒的拦截率（绝对额定） | `hy-of-spinon`/`hy-of-cartridge` >=90% @ 20um · `hy-of-hd`/`hy-of-longlife` >=95% @ 20um |
-| 螺纹规格 | 与油底壳接头的配合螺纹 | `hy-of-spinon` 3/4-16 UNF · `hy-of-hd` 1-12 UNF · `hy-of-longlife` 3/4-16 UNF |
-| 旁通阀开启压力 | 压差达此值时旁通阀开启 | 数据以 data 站为准（标定参数） |
-| 止回阀 | 停机防机油倒流 | 旋装机滤均配置 |
-| 爆裂压力 | 壳体/滤芯耐压极限 | 框架试验项目 |
-| 密封圈 | 接合面密封 | NBR（high/low temp resilient） |
-| 外形 | 高 × 外径 | `hy-of-spinon` Ø76×90 · `hy-of-hd` Ø118×210 |
+| Filtration efficiency | Interception rate of 20 µm particles (absolute rating) | `hy-of-spinon`/`hy-of-cartridge` >=90% @ 20um · `hy-of-hd`/`hy-of-longlife` >=95% @ 20um |
+| Thread specification | Thread mating with the oil-pan fitting | `hy-of-spinon` 3/4-16 UNF · `hy-of-hd` 1-12 UNF · `hy-of-longlife` 3/4-16 UNF |
+| Bypass valve opening pressure | Differential pressure at which the bypass valve opens | Data is subject to the data site (calibrated parameter) |
+| Anti-drainback valve | Prevents oil backflow when the engine is stopped | All spin-on oil filters are equipped |
+| Burst pressure | Pressure-resistance limit of housing / element | Framework test item |
+| Seal ring | Mating-surface seal | NBR (high/low temp resilient) |
+| Outer dimensions | Height × outer diameter | `hy-of-spinon` Ø76×90 · `hy-of-hd` Ø118×210 |
 
-## 二、测量方法
+## II. Measurement methods
 
-**[框架参考]** 按 ISO 4548 框架：
+**[Framework Reference]** Per the ISO 4548 framework:
 
-1. **效率**：ISO 4548-12 多次通过法，注入标准粉尘，颗粒计数得各粒径效率（本站取 20 µm 档）；
-2. **旁通阀**：专用台架缓慢加压，记录旁通阀开启瞬间的压差，验证开启压力标定；
-3. **静压爆破**：封堵出油口，液压加压至壳体/滤芯破裂，记录爆破压力；
-4. **止回阀**：倒置测泄漏量，验证回弹密封。
+1. **Efficiency**: ISO 4548-12 multi-pass method, injecting standard dust and particle-counting to obtain efficiency at each particle size (this site uses the 20 µm tier);
+2. **Bypass valve**: a dedicated bench slowly increases pressure and records the differential pressure at the instant the bypass valve opens, verifying the calibrated opening pressure;
+3. **Static burst**: plug the oil outlet and apply hydraulic pressure until the housing/element ruptures, recording the burst pressure;
+4. **Anti-drainback valve**: invert and measure leakage to verify rebound sealing.
 
-## 三、参数对性能的影响
+## III. Impact of parameters on performance
 
-**[行业常识]**
+**[Industry Knowledge]**
 
-- **效率 vs 机油压差**：机滤在机油主油道上，阻力过高会推高旁通阀开启频率、影响油压建立；故机滤精度不会像燃油滤那样细（20 µm 档而非 10 µm 档），这是**工况决定的取舍**；
-- **旁通阀开启压力**：标定过高 → 冷启动高粘油时断油风险；标定过低 → 平时过滤被旁路。必须与车型油泵特性匹配；
-- **止回阀**：回弹差 → 停机机油倒流 → 下次启动油压建立慢，冷启动磨损加剧；
-- **爆裂压力**：体现壳体（一次拉伸）与端盖粘接的强度冗余，是安全底线。
+- **Efficiency vs oil differential pressure**: the oil filter sits on the main oil gallery; excessive restriction raises bypass valve opening frequency and affects oil-pressure buildup. Therefore oil filter precision is not as fine as fuel filters (20 µm tier rather than 10 µm tier) — this is a **trade-off determined by operating conditions**;
+- **Bypass valve opening pressure**: calibrated too high → risk of oil starvation with high-viscosity oil during cold start; calibrated too low → normal filtration is bypassed. It must match the vehicle's oil-pump characteristics;
+- **Anti-drainback valve**: poor rebound → oil backflow when stopped → slow oil-pressure buildup on next start, aggravating cold-start wear;
+- **Burst pressure**: reflects the strength margin of the housing (one-piece drawn) and end cap bonding — a safety bottom line.
 
-## 四、编辑观点：机滤是「阀件」而不只是「滤件」
+## IV. Editorial view: the oil filter is a "valve assembly," not just a "filter element"
 
-**[编辑观点]** 很多采购者只盯着机滤的「过滤效率」，却忽略机滤里藏着**旁通阀 + 止回阀两套阀件**。这两个阀才是机滤区别于空滤/空调滤的本质——它们决定**油路在极端时刻的安全**。一只机滤即使滤纸一般，阀件可靠也能保命；滤纸再好，旁通阀卡死也可能断油。**评估机滤，先看阀，再看纸。**
+**[Editorial Opinion]** Many buyers focus only on the oil filter's "filtration efficiency," overlooking that the oil filter conceals **two valve assemblies: the bypass valve + the anti-drainback valve**. These two valves are what essentially distinguish the oil filter from air/cabin filters — they determine **the safety of the oil circuit at extreme moments**. Even if an oil filter has mediocre media, reliable valves can save it; no matter how good the media, a stuck bypass valve can still cause oil starvation. **When evaluating an oil filter, look at the valves first, then the media.**
 
 ---
 
-*继续阅读：[燃油滤关键参数](fuel-filter-params.md)*
+*Continue reading: [Fuel Filter Key Parameters](fuel-filter-params.md)*

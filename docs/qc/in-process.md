@@ -1,38 +1,38 @@
-# 在线检测（IPQC）
+# In-Process Inspection (IPQC)
 
-!!! note "来源性质"
-    本文为编辑原创整合。**[行业常识]** = 行业通用做法；**[框架参考]** = 标准框架介绍；**[编辑观点]** = 研究员原创判断。型号规格以 [data.hycarfilter](https://data.hycarfilter.com) 为准。
+!!! note "Source attribution"
+    This article is an editorially original synthesis. **[Industry Knowledge]** = common industry practice; **[Framework Reference]** = standards framework introduction; **[Editorial Opinion]** = researcher's original judgment. Model specifications are subject to [data.hycarfilter](https://data.hycarfilter.com).
 
-在线检测（In-Process Quality Control，IPQC）是第二道关——在**生产过程中**及时发现并拦截缺陷，避免缺陷流入成品。核心思路是「把质量做进工序里」，而非「做完再挑废品」。
+In-Process Quality Control (IPQC) is the second gate — detecting and intercepting defects **during production** to prevent them from flowing into finished products. The core idea is "building quality into the process," rather than "picking out scrap after the fact."
 
-## 一、折高 / 褶距在线检测
+## I. Pleat-height / pleat-pitch in-process inspection
 
-**[行业常识]** 折纸工序的在线控制点：
+**[Industry Knowledge]** In-process control points of the pleating step:
 
-- **折高检测**：激光/视觉在线测量折高，超差即报警停线或剔除。折高偏差是空滤「装不进壳」或「漏风短路」的直接原因；
-- **褶距/褶数**：编码器计数褶数，视觉检测褶距均匀性；
-- **折伤检测**：目视/视觉识别折尖破损、滤纸裂纹。
+- **Pleat-height detection**: laser / vision in-process measurement of pleat height; on out-of-tolerance, alarm and stop the line or reject. Pleat-height deviation is the direct cause of air filters "not fitting the housing" or "air bypass leakage";
+- **Pleat pitch / pleat count**: an encoder counts pleats, and vision detects pleat-pitch uniformity;
+- **Crease-damage detection**: visual / vision identification of broken pleat tips and media cracks.
 
-## 二、密封性在线检测
+## II. In-process leak-tightness inspection
 
-**[行业常识]** 旋装机滤/燃油滤在总装后做**在线 100% 气密测试**（见 [成品全检](final-inspection.md) 详述）。在线检漏的价值在于：端盖粘接、壳体封口、密封圈装配的泄漏**当场暴露**，无需等到成品下线才发现批次性问题。
+**[Industry Knowledge]** Spin-on oil filters / fuel filters undergo **inline 100% leak-tightness testing** after final assembly (see [Final Inspection](final-inspection.md) for details). The value of inline leak detection is that end cap bonding, housing sealing, and seal ring assembly leaks are **exposed on the spot**, without waiting until finished products are off the line to discover batch problems.
 
-## 三、爆裂压力抽测
+## III. Burst-pressure sampling
 
-**[行业常识]** 静压爆破是破坏性试验，无法 100% 做，故采用**在线定时抽测**（如每 30 分钟/每班首件）：抽取刚下线的滤清器，液压加压至破裂，记录爆裂压力，验证壳体拉伸、端盖固化、封口卷边的强度是否稳定。首件必检 + 定时抽测是机滤线的标准动作。
+**[Industry Knowledge]** Static burst is a destructive test and cannot be done 100%, so **inline periodic sampling** is used (e.g. every 30 minutes / first article per shift): take a just-off-line filter, apply hydraulic pressure until rupture, record the burst pressure, and verify the stability of housing drawing, end cap curing, and seam crimping strength. First-article + periodic sampling is the standard action of an oil filter line.
 
-## 四、旁通阀开启压力标定抽测
+## IV. Bypass valve opening-pressure calibration sampling
 
-**[行业常识]** 旁通阀开启压力是关键安全参数，在线按频次抽测：用专用台架缓慢加压，验证开启瞬间压差落在标定范围。发现漂移即追溯该批次旁通阀装配。
+**[Industry Knowledge]** Bypass valve opening pressure is a key safety parameter, sampled in-process by frequency: a dedicated bench slowly increases pressure to verify that the opening-instant differential pressure falls within the calibrated range. On detecting drift, trace the bypass valve assembly of that batch.
 
-## 五、过程能力监控（SPC）
+## V. Process capability monitoring (SPC)
 
-**[行业常识]** 对关键计量参数（折高、壁厚、螺纹尺寸、密封圈硬度）做**统计过程控制（SPC）**：连续采样绘制控制图（X̄-R 图），一旦超出控制限即触发干预。SPC 的价值是**在缺陷产生前预警趋势漂移**，而不是等废品出现再返工。
+**[Industry Knowledge]** For key measurable parameters (pleat height, wall thickness, thread dimensions, seal ring hardness), perform **statistical process control (SPC)**: continuous sampling to plot control charts (X̄-R chart), triggering intervention once out of control limits. The value of SPC is **warning of trend drift before defects arise**, rather than reworking after scrap appears.
 
-## 编辑观点
+## Editorial view
 
-**[编辑观点]** IPQC 的成熟度，看「在线 vs 离线」「全检 vs 抽检」的边界设置是否合理：该 100% 的（密封性）必须在线全检，破坏性的（爆裂）只能定时抽测，关键安全参数（旁通阀）要首件+定时。**把全检用在刀刃上、把抽测留给破坏性项目，这是工艺工程师的基本功。**
+**[Editorial Opinion]** The maturity of IPQC is judged by whether the boundary settings of "inline vs. offline" and "full inspection vs. sampling" are reasonable: what must be 100% (leak-tightness) must be inline full-inspected, what is destructive (burst) can only be periodic-sampled, and key safety parameters (bypass valve) need first-article + periodic. **Putting full inspection on the cutting edge and leaving sampling for destructive items is the basic skill of a process engineer.**
 
 ---
 
-*继续阅读：[成品全检与抽检（AQL）](final-inspection.md)*
+*Continue reading: [Final Inspection & Sampling (AQL)](final-inspection.md)*

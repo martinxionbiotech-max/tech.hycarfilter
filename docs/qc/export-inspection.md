@@ -1,55 +1,55 @@
-# 出货与出口质检（OQC）
+# Export / Outgoing Inspection (OQC)
 
-!!! note "来源性质"
-    本文为编辑原创整合。**[行业常识]** = 行业通用做法；**[框架参考]** = 标准框架介绍；**[编辑观点]** = 研究员原创判断。型号规格以 [data.hycarfilter](https://data.hycarfilter.com) 为准。回链：[data 出口装箱](https://data.hycarfilter.com/crossref/export-packing/)。
+!!! note "Source attribution"
+    This article is an editorially original synthesis. **[Industry Knowledge]** = common industry practice; **[Framework Reference]** = standards framework introduction; **[Editorial Opinion]** = researcher's original judgment. Model specifications are subject to [data.hycarfilter](https://data.hycarfilter.com). Backlinks: [data export packing](https://data.hycarfilter.com/crossref/export-packing/).
 
-出货质检（Outgoing Quality Control，OQC）是最后一道关，对出口订单尤其重要——**货一旦离港，任何质量/包装/单据问题都变成跨国索赔**。本节拆解出口质检要点。
+Outgoing Quality Control (OQC) is the last gate, and is especially important for export orders — **once the goods leave port, any quality / packaging / document problem becomes a cross-border claim**. This section breaks down the key points of export inspection.
 
-## 一、出货前的成品复核
+## I. Pre-shipment finished-product recheck
 
-**[行业常识]** 出货检验不是重复产线质检，而是从「客户视角」做最终把关：
+**[Industry Knowledge]** Outgoing inspection is not a repeat of the production-line quality check, but a final check from the "customer's perspective":
 
-1. **数量与规格核对**：按 PO（采购订单）核对型号、数量、规格——发错型号是出口高频事故；
-2. **关键安全项抽复**：抽检气密、螺纹、尺寸，确认批次一致；
-3. **外观终检**：抽检外观、印字、标签语言是否正确（多语标签错发是常见退货原因）。
+1. **Quantity and spec verification**: check model, quantity, and spec against the PO (purchase order) — shipping the wrong model is a high-frequency export accident;
+2. **Key safety-item sampling recheck**: sample-check leak-tightness, thread, and dimensions to confirm batch consistency;
+3. **Appearance final check**: sample-check appearance, printing, and whether the label language is correct (wrong multi-language label shipping is a common return reason).
 
-## 二、出口质检的差异化要点
+## II. Differentiated points of export inspection
 
-**[编辑观点]** 出口与内销的质检差异，集中在**标准与合规**：
+**[Editorial Opinion]** The difference between export and domestic inspection centers on **standards and compliance**:
 
-| 维度 | 出口要点 |
+| Dimension | Export points |
 |---|---|
-| 认证文件 | 按目标市场核查 CE/RoHS/EAC/GCC 等**框架文件齐备**（见 [出口市场标准差异](../standards/export-market-diff.md)），不声称持有、但须有对应测试报告支撑 |
-| 标签/铭牌 | 目标国语言、单位制（公制/英制）、法规标识 |
-| 包装防潮 | 海运高湿，滤纸/金属件需防潮（见下） |
-| 托盘/装箱 | 按 data 站出口装箱数据核对装箱量、托盘规格 |
-| HS 编码 | 报关 HS 码正确（空滤/空调滤 8421310000 · 机滤/燃油滤 8421230000 · 雨刮 8512400000 · 变速箱滤网 8708409990 · LED 8512209000，同 data 站） |
+| Certification documents | Verify per target market that **framework documents** for CE/RoHS/EAC/GCC etc. are complete (see [Export Market Standards Differences](../standards/export-market-diff.md)); not claiming to hold them, but must have corresponding test reports to support |
+| Label / nameplate | Target-country language, unit system (metric/imperial), regulatory markings |
+| Moisture-proof packaging | Sea transport is high-humidity; media / metal parts need moisture protection (see below) |
+| Pallet / packing | Verify packing quantity and pallet spec against the data site's export packing data |
+| HS code | Correct customs HS code (air/cabin filters 8421310000 · oil/fuel filters 8421230000 · wiper blades 8512400000 · transmission filter screens 8708409990 · LED 8512209000, same as the data site) |
 
-## 三、包装与防潮（出口重点）
+## III. Packaging and moisture protection (export focus)
 
-**[行业常识]** 滤清器出口最怕**海运受潮**：
+**[Industry Knowledge]** The biggest fear in filter export is **moisture from sea transport**:
 
-- 滤纸受潮 → 强度下降、霉变、效率漂移；
-- 金属壳体受潮 → 生锈。
+- Media gets damp → strength drops, mold grows, efficiency drifts;
+- Metal housings get damp → rust.
 
-**防潮手段**：
+**Moisture-protection measures**:
 
-1. **防潮袋/气相防锈**：滤纸件用防潮膜袋，金属件配气相防锈纸（VCI）；
-2. **干燥剂**：外箱内置硅胶干燥剂；
-3. **外箱材质**：5-ply / double-wall 出口瓦楞箱（与 data 站包装字段一致）；
-4. **托盘防潮**：托盘加隔潮层，避免底层箱直接接触地面/舱底。
+1. **Moisture-proof bag / vapor-phase corrosion inhibition**: media parts use moisture-barrier film bags, metal parts use VCI (vapor corrosion inhibitor) paper;
+2. **Desiccant**: silica-gel desiccant inside the outer carton;
+3. **Outer carton material**: 5-ply / double-wall export corrugated carton (consistent with the data site's packaging field);
+4. **Pallet moisture barrier**: add a moisture-barrier layer to the pallet to avoid bottom cartons contacting the floor / hold bottom directly.
 
-## 四、装柜前检查与出货文件
+## IV. Pre-loading check and shipping documents
 
-**[行业常识]**
+**[Industry Knowledge]**
 
-1. **装柜检查**：核对装箱清单、集装箱封条、唛头（shipping mark）一致；
-2. **出货文件**：商业发票、装箱单、提单、原产地证、认证文件副本、检测报告（效率/爆裂/旁通阀）随货或随单。
+1. **Container loading check**: verify the packing list, container seal, and shipping mark are consistent;
+2. **Shipping documents**: commercial invoice, packing list, bill of lading, certificate of origin, certification document copies, and test reports (efficiency / burst / bypass valve) accompany the goods or the documents.
 
-## 五、编辑观点：OQC 的本质是「把客户风险挡在离港前」
+## V. Editorial view: the essence of OQC is "keeping customer risk out before departure"
 
-**[编辑观点]** 出口质检的终极目标不是「挑出次品」，而是**「离港前把所有能在厂内解决的问题解决掉」**——发错型号、标签语种、包装防潮、单据齐备，这些都不是产品质量问题，却是出口退货/索赔的主因。**一只滤清器再完美，装错货柜、贴错标签、受潮生锈，在客户眼里都是次品。**
+**[Editorial Opinion]** The ultimate goal of export inspection is not "picking out defective goods," but **"solving everything that can be solved in the factory before departure"** — wrong model shipped, label language, packaging moisture protection, complete documents. These are not product-quality problems, yet they are the main causes of export returns and claims. **No matter how perfect a filter is, if it's loaded in the wrong container, mislabeled, or damp and rusted, it is defective in the customer's eyes.**
 
 ---
 
-*检测与质量控制板块到此结束，下一板块：[行业标准](../standards/iso-sae.md)*
+*This is the end of the Testing & Quality Control section; next section: [Industry Standards](../standards/iso-sae.md)*

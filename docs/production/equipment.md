@@ -1,79 +1,79 @@
-# 生产线设备
+# Production-Line Equipment
 
-!!! note "来源性质"
-    本文为编辑原创整合。**[行业常识]** = 行业通用做法；**[框架参考]** = 标准框架介绍；**[编辑观点]** = 研究员原创判断。型号规格以 [data.hycarfilter](https://data.hycarfilter.com) 为准。回链：[主站工厂页](https://hycarfilter.com/factory)。
+!!! note "Source attribution"
+    This article is an editorially original synthesis. **[Industry Knowledge]** = common industry practice; **[Framework Reference]** = standards framework introduction; **[Editorial Opinion]** = researcher's original judgment. Model specifications are subject to [data.hycarfilter](https://data.hycarfilter.com). Backlinks: [main-site factory page](https://hycarfilter.com/factory).
 
-设备决定工艺上限。本节按工序梳理滤清器生产线的主要设备，说明每台设备「干什么、决定什么质量、验厂时看什么」。
+Equipment determines the ceiling of the process. This section organizes the main equipment of a filter production line by process step, explaining what each machine "does, what quality it determines, and what to look for during a factory audit."
 
-## 一、折纸机（pleater）
+## I. Pleater
 
-**[行业常识]**
+**[Industry Knowledge]**
 
-- **刀片式折纸机**：板式空滤/空调滤直板褶，控制折高与褶距，产能高。
-- **旋转式折纸机**：圆筒芯/旋装芯星形褶，控制褶数与卷绕密度。
+- **Blade pleater**: straight pleats for panel air/cabin filters, controlling pleat height and pleat pitch, high output.
+- **Rotary pleater**: star pleats for round-core / spin-on elements, controlling pleat count and winding density.
 
-**决定质量**：折高均匀性、褶距一致性、滤纸折伤率。
+**Quality determined**: pleat-height uniformity, pleat-pitch consistency, media crease-damage rate.
 
-**验厂看点**：折纸机的**折高自动检测/纠偏**能力，决定能否连续稳定出褶。
+**Factory-audit focus**: the pleater's **automatic pleat-height detection / correction** capability, which determines whether it can continuously and stably produce pleats.
 
-## 二、PU 发泡机 / 注胶机（PU foaming / dispensing）
+## II. PU foaming / dispensing machine
 
-**[行业常识]** 空滤、空调滤的 PU 边框/端盖一体化成型设备。双组分 PU 按比例计量、混合、注胶入模，发泡固化成型。
+**[Industry Knowledge]** One-piece forming equipment for the PU frame / end caps of air and cabin filters. Two-component PU is metered, mixed, and injected into the mold in proportion, then foamed and cured.
 
-**决定质量**：注胶量精度、发泡密度均匀性、密封面无气孔。
+**Quality determined**: injection-volume accuracy, foam-density uniformity, absence of air holes on the sealing surface.
 
-**验厂看点**：是否有**计量精度与温度控制**（PU 对配比与温度敏感）。
+**Factory-audit focus**: whether it has **metering accuracy and temperature control** (PU is sensitive to mixing ratio and temperature).
 
-## 三、固化炉（curing oven）
+## III. Curing oven
 
-**[行业常识]** 隧道式连续固化炉，用于端盖塑溶胶/PU 固化，分区控温。
+**[Industry Knowledge]** Tunnel continuous curing oven, used for end cap plastisol / PU curing, with zone temperature control.
 
-**决定质量**：粘接强度、滤纸是否过烤脆化。
+**Quality determined**: bond strength, whether the media is over-baked and embrittled.
 
-**验厂看点**：温度曲线记录与炉内停留时间的可追溯性。
+**Factory-audit focus**: traceability of the temperature-profile record and in-oven residence time.
 
-## 四、拉伸机 / 液压攻丝机（drawing / tapping）
+## IV. Drawing / hydraulic tapping machine
 
-**[行业常识]** 旋装机滤壳体的钢板拉伸成型与螺纹攻丝。
+**[Industry Knowledge]** Steel-plate drawing and thread tapping of the spin-on oil filter housing.
 
-- **拉伸机**：多道拉伸成型，决定壳体壁厚均匀与耐压。
-- **液压攻丝机**：精确攻出底螺纹，决定拧装垂直度与密封。
+- **Drawing machine**: multi-stage drawing forming, determining housing wall-thickness uniformity and pressure resistance.
+- **Hydraulic tapping machine**: precisely taps the base thread, determining screw-on verticality and sealing.
 
-**验厂看点**：壳体是否一次拉伸、螺纹精度检测手段。
+**Factory-audit focus**: whether the housing is one-piece drawn, and the thread-precision inspection method.
 
-## 五、检漏台 / 气密性测试台（leak test）
+## V. Leak test bench / leak-tightness test bench
 
-**[行业常识]** 旋装机滤、燃油滤成品 100% 气密/水密检测。常见两种：
+**[Industry Knowledge]** Spin-on oil filters and fuel filters undergo 100% leak-tightness / water-tightness testing of finished products. Two common methods:
 
-- **气密测试**：充气保压，测压降判定泄漏；
-- **水检/差压检漏**：浸水或差压法定位泄漏点。
+- **Leak-tightness test**: pressurize and hold, measuring pressure drop to judge leakage;
+- **Water test / differential-pressure leak test**: immersion or differential-pressure method to locate the leak point.
 
-**决定质量**：杜绝成品泄漏出厂（这是「100% 全检」而非抽检的品类，见 [成品全检](../qc/final-inspection.md)）。
+**Quality determined**: preventing finished products with leaks from leaving the factory (this is a "100% full inspection" rather than sampling category — see [Final Inspection](../qc/final-inspection.md)).
 
-**验厂看点**：检漏台是否**在线串联**（每只必过），还是离线抽检。
+**Factory-audit focus**: whether the leak bench is **inline (every unit must pass)** or offline sampling.
 
-## 六、实验室检测设备（见实验室设备专页）
+## VI. Laboratory testing equipment (see the dedicated laboratory equipment page)
 
-效率测试台、容灰量测试台、静压爆破试验机、旁通阀开启压力测试台等，详见 [实验室设备](../qc/lab-equipment.md)。
+Efficiency test bench, dust holding capacity test bench, static burst tester, bypass valve opening pressure test bench, etc. See [Laboratory Equipment](../qc/lab-equipment.md) for details.
 
-## 设备与品类的对应
+## Equipment–category correspondence
 
-| 设备 | 空滤 | 空调滤 | 机滤 | 燃油滤 | 变速箱滤网 | 雨刮 | LED |
+| Equipment | Air filter | Cabin filter | Oil filter | Fuel filter | Transmission filter screen | Wiper blade | LED |
 |---|---|---|---|---|---|---|---|
-| 刀片折纸机 | ✔ | ✔ | — | 部分 | — | — | — |
-| 旋转折纸机 | 圆筒 | — | ✔ | ✔ | — | — | — |
-| PU 发泡机 | ✔ | ✔ | — | — | — | — | — |
-| 固化炉 | ✔ | ✔ | ✔ | ✔ | — | — | — |
-| 拉伸/攻丝 | — | — | ✔ | ✔ | — | — | — |
-| 检漏台 | — | — | ✔ | ✔ | — | — | — |
-| 注塑/网成型 | — | — | — | — | ✔ | — | — |
-| 胶条挤出/涂层 | — | — | — | — | — | ✔ | — |
-| SMT 贴装 | — | — | — | — | — | — | ✔ |
+| Blade pleater | ✔ | ✔ | — | partial | — | — | — |
+| Rotary pleater | round | — | ✔ | ✔ | — | — | — |
+| PU foaming machine | ✔ | ✔ | — | — | — | — | — |
+| Curing oven | ✔ | ✔ | ✔ | ✔ | — | — | — |
+| Drawing / tapping | — | — | ✔ | ✔ | — | — | — |
+| Leak test bench | — | — | ✔ | ✔ | — | — | — |
+| Injection / mesh forming | — | — | — | — | ✔ | — | — |
+| Strip extrusion / coating | — | — | — | — | — | ✔ | — |
+| SMT mounting | — | — | — | — | — | — | ✔ |
 
-## 编辑观点
+## Editorial view
 
-**[编辑观点]** 验厂看设备，别数台数，看**「关键质量点是否有对应设备闭环」**：有检漏台说明重视泄漏，有气密在线串联说明做全检，有固化炉温度记录说明过程可追溯。一台孤零零的折纸机加一堆手工装配，撑不起稳定出口的旋装机滤。**设备是过程能力的物证。**
+**[Editorial Opinion]** When auditing equipment, don't count machines; look at **whether key quality points have a closed-loop of corresponding equipment**: a leak bench shows attention to leakage, an inline leak-tightness line shows full inspection, and curing-oven temperature records show process traceability. A lone pleater plus a pile of manual assembly cannot sustain stable export of spin-on oil filters. **Equipment is the physical evidence of process capability.**
 
 ---
 
-*生产工艺板块到此结束，下一板块：[技术参数](../parameters/efficiency-grading.md)*
+*This is the end of the Production Process section; next section: [Technical Parameters](../parameters/efficiency-grading.md)*

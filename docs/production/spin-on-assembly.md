@@ -1,51 +1,51 @@
-# 机滤旋装总装线（Spin-On Assembly）
+# Spin-On Oil Filter Assembly Line (Spin-On Assembly)
 
-!!! note "来源性质"
-    本文为编辑原创整合。**[行业常识]** = 行业通用做法；**[框架参考]** = 标准框架介绍；**[编辑观点]** = 研究员原创判断。型号规格以 [data.hycarfilter](https://data.hycarfilter.com) 为准。回链：[data 机油滤品类](https://data.hycarfilter.com/products/oil-filter/) · [主站产品](https://hycarfilter.com/products/oil-filter)。
+!!! note "Source attribution"
+    This article is an editorially original synthesis. **[Industry Knowledge]** = common industry practice; **[Framework Reference]** = standards framework introduction; **[Editorial Opinion]** = researcher's original judgment. Model specifications are subject to [data.hycarfilter](https://data.hycarfilter.com). Backlinks: [data oil filter category](https://data.hycarfilter.com/products/oil-filter/) · [main-site product](https://hycarfilter.com/products/oil-filter).
 
-旋装式机油滤（spin-on）是结构最完整、工序最多的滤清器品类，也是「好滤 vs 劣滤」差异最集中的品类。它把**壳体、滤芯、止回阀、旁通阀、密封圈、螺纹**整合进一个可旋装更换的金属罐体。本节按总装线工序逐段拆解。
+The spin-on oil filter is the most complete in structure and the most step-intensive filter category, and also where the "good filter vs. inferior filter" differences concentrate most. It integrates **housing, element, anti-drainback valve, bypass valve, seal ring, and thread** into a single screw-on replaceable metal can. This section breaks down the assembly line step by step.
 
-## 一、壳体成型：钢壳一次拉伸
+## I. Housing forming: one-piece drawn steel shell
 
-**[行业常识]** 旋装机滤的钢壳（housing）由钢板**一次拉伸（one-piece drawn）**成型——整块钢板经多道拉伸模具拉成带底的罐体，底部一体无缝。本站 `hy-of-spinon`、`hy-of-hd`、`hy-of-longlife`、`hy-ff-spinon` 的壳体均为「steel (one-piece drawn)」。
+**[Industry Knowledge]** The steel housing of a spin-on oil filter is formed by **one-piece drawing** of steel plate — an entire sheet is drawn through multiple drawing dies into a can with an integral bottom, seamless in one piece. The housings of `hy-of-spinon`, `hy-of-hd`, `hy-of-longlife`, and `hy-ff-spinon` on this site are all "steel (one-piece drawn)."
 
-**[编辑观点]** 「一次拉伸 vs 焊接拼底」是机滤壳体质量的分水岭：一次拉伸无焊缝，**耐压强度与抗疲劳**远优于焊底；焊底罐在高压脉动下焊缝处易开裂漏油。这是源站「优质机滤 vs 劣质机滤」对比里最硬的一条论据，也是采购验货最值得看的一条。
+**[Editorial Opinion]** "One-piece drawn vs. welded bottom" is the watershed of oil filter housing quality: one-piece drawing has no weld seam, with **pressure resistance and fatigue resistance** far superior to a welded bottom; a welded-bottom can tends to crack and leak at the seam under high-pressure pulsation. This is one of the hardest arguments in the source site's "quality oil filter vs. inferior oil filter" comparison, and the most worthwhile thing to check during purchasing inspection.
 
-## 二、螺纹加工：液压攻丝
+## II. Thread machining: hydraulic tapping
 
-**[行业常识]** 壳体底部中央需加工与发动机油底壳接头配合的螺纹。高质量工艺用**液压攻丝（hydraulic tapping）**：由液压缸带动丝锥精确进给，螺纹精度与垂直度高，保证滤清器**拧得上、拧得正、密封不偏**。螺纹规格是硬参数——本站 `hy-of-spinon` 为 `3/4-16 UNF`，重型 `hy-of-hd` 为 `1-12 UNF`，燃油旋装 `hy-ff-spinon` 为 `M16x1.5`，均与 data 站同值。
+**[Industry Knowledge]** The center of the housing bottom must be machined with a thread that mates with the engine oil-pan fitting. High-quality processes use **hydraulic tapping**: a hydraulic cylinder drives the tap with precise feed, giving high thread accuracy and verticality, ensuring the filter **screws on, screws on straight, and seals without deflection**. The thread specification is a hard parameter — on this site `hy-of-spinon` is `3/4-16 UNF`, heavy-duty `hy-of-hd` is `1-12 UNF`, and spin-on fuel filter `hy-ff-spinon` is `M16x1.5`, all identical to the data site.
 
-## 三、滤芯组件
+## III. Element assembly
 
-**[行业常识]** 打褶滤纸 → 卷绕套中心管 → 上下钢端盖注胶 → 固化 → 形成滤芯。中心管（center tube）用冲孔钢板卷制，作用是**支撑滤纸抵抗油压不塌陷**，也是机油流出的通道。
+**[Industry Knowledge]** Pleat the media → wind it around a center tube → inject adhesive into the upper/lower steel end caps → cure → form the element. The center tube is rolled from punched steel plate, and its role is to **support the media against oil-pressure collapse** and serve as the oil outflow channel.
 
-## 四、止回阀（anti-drainback valve）
+## IV. Anti-drainback valve
 
-**[行业常识]** 位于进油侧，通常是一片耐油橡胶膜片。作用是停机时防止机油倒流回油底壳，保证下次启动瞬间油道内有油、缩短「干启动」时间。止回阀是旋装机滤的关键功能件，回弹性差的阀片在冷启动时会延长机油压力建立时间。
+**[Industry Knowledge]** Located on the oil inlet side, usually an oil-resistant rubber diaphragm. Its role is to prevent oil from draining back into the oil pan when the engine is stopped, ensuring oil is present in the gallery at the next start and shortening the "dry start" time. The anti-drainback valve is a key functional part of the spin-on filter; a valve with poor rebound will prolong oil-pressure buildup during cold start.
 
-## 五、旁通阀（bypass valve）
+## V. Bypass valve
 
-**[行业常识]** 当滤芯因堵塞或冷启动高粘度油导致压差过大时，旁通阀开启，让机油**绕过滤纸直接通过**，保住油压、防止发动机断油。旁通阀的**开启压力**是标定参数，必须与车型油泵匹配：开早了 = 过滤失效，开晚了 = 断油风险。本站数据对旁通阀开启压力以 data 站为准（详见 [机油滤关键参数](../parameters/oil-filter-params.md)）。
+**[Industry Knowledge]** When the element is clogged or cold-start high-viscosity oil causes excessive differential pressure, the bypass valve opens, letting oil **pass directly around the media** to preserve oil pressure and prevent engine oil starvation. The bypass valve's **opening pressure** is a calibrated parameter that must match the vehicle's oil pump: opening too early = filtration failure; opening too late = oil-starvation risk. This site's data for bypass valve opening pressure is subject to the data site (see [Oil Filter Key Parameters](../parameters/oil-filter-params.md) for details).
 
-## 六、密封圈（gasket）
+## VI. Seal ring (gasket)
 
-**[行业常识]** 壳体顶部沟槽内嵌 NBR 密封圈，负责滤清器与油底壳接合面的密封。本站机滤密封均为 NBR，且 `hy-of-spinon`/`hy-of-hd`/`hy-of-longlife` 特别标注「high/low temp resilient」——**高低温回弹**，保证 -40 ℃ 冷启动到 +150 ℃ 高温工况下密封圈不老化、不泄漏。
+**[Industry Knowledge]** An NBR seal ring is embedded in the groove at the top of the housing, responsible for sealing the mating surface between the filter and the oil pan. All oil filter seals on this site are NBR, and `hy-of-spinon`/`hy-of-hd`/`hy-of-longlife` specifically note "high/low temp resilient" — **high/low-temperature rebound**, ensuring the seal ring does not age or leak from -40 ℃ cold start to +150 ℃ high-temperature operation.
 
-## 七、总装顺序与终检
+## VII. Assembly sequence and final inspection
 
-**[行业常识]** 典型旋装线总装顺序：
+**[Industry Knowledge]** The typical spin-on line assembly sequence:
 
-1. 壳体 → 螺纹攻丝 → 密封圈装配；
-2. 滤芯（中心管+滤纸+端盖固化）装入壳体；
-3. 止回阀、旁通阀、弹簧装入；
-4. 底盖压装/旋合封口（卷边 seam 封接）；
-5. **100% 气密性测试**（见 [成品全检](../qc/final-inspection.md)）；
-6. 打印标识、包装。
+1. Housing → thread tapping → seal ring assembly;
+2. Element (center tube + media + cured end caps) installed into the housing;
+3. Anti-drainback valve, bypass valve, and spring installed;
+4. Bottom cap pressed / screwed on and sealed (crimp seam closure);
+5. **100% leak-tightness test** (see [Final Inspection](../qc/final-inspection.md));
+6. Marking and packaging.
 
-## 编辑观点
+## Editorial view
 
-**[编辑观点]** 旋装机滤的采购评估，建议按「壳体成型方式 → 螺纹精度 → 止回阀/旁通阀配置 → 密封圈材质 → 滤芯端盖粘接」五步走。这五步环环相扣，任何一步省料省工，最终都会变成终端漏油、断油、过滤失效的售后投诉。**旋装机滤没有「差不多」，只有「每一环都到位」。**
+**[Editorial Opinion]** For purchasing evaluation of spin-on oil filters, it is recommended to proceed in five steps: **housing forming method → thread accuracy → anti-drainback/bypass valve configuration → seal ring material → element end cap bonding**. These five steps are interlocked; saving material or labor on any one step will eventually become after-sales complaints of end-user leakage, oil starvation, or filtration failure. **A spin-on oil filter has no "close enough" — only "every link done right."**
 
 ---
 
-*继续阅读：[各品类生产线差异化](category-lines.md)*
+*Continue reading: [Category Production-Line Differentiation](category-lines.md)*

@@ -1,43 +1,43 @@
-# 空气滤关键参数
+# Air Filter Key Parameters
 
-!!! note "来源性质"
-    本文为编辑原创整合。**[行业常识]** = 行业通用做法；**[框架参考]** = 标准框架介绍；**[编辑观点]** = 研究员原创判断。型号规格以 [data.hycarfilter](https://data.hycarfilter.com) 为准。回链：[data 空滤品类](https://data.hycarfilter.com/products/air-filter/)。
+!!! note "Source attribution"
+    This article is an editorially original synthesis. **[Industry Knowledge]** = common industry practice; **[Framework Reference]** = standards framework introduction; **[Editorial Opinion]** = researcher's original judgment. Model specifications are subject to [data.hycarfilter](https://data.hycarfilter.com). Backlinks: [data air filter category](https://data.hycarfilter.com/products/air-filter/).
 
-空气滤清器保护的是发动机的「呼吸系统」。进气中的粉尘会加速缸套、活塞环、气门的磨损，空滤的核心使命是**在低压差下拦下足够多的灰**。本节拆解空滤的关键参数与测量方法。
+The air filter protects the engine's "respiratory system." Dust in the intake accelerates wear on cylinder liners, piston rings, and valves, so the core mission of the air filter is to **catch enough dust at low differential pressure**. This section breaks down the key parameters of the air filter and how they are measured.
 
-## 一、参数清单
+## I. Parameter list
 
-| 参数 | 定义 | 本站同值（data） |
+| Parameter | Definition | Same value on this site (data) |
 |---|---|---|
-| 过滤效率 | 标称流量下对试验粉尘的拦截率 | `hy-af-nano` >=99.5% · `hy-af-heavy` >=99.6% · `hy-af-panel`/`hy-af-round` >=99.0% |
-| 容灰量 | 压差达终了值前累计容纳的灰量（g） | 数据以 data 站为准（不重复存储） |
-| 初始压差 | 全新滤芯标称流量下的阻力 | 数据以 data 站为准 |
-| 终了压差 | 寿命终点阻力（触发更换） | 框架值：约 6 kPa / 25 inH₂O |
-| 过滤面积 | 展开滤纸面积 | 由折高×褶距×褶数决定 |
-| 外形尺寸 | 长×宽×高 / 外径×内径×高 | `hy-af-nano` 280×205×45 · `hy-af-round` Ø150/Ø80×320 · `hy-af-heavy` Ø200/Ø120×400 |
+| Filtration efficiency | Interception rate of test dust at nominal flow | `hy-af-nano` >=99.5% · `hy-af-heavy` >=99.6% · `hy-af-panel`/`hy-af-round` >=99.0% |
+| Dust holding capacity | Cumulative dust weight accommodated before differential pressure reaches the terminal value (g) | Data is subject to the data site (not re-stored) |
+| Initial differential pressure | Restriction of a brand-new element at nominal flow | Data is subject to the data site |
+| Terminal differential pressure | Restriction at end of life (triggers replacement) | Framework value: approx. 6 kPa / 25 inH₂O |
+| Filtration area | Unfolded filter media area | Determined by pleat height × pleat pitch × pleat count |
+| Outer dimensions | Length × width × height / outer diameter × inner diameter × height | `hy-af-nano` 280×205×45 · `hy-af-round` Ø150/Ø80×320 · `hy-af-heavy` Ø200/Ø120×400 |
 
-## 二、测量方法
+## II. Measurement methods
 
-**[框架参考]** 按 ISO 5011 / SAE J726 框架：
+**[Framework Reference]** Per the ISO 5011 / SAE J726 framework:
 
-1. **效率**：台架上以标称流量持续注入标准粉尘（ISO 12103-1），测上下游粉尘浓度，得初始与加权效率；
-2. **容灰量**：持续加灰至压差达到终了值，累计灰重即为容灰量；
-3. **压差**：用压差计（U 形管/电子微压差）测滤芯前后静压差，分别在初始（干净）与加灰过程中记录。
+1. **Efficiency**: On a test bench, continuously inject standard test dust (ISO 12103-1) at nominal flow and measure upstream/downstream dust concentration to obtain initial and weighted efficiency;
+2. **Dust holding capacity**: Keep adding dust until differential pressure reaches the terminal value; the accumulated dust weight is the dust holding capacity;
+3. **Differential pressure**: Use a differential pressure gauge (U-tube / electronic micro-differential) to measure static pressure difference across the element, recorded respectively at initial (clean) state and during dust loading.
 
-## 三、参数对性能的影响
+## III. Impact of parameters on performance
 
-**[行业常识]**
+**[Industry Knowledge]**
 
-- **效率↑ → 寿命↑，但压差↑、进气阻力↑**：效率过高的细滤纸若孔径过小，会牺牲进气量，影响发动机功率与油耗；
-- **容灰量↑ → 换芯周期↑**：容灰量大意味着耐脏、少维护，重型工况尤其看重；
-- **压差↑ → 发动机进气不足**：压差超标会导致混合气偏浓、动力下降、油耗上升。
+- **Efficiency ↑ → life ↑, but differential pressure ↑ and intake restriction ↑**: if the pores of an overly fine media are too small, it sacrifices intake volume, affecting engine power and fuel consumption;
+- **Dust holding capacity ↑ → replacement interval ↑**: large dust holding capacity means resistance to fouling and less maintenance, especially valued in heavy-duty conditions;
+- **Differential pressure ↑ → insufficient engine intake**: excessive differential pressure leads to a rich mixture, power loss, and higher fuel consumption.
 
-**[编辑观点]** 空滤的「最优解」是**在满足目标效率的前提下最大化容灰量、最小化压差**——这恰恰是纳米纤维滤材（`hy-af-nano`、`hy-af-heavy`）的设计价值：表面细滤层在低初始压差下拿到高效率，底层粗滤纸撑容灰量。多沙尘工况（中东）应优先看**容灰量 + 效率**，而非只看便宜。
+**[Editorial Opinion]** The "optimal solution" for an air filter is to **maximize dust holding capacity and minimize differential pressure while meeting the target efficiency** — this is exactly the design value of nano-fiber filter media (`hy-af-nano`, `hy-af-heavy`): a fine surface filtration layer achieves high efficiency at low initial differential pressure, while the coarse base paper supports dust holding capacity. In dusty conditions (Middle East), prioritize **dust holding capacity + efficiency** rather than looking only at low price.
 
-## 四、尺寸适配：采购第一关
+## IV. Dimension fit: the first gate of purchasing
 
-**[行业常识]** 空滤是「硬尺寸」件——装不进空气滤清器壳体就完全失效。尺寸偏差（长/宽/高或外径/内径/高）是空滤最频繁的退货原因。本站尺寸（如 `hy-af-nano` 280×205×45 mm）与 data 站同值，采购下单前须以 OE 号/车型反查确认。
+**[Industry Knowledge]** The air filter is a "hard dimension" part — if it does not fit into the air cleaner housing, it fails completely. Dimensional deviation (length/width/height or outer/inner diameter/height) is the most frequent return reason for air filters. The dimensions on this site (e.g. `hy-af-nano` 280×205×45 mm) are identical to the data site; before ordering, confirm by reverse lookup against the OE number / vehicle model.
 
 ---
 
-*继续阅读：[机油滤关键参数](oil-filter-params.md)*
+*Continue reading: [Oil Filter Key Parameters](oil-filter-params.md)*

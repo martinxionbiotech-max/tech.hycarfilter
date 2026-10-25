@@ -1,51 +1,51 @@
-# 端盖粘接与固化
+# End Cap Bonding and Curing
 
-!!! note "来源性质"
-    本文为编辑原创整合。**[行业常识]** = 行业通用做法；**[框架参考]** = 标准框架介绍；**[编辑观点]** = 研究员原创判断。型号规格以 [data.hycarfilter](https://data.hycarfilter.com) 为准。回链：[data 机油滤品类](https://data.hycarfilter.com/products/oil-filter/) · [主站产品](https://hycarfilter.com/products/oil-filter)。
+!!! note "Source attribution"
+    This article is an editorially original synthesis. **[Industry Knowledge]** = common industry practice; **[Framework Reference]** = standards framework introduction; **[Editorial Opinion]** = researcher's original judgment. Model specifications are subject to [data.hycarfilter](https://data.hycarfilter.com). Backlinks: [data oil filter category](https://data.hycarfilter.com/products/oil-filter/) · [main-site product](https://hycarfilter.com/products/oil-filter).
 
-端盖（end cap）把打褶滤纸的两端封住，保证流体**只能穿过滤纸、不能从端部旁路（bypass leakage）**。端盖与滤纸的粘接，是滤清器最容易被忽视、却最要命的一道工序——**端盖一漏，整只滤清器的过滤就形同虚设**。
+End caps seal the two ends of the pleated filter media, ensuring that fluid **can only pass through the media and cannot bypass from the ends (bypass leakage)**. The bonding between end cap and media is the most easily overlooked yet most critical step of a filter — **if an end cap leaks, the entire filter's filtration is rendered useless**.
 
-## 一、端盖材质三型
+## I. Three end cap material types
 
-**[行业常识]**
+**[Industry Knowledge]**
 
-| 端盖材质 | 应用 | 粘接方式 |
+| End cap material | Application | Bonding method |
 |---|---|---|
-| **PU 聚氨酯** | 板式空滤 `hy-af-*`、空调滤 `hy-cf-*` 的边框与端封 | 注胶发泡，同时形成边框密封 |
-| **钢端盖** | 旋装机滤 `hy-of-spinon`、圆筒空滤 `hy-af-round`、旋装燃油滤 `hy-ff-spinon` | 端盖内注胶，滤纸端部压入 |
-| **热固塑溶胶 / 塑料** | 长寿命机滤 `hy-of-longlife`、滤芯式机滤 `hy-of-cartridge`、管路燃油滤 `hy-ff-inline` | 塑溶胶（plastisol）热固化，或热熔/超声焊接 |
+| **PU polyurethane** | Frame and end sealing of panel air filters `hy-af-*`, cabin filters `hy-cf-*` | Glue-injection foaming, forming the frame seal simultaneously |
+| **Steel end cap** | Spin-on oil filters `hy-of-spinon`, round air filters `hy-af-round`, spin-on fuel filters `hy-ff-spinon` | Glue injected inside the cap, media ends pressed in |
+| **Thermoset plastisol / plastic** | Long-life oil filters `hy-of-longlife`, cartridge oil filters `hy-of-cartridge`, in-line fuel filters `hy-ff-inline` | Plastisol thermosetting, or hot-melt / ultrasonic welding |
 
-## 二、PU 端盖粘接（空滤/空调滤）
+## II. PU end cap bonding (air / cabin filters)
 
-**[行业常识]** PU 是空滤、空调滤最主流的端封与边框方案。工艺是：把打褶滤芯放入模具，向四周与端部注入液态 PU（双组分或单组分），发泡固化后一次性形成**边框 + 端盖 + 密封**三合一。
+**[Industry Knowledge]** PU is the most mainstream end-seal and frame solution for air and cabin filters. The process is: place the pleated element into a mold, inject liquid PU (two-component or one-component) into the periphery and ends, and after foaming and curing it forms a **frame + end cap + seal** three-in-one.
 
-- **优点**：一体化成型，密封性好（PU 自身弹性贴合外壳），耐振动，无需单独密封圈。
-- **关键控制**：注胶量、发泡密度、脱模时间。发泡不足 → 密封面有气孔漏风；发泡过度 → 尺寸超差装不进壳。
-- **本站对应**：`hy-af-nano` / `hy-af-panel` 的端盖均为 PU，密封为「PU foam gasket」，`hy-cf-*` 同理。
+- **Advantages**: one-piece forming, good sealing (PU's own elasticity conforms to the housing), vibration-resistant, no separate seal ring needed.
+- **Key controls**: glue injection volume, foam density, demold time. Under-foaming → air holes in the sealing surface cause leakage; over-foaming → out-of-tolerance dimensions that won't fit the housing.
+- **This site's correspondence**: the end caps of `hy-af-nano` / `hy-af-panel` are all PU, with "PU foam gasket" sealing; `hy-cf-*` likewise.
 
-## 三、钢端盖 + 塑溶胶（机滤）
+## III. Steel end cap + plastisol (oil filters)
 
-**[行业常识]** 旋装机滤的滤芯是「中心管 + 打褶滤纸 + 上下钢端盖」。钢端盖中央有孔（下盖）供油流入，另一端封闭（上盖）。工艺：
+**[Industry Knowledge]** The spin-on oil filter's element is "center tube + pleated media + upper/lower steel end caps." The steel end cap has a hole in the center (lower cap) for oil inflow, and the other end is closed (upper cap). Process:
 
-1. 滤纸打褶卷绕，插入中心管；
-2. 上下钢端盖内壁涂敷**热固塑溶胶（thermoset plastisol）**或专用滤芯胶；
-3. 滤纸两端压入端盖凹槽；
-4. 进固化炉，塑溶胶在 150–200 ℃ 下固化，把滤纸端部牢牢封死在端盖内。
+1. Pleat and wind the media, insert the center tube;
+2. Coat the inner walls of the upper/lower steel end caps with **thermoset plastisol** or special element adhesive;
+3. Press the two ends of the media into the end cap grooves;
+4. Pass through a curing oven, where the plastisol cures at 150–200 ℃, firmly sealing the media ends inside the caps.
 
-**[编辑观点]** 端盖胶是最容易偷工减料的环节：劣质品用常温胶或不足量胶，固化后滤纸端部松动，机油从端部短路直通，等于**机油不经过滤直接回油路**。检验端盖粘接是否合格，看「静压爆破 + 端部剥离」试验，而不是只看外观。
+**[Editorial Opinion]** End cap adhesive is the easiest place to cut corners: inferior products use room-temperature adhesive or insufficient adhesive; after curing the media ends loosen, and oil short-circuits directly through the ends — equal to **oil returning to the circuit unfiltered**. To judge whether end cap bonding is qualified, look at "static burst + end-peel" tests, not just appearance.
 
-## 四、固化炉
+## IV. Curing oven
 
-**[行业常识]** 端盖/塑溶胶固化用**隧道式固化炉（curing oven）**：滤芯随输送链连续通过分区温控的炉体，胶料在设定温度曲线下完成交联固化。控制要点是**温度曲线**（升温→保温→降温）与**炉内停留时间**，欠固化 → 粘接强度不足，过固化 → 滤纸/胶料脆化。
+**[Industry Knowledge]** End cap / plastisol curing uses a **tunnel curing oven**: elements pass continuously on a conveyor chain through a zone-temperature-controlled oven body, where the adhesive completes crosslinking under a set temperature profile. The key controls are the **temperature profile** (ramp-up → hold → ramp-down) and **in-oven residence time**; under-curing → insufficient bond strength, over-curing → media/adhesive embrittlement.
 
-## 五、端盖粘接的质量判定
+## V. Quality judgment of end cap bonding
 
-**[行业常识]**
+**[Industry Knowledge]**
 
-1. **端部剥离强度**：把端盖与滤纸拉开，测粘接面破坏模式——理想是滤纸本体撕裂（内聚破坏），而非胶面干净分离（粘附破坏）。
-2. **气密性/旁路率**：成品做全检气密，泄漏即端部或密封面失效。
-3. **耐油/耐温**：端盖胶需耐受机油/燃油与 -40 ~ +150 ℃ 循环而不脱胶。
+1. **End peel strength**: pull the end cap and media apart and observe the failure mode of the bond surface — the ideal is media-body tearing (cohesive failure), not clean separation of the adhesive surface (adhesive failure).
+2. **Leak-tightness / bypass rate**: finished products undergo 100% leak testing; leakage means the end or sealing surface has failed.
+3. **Oil / temperature resistance**: end cap adhesive must withstand oil/fuel and -40 ~ +150 ℃ cycling without debonding.
 
 ---
 
-*继续阅读：[机滤旋装总装线](spin-on-assembly.md)*
+*Continue reading: [Spin-On Oil Filter Assembly Line](spin-on-assembly.md)*

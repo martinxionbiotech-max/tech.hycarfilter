@@ -1,69 +1,69 @@
-# 过滤效率分级框架
+# Filtration Efficiency Grading Framework
 
-!!! note "来源性质"
-    本文为编辑原创整合。**[框架参考]** = 标准框架介绍（ISO 5011、SAE J726 等），**不构成认证声明**；**[行业常识]** = 行业通用做法；**[编辑观点]** = 研究员原创判断。型号规格以 [data.hycarfilter](https://data.hycarfilter.com) 为准。
+!!! note "Source attribution"
+    This article is an editorially original synthesis. **[Framework Reference]** = standards framework introduction (ISO 5011, SAE J726, etc.), **not constituting a certification claim**; **[Industry Knowledge]** = common industry practice; **[Editorial Opinion]** = researcher's original judgment. Model specifications are subject to [data.hycarfilter](https://data.hycarfilter.com).
 
-采购者看到「过滤效率 99.5%」时，最该问的是：**这个 99.5% 是在什么测试方法、什么颗粒尺寸、什么流量下测出来的？** 离开测试框架的效率数字没有意义。本节把效率分级背后的标准框架讲清楚。
+When a buyer sees "filtration efficiency 99.5%," the question they should ask first is: **under what test method, what particle size, and what flow rate was this 99.5% measured?** An efficiency number divorced from its test framework is meaningless. This section explains the standards frameworks behind efficiency grading.
 
-## 一、三个不可分割的维度
+## I. Three inseparable dimensions
 
-**[行业常识]** 评价一个滤清器，只看效率是片面的，行业公认三要素：
+**[Industry Knowledge]** Evaluating a filter by efficiency alone is one-sided; the industry recognizes three elements:
 
-| 维度 | 含义 | 单位/表述 |
+| Dimension | Meaning | Unit / expression |
 |---|---|---|
-| **过滤效率**（efficiency） | 特定粒径颗粒被拦截的比例 | %（@ 某粒径 um） |
-| **容灰量**（dust holding capacity） | 寿命期内能容纳多少污染物 | g（克） |
-| **压差**（pressure drop / restriction） | 流体通过滤芯的阻力 | kPa / mbar / inH₂O |
+| **Filtration efficiency** (efficiency) | Proportion of particles of a specific size intercepted | % (@ a given particle size um) |
+| **Dust holding capacity** (dust holding capacity) | How much contaminant can be accommodated over service life | g (grams) |
+| **Differential pressure** (pressure drop / restriction) | Resistance to fluid flow through the element | kPa / mbar / inH₂O |
 
-三者存在三角权衡：**效率↑ 往往压差↑、容灰量↓**。理想滤芯是在满足目标效率的前提下，把压差压到最低、把容灰量做到最大。
+There is a triangular trade-off among the three: **efficiency ↑ often means differential pressure ↑ and dust holding capacity ↓**. The ideal element minimizes differential pressure and maximizes dust holding capacity while meeting the target efficiency.
 
-## 二、空气滤：ISO 5011 框架
+## II. Air filters: the ISO 5011 framework
 
-**[框架参考]** ISO 5011 是**内燃机进气系统空气滤清器**的测试标准框架，规定了台架试验方法，核心是：
+**[Framework Reference]** ISO 5011 is the test-standard framework for **air filters of internal-combustion-engine intake systems**, specifying bench test methods, centered on:
 
-- **过滤效率（filtration efficiency）**：用标准试验粉尘（如 ISO 12103-1 A2 细灰 / A4 粗灰）以标称流量注入，测上下游浓度差，得**初始效率**与**加权效率**；
-- **容灰量（dust holding capacity）**：持续加灰直到压差达到终了值（如 6 kPa 或 25 inH₂O），累计容纳的灰量；
-- **初始/终了压差**：标称流量下的初始阻力与加灰终点的阻力。
+- **Filtration efficiency**: inject standard test dust (e.g. ISO 12103-1 A2 fine / A4 coarse) at nominal flow, measure upstream/downstream concentration difference to obtain **initial efficiency** and **weighted efficiency**;
+- **Dust holding capacity**: keep adding dust until differential pressure reaches the terminal value (e.g. 6 kPa or 25 inH₂O); the accumulated dust weight is the dust holding capacity;
+- **Initial/terminal differential pressure**: the initial restriction at nominal flow and the restriction at the end of dust loading.
 
-**[行业常识]** 实际标称常用「额定流量下的效率%」，本站空滤效率档位（`hy-af-nano` `>=99.5%`、`hy-af-heavy` `>=99.6%`、`hy-af-panel`/`hy-af-round` `>=99.0%`）即此框架下的标称值，以 data 站为准。
+**[Industry Knowledge]** In practice, the "efficiency % at rated flow" is commonly quoted; this site's air filter efficiency tiers (`hy-af-nano` `>=99.5%`, `hy-af-heavy` `>=99.6%`, `hy-af-panel`/`hy-af-round` `>=99.0%`) are the nominal values under this framework, subject to the data site.
 
-## 三、空气滤：SAE J726 框架
+## III. Air filters: the SAE J726 framework
 
-**[框架参考]** SAE J726 是北美常用的**空气滤清器试验规程**框架，与 ISO 5011 同源，同样测效率、容灰量、压差。两者在粉尘粒径分级、终了压差设定上略有差异，但**核心逻辑一致**：加灰 → 测效率 → 累计容灰 → 看压差增长。
+**[Framework Reference]** SAE J726 is the **air filter test procedure** framework commonly used in North America, sharing the same origin as ISO 5011 and likewise measuring efficiency, dust holding capacity, and differential pressure. The two differ slightly in dust particle-size grading and terminal differential pressure settings, but the **core logic is identical**: add dust → measure efficiency → accumulate dust holding → observe differential pressure rise.
 
-**[编辑观点]** 采购时遇到「符合 SAE J726」的标称，要意识到它是一套**试验方法框架**，不是「质量认证」——它告诉你数值怎么来的，不告诉你数值是否达标。真正的可信度来自**第三方实验室报告 + 具体的测试条件注明**。
+**[Editorial Opinion]** When encountering a "conforms to SAE J726" claim during purchasing, be aware that it is a **test-method framework**, not a "quality certification" — it tells you where the number came from, not whether the number meets a requirement. Real credibility comes from **third-party laboratory reports + explicitly stated test conditions**.
 
-## 四、机油滤：ISO 4548 框架
+## IV. Oil filters: the ISO 4548 framework
 
-**[框架参考]** ISO 4548 是**机油滤清器**的试验方法框架，关键项目：
+**[Framework Reference]** ISO 4548 is the test-method framework for **oil filters**, with key items:
 
-- **过滤效率/颗粒计数**：ISO 4548-12 用多次通过（multi-pass）法，注入标准试验粉尘，测不同粒径（如 20 µm）的过滤效率；
-- **旁通阀特性**：测旁通阀开启压力与压差-流量特性；
-- **静压爆破压力**：测壳体与滤芯的耐压极限；
-- **疲劳/脉动**：模拟油压脉动的耐久性。
+- **Filtration efficiency / particle counting**: ISO 4548-12 uses the multi-pass method, injecting standard test dust and measuring filtration efficiency at various particle sizes (e.g. 20 µm);
+- **Bypass valve characteristics**: measure bypass valve opening pressure and differential-pressure–flow characteristics;
+- **Static burst pressure**: measure the pressure-resistance limit of the housing and element;
+- **Fatigue / pulsation**: durability simulating oil-pressure pulsation.
 
-**[行业常识]** 本站机滤效率档位 `hy-of-spinon`/`hy-of-cartridge` `>=90% @ 20um`、`hy-of-hd`/`hy-of-longlife` `>=95% @ 20um`——**「@ 20um」即明确粒径**，这是比裸报「99%」严谨得多的表述（对 20 µm 颗粒的效率）。
+**[Industry Knowledge]** This site's oil filter efficiency tiers `hy-of-spinon`/`hy-of-cartridge` `>=90% @ 20um`, `hy-of-hd`/`hy-of-longlife` `>=95% @ 20um` — **"@ 20um" explicitly states the particle size**, which is far more rigorous than a bare "99%" (efficiency for 20 µm particles).
 
-## 五、燃油滤：ISO 4020 / ISO 19438 框架
+## V. Fuel filters: the ISO 4020 / ISO 19438 framework
 
-**[框架参考]**
+**[Framework Reference]**
 
-- **ISO 4020**：柴油机燃油滤清器试验方法框架；
-- **ISO 19438**：燃油滤清器的**过滤效率与颗粒计数**多次通过法框架，定义名义/绝对微米额定；
-- 另关注**水分离效率**（柴油滤水）试验。
+- **ISO 4020**: test-method framework for diesel fuel filters;
+- **ISO 19438**: the **filtration efficiency and particle counting** multi-pass framework for fuel filters, defining nominal/absolute micron ratings;
+- Also note the **water separation efficiency** test (diesel water separation).
 
-**[行业常识]** 燃油滤的微米额定更细：本站 `hy-ff-spinon`/`hy-ff-inline` `>=95% @ 10um`，油水分离型 `hy-ff-water` `>=97% @ 10um`——燃油喷射系统对 5–10 µm 颗粒敏感，故燃油滤精度普遍比机滤细。
+**[Industry Knowledge]** Fuel filters use finer micron ratings: this site's `hy-ff-spinon`/`hy-ff-inline` `>=95% @ 10um`, water-separating type `hy-ff-water` `>=97% @ 10um` — fuel injection systems are sensitive to 5–10 µm particles, so fuel filter precision is generally finer than oil filters.
 
-## 六、效率标称的三种口径（防坑）
+## VI. Three bases of efficiency rating (avoiding pitfalls)
 
-**[行业常识]** 同一只滤芯，换一种口径效率数字天差地别：
+**[Industry Knowledge]** The same element can yield wildly different efficiency numbers under different rating bases:
 
-1. **名义额定（nominal rating）**：某粒径效率 50% 左右，数字虚高；
-2. **绝对额定（absolute rating）**：某粒径效率 98.7% 或 99%，数字更实；
-3. **Beta 比值（βx）**：βx = 上游颗粒数/下游颗粒数（对 x µm），β₁₀(c) ≥ 200 常对应 ISO 19438 的过滤精度表述，最严谨。
+1. **Nominal rating**: efficiency of roughly 50% at a given particle size — an inflated number;
+2. **Absolute rating**: efficiency of 98.7% or 99% at a given particle size — a more solid number;
+3. **Beta ratio (βx)**: βx = upstream particle count / downstream particle count (for x µm); β₁₀(c) ≥ 200 commonly corresponds to the filtration-precision expression of ISO 19438 — the most rigorous.
 
-**[编辑观点]** 采购比价时，务必把效率口径拉齐再比——「99%@20um（绝对）」和「99%（名义）」根本不是一回事。**带粒径、带绝对额定、带测试方法的数字才可横向比较。**
+**[Editorial Opinion]** When comparing prices, always align the efficiency basis before comparing — "99%@20um (absolute)" and "99% (nominal)" are not the same thing at all. **Only numbers that state particle size, absolute rating, and test method can be compared horizontally.**
 
 ---
 
-*继续阅读：[空气滤关键参数](air-filter-params.md)*
+*Continue reading: [Air Filter Key Parameters](air-filter-params.md)*
