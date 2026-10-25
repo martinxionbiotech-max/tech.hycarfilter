@@ -1,0 +1,71 @@
+site_name: Hycarfilter Tech
+site_description: >-
+  滤清器生产技术 / 技术参数 / 检测与质量控制 / 行业标准 —— 被检索、被引用的行业标准层。
+  中文行业知识 + 国际标准框架整合，零营销，与主站营销文案及 data 站产品数值不重复。
+site_url: https://tech.hycarfilter.com
+repo_url: https://github.com/martinxionbiotech-max/tech.hycarfilter
+repo_name: tech.hycarfilter
+
+theme:
+  name: material
+  language: zh
+  palette:
+    scheme: default
+    primary: teal
+    accent: teal
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - tables
+  - footnotes
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight
+  - pymdownx.details
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+
+extra:
+  version: 0.1.0
+
+nav:
+  - 首页: index.md
+  - 生产工艺:
+      - 滤纸种类: production/filter-media.md
+      - 折纸工艺 (Pleating): production/pleating.md
+      - 端盖粘接与固化: production/endcap-bonding.md
+      - 机滤旋装总装线: production/spin-on-assembly.md
+      - 各品类生产线差异化: production/category-lines.md
+      - 生产线设备: production/equipment.md
+  - 技术参数:
+      - 过滤效率分级框架: parameters/efficiency-grading.md
+      - 空气滤关键参数: parameters/air-filter-params.md
+      - 机油滤关键参数: parameters/oil-filter-params.md
+      - 燃油滤关键参数: parameters/fuel-filter-params.md
+      - 空调滤关键参数: parameters/cabin-filter-params.md
+      - 参数对性能的影响: parameters/parameter-performance.md
+  - 检测与质量控制:
+      - 原材料检验 (IQC): qc/incoming-inspection.md
+      - 在线检测 (IPQC): qc/in-process.md
+      - 成品全检与抽检 (AQL): qc/final-inspection.md
+      - 实验室设备: qc/lab-equipment.md
+      - 常见质量缺陷与预防: qc/defects-prevention.md
+      - 出货与出口质检 (OQC): qc/export-inspection.md
+  - 行业标准:
+      - ISO / SAE 标准框架: standards/iso-sae.md
+      - 主要出口市场标准差异: standards/export-market-diff.md
+  - 技术 Q&A: qa/index.md
