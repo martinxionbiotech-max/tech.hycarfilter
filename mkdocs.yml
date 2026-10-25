@@ -5,6 +5,7 @@ site_description: >-
 site_url: https://tech.hycarfilter.com
 repo_url: https://github.com/martinxionbiotech-max/tech.hycarfilter
 repo_name: tech.hycarfilter
+copyright: 'Qinghe County Huiying Auto Parts Co., Ltd. (清河县汇盈汽车零部件有限公司) · Unified Social Credit Code 91130534MA0958NT84'
 
 theme:
   name: material
