@@ -1,0 +1,17 @@
+# Hycarfilter Tech — Technology & Standards
+
+> tech.hycarfilter.com — Production technology, technical parameters, testing & quality control and industry standard frameworks for the hycarfilter automotive filter lines (air, cabin, oil, fuel, wiper, transmission, LED). Reference knowledge layer for buyers and engineers. Main site: https://hycarfilter.com/ · Contact: martin@hycarfilter.com.
+
+## Core pages
+
+- [Home](https://tech.hycarfilter.com/): Scope and source-nature labels.
+- [Production](https://tech.hycarfilter.com/production/): Filter paper types, pleating, end-cap bonding, spin-on assembly, category-specific lines, equipment.
+- [Parameters](https://tech.hycarfilter.com/parameters/): Efficiency grading frameworks and per-category key parameters.
+- [Testing & QC](https://tech.hycarfilter.com/testing/): IQC, in-process control, final inspection (AQL), lab equipment, defects & prevention, export OQC.
+- [Standards](https://tech.hycarfilter.com/standards/): ISO/SAE reference frameworks and export-market differences.
+- [Technical Q&A](https://tech.hycarfilter.com/qa/): Buyer-facing technical questions.
+
+## Notes
+
+- Standard references are industry frameworks, not certification claims.
+- Product values live in the data layer: https://data.hycarfilter.com/
